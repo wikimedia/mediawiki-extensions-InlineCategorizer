@@ -1308,10 +1308,11 @@ Ciò si verifica in genere quando la categoria è stata aggiunta alla pagina in 
  * @author Fryed-peach
  * @author Ohgi
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'inlinecategorizer-desc' => 'ページから直接カテゴリーリンクを追加・削除・変更する事を可能にする JavaScript モジュール。',
-	'inlinecategorizer-add-category' => 'カテゴリー追加',
+	'inlinecategorizer-add-category' => 'カテゴリを追加',
 	'inlinecategorizer-add-category-submit' => '追加',
 	'inlinecategorizer-add-category-summary' => 'カテゴリー「$1」を追加',
 	'inlinecategorizer-api-error' => 'APIがエラーを返しました: $1: $2',
@@ -1325,7 +1326,7 @@ $messages['ja'] = array(
 	'inlinecategorizer-confirm-save' => '保存',
 	'inlinecategorizer-confirm-save-all' => 'すべての変更を保存',
 	'inlinecategorizer-confirm-title' => '操作確認',
-	'inlinecategorizer-edit-category' => 'カテゴリーを編集',
+	'inlinecategorizer-edit-category' => 'カテゴリを編集',
 	'inlinecategorizer-edit-category-error' => 'カテゴリー「$1」を編集することができませんでした。
 このエラーは、主にカテゴリーがテンプレートによってページにつけられている場合に発生します。',
 	'inlinecategorizer-edit-category-summary' => 'カテゴリを「$1」から「$2」に変更',
