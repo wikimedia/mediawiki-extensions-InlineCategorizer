@@ -609,6 +609,7 @@ $messages['de-formal'] = array(
 );
 
 /** Zazaki (Zazaki)
+ * @author Erdemaslancan
  * @author Xoser
  */
 $messages['diq'] = array(
@@ -617,7 +618,7 @@ $messages['diq'] = array(
 	'inlinecategorizer-add-category-summary' => 'Kategorî de bike "$1"',
 	'inlinecategorizer-confirm-save' => 'Qeyt bik',
 	'inlinecategorizer-confirm-title' => 'Hereketî konfirme bike',
-	'inlinecategorizer-error-title' => 'Xeta',
+	'inlinecategorizer-error-title' => 'Xırab',
 	'inlinecategorizer-remove-category-error' => 'Ma nieşkenî ena kategorî wedarne.
 Çi wext yew kategorî yew template de ca geno, ena probelem bena.',
 	'inlinecategorizer-remove-category-summary' => 'kategoriyê "$1"i biwedarne',
