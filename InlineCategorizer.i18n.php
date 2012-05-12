@@ -616,7 +616,7 @@ $messages['diq'] = array(
 	'inlinecategorizer-add-category' => 'Kategorî de bike',
 	'inlinecategorizer-add-category-submit' => 'De bike',
 	'inlinecategorizer-add-category-summary' => 'Kategorî de bike "$1"',
-	'inlinecategorizer-confirm-save' => 'Qeyt bik',
+	'inlinecategorizer-confirm-save' => 'Qeyd ke',
 	'inlinecategorizer-confirm-title' => 'Hereketî konfirme bike',
 	'inlinecategorizer-error-title' => 'Xırab',
 	'inlinecategorizer-remove-category-error' => 'Ma nieşkenî ena kategorî wedarne.
@@ -2526,7 +2526,7 @@ $messages['tg-cyrl'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Ҳазви гурӯҳӣ "$1"',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2687,7 +2687,7 @@ De solito questo el càpita co che la categoria la xe stà zontà a la pagina pa
 	'inlinecategorizer-remove-category-summary' => 'Cava categoria "$1"',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
