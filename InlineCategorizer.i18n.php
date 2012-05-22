@@ -616,7 +616,7 @@ $messages['diq'] = array(
 	'inlinecategorizer-add-category' => 'Kategorî de bike',
 	'inlinecategorizer-add-category-submit' => 'De bike',
 	'inlinecategorizer-add-category-summary' => 'Kategorî de bike "$1"',
-	'inlinecategorizer-confirm-save' => 'Qeyd ke',
+	'inlinecategorizer-confirm-save' => 'Star ke',
 	'inlinecategorizer-confirm-title' => 'Hereketî konfirme bike',
 	'inlinecategorizer-error-title' => 'Xırab',
 	'inlinecategorizer-remove-category-error' => 'Ma nieşkenî ena kategorî wedarne.
@@ -1280,6 +1280,7 @@ $messages['is'] = array(
  * @author Gianfranco
  */
 $messages['it'] = array(
+	'inlinecategorizer-desc' => "Modulo JavaScript che consente la modifica, l'aggiunta e la rimozione di categorie direttamente nella pagina",
 	'inlinecategorizer-add-category' => 'Aggiungi categoria',
 	'inlinecategorizer-add-category-submit' => 'Aggiungi',
 	'inlinecategorizer-add-category-summary' => 'aggiungere la categoria "$1"',
