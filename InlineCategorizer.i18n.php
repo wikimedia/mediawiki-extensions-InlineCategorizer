@@ -2079,11 +2079,12 @@ $messages['qu'] = array(
 	'inlinecategorizer-add-category' => 'Katiguriyata yapay',
 	'inlinecategorizer-add-category-submit' => 'Yapay',
 	'inlinecategorizer-add-category-summary' => '"$1" sutiyuq katiguriyata yapay',
+	'inlinecategorizer-confirm-ok' => 'Arí niy',
 	'inlinecategorizer-confirm-save' => 'Waqaychay',
 	'inlinecategorizer-confirm-title' => 'Rurayta takyachiy',
 	'inlinecategorizer-error-title' => 'Pantasqa',
-	'inlinecategorizer-remove-category-error' => "Manam atinichu kay katiguriyata qichuyta.
-Kay hina kanqaqa katiguriya plantillapi p'anqaman yapasqa kaptinchá.",
+	'inlinecategorizer-remove-category-error' => 'Manam atinichu "$1" sutiyuq katiguriyata qichuyta.
+Kay hina kanqaqa katiguriya plantillapi p\'anqaman yapasqa kaptinchá.',
 	'inlinecategorizer-remove-category-summary' => '"$1" sutiyuq katiguriyata qichuy',
 );
 
