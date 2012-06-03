@@ -1396,6 +1396,7 @@ $messages['kn'] = array(
  * @author Klutzy
  * @author Kwj2772
  * @author ToePeu
+ * @author 아라
  */
 $messages['ko'] = array(
 	'inlinecategorizer-add-category' => '분류 추가',
@@ -1404,8 +1405,8 @@ $messages['ko'] = array(
 	'inlinecategorizer-confirm-save' => '저장',
 	'inlinecategorizer-confirm-title' => '편집 확인',
 	'inlinecategorizer-error-title' => '오류',
-	'inlinecategorizer-remove-category-error' => '이 분류를 지울 수 없습니다.
-분류가 틀로 추가되었을 수 있습니다.',
+	'inlinecategorizer-remove-category-error' => '"$1" 분류를 지울 수 없습니다.
+일반적으로 문서에 분류가 틀로 추가되었을 수 있습니다.',
 	'inlinecategorizer-remove-category-summary' => '"$1" 분류 지우기',
 );
 
