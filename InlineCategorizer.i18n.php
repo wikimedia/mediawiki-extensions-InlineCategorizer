@@ -1313,14 +1313,14 @@ Ciò si verifica in genere quando la categoria è stata aggiunta alla pagina in 
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'inlinecategorizer-desc' => 'ページから直接カテゴリーリンクを追加・削除・変更する事を可能にする JavaScript モジュール。',
+	'inlinecategorizer-desc' => 'ページから直接カテゴリリンクを変更・追加・除去できるようにするJavaScriptモジュール',
 	'inlinecategorizer-add-category' => 'カテゴリを追加',
 	'inlinecategorizer-add-category-submit' => '追加',
-	'inlinecategorizer-add-category-summary' => 'カテゴリー「$1」を追加',
+	'inlinecategorizer-add-category-summary' => 'カテゴリ「$1」を追加',
 	'inlinecategorizer-api-error' => 'APIがエラーを返しました: $1: $2',
 	'inlinecategorizer-api-unknown-error' => 'APIが不明なエラーを返しました。',
 	'inlinecategorizer-cancel' => '編集をキャンセル',
-	'inlinecategorizer-cancel-all' => 'すべての変更を保存',
+	'inlinecategorizer-cancel-all' => 'すべての変更をキャンセル',
 	'inlinecategorizer-category-already-present' => 'このページは既にカテゴリ「$1」に属しています',
 	'inlinecategorizer-category-hook-error' => 'ローカル関数の変更は保存できません。',
 	'inlinecategorizer-category-question' => 'なぜ、次のような変更が必要ですか：',
@@ -1329,14 +1329,14 @@ $messages['ja'] = array(
 	'inlinecategorizer-confirm-save-all' => 'すべての変更を保存',
 	'inlinecategorizer-confirm-title' => '操作確認',
 	'inlinecategorizer-edit-category' => 'カテゴリを編集',
-	'inlinecategorizer-edit-category-error' => 'カテゴリー「$1」を編集することができませんでした。
-このエラーは、主にカテゴリーがテンプレートによってページにつけられている場合に発生します。',
+	'inlinecategorizer-edit-category-error' => 'カテゴリ「$1」を編集できませんでした。
+このエラーは通常、テンプレートによってページに追加されたカテゴリである場合に発生します。',
 	'inlinecategorizer-edit-category-summary' => 'カテゴリを「$1」から「$2」に変更',
 	'inlinecategorizer-error-title' => 'エラー',
-	'inlinecategorizer-remove-category' => 'カテゴリーを除去',
-	'inlinecategorizer-remove-category-error' => 'カテゴリー「$1」を除去することができませんでした。
-このエラーは、主にカテゴリーがテンプレートによってページにつけられている場合に発生します。',
-	'inlinecategorizer-remove-category-summary' => 'カテゴリー「$1」を除去',
+	'inlinecategorizer-remove-category' => 'カテゴリを除去',
+	'inlinecategorizer-remove-category-error' => 'カテゴリ「$1」を除去できませんでした。
+このエラーは通常、テンプレートによってページに追加されたカテゴリである場合に発生します。',
+	'inlinecategorizer-remove-category-summary' => 'カテゴリ「$1」を除去',
 );
 
 /** Javanese (Basa Jawa)
