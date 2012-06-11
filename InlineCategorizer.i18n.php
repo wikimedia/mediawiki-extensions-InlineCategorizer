@@ -1313,7 +1313,7 @@ Ciò si verifica in genere quando la categoria è stata aggiunta alla pagina in 
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'inlinecategorizer-desc' => 'ページから直接カテゴリリンクを変更・追加・除去できるようにするJavaScriptモジュール',
+	'inlinecategorizer-desc' => 'ページから直接カテゴリリンクを変更/追加/除去できるようにするJavaScriptモジュール',
 	'inlinecategorizer-add-category' => 'カテゴリを追加',
 	'inlinecategorizer-add-category-submit' => '追加',
 	'inlinecategorizer-add-category-summary' => 'カテゴリ「$1」を追加',
