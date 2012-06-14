@@ -209,7 +209,7 @@ $messages['as'] = array(
 	'inlinecategorizer-remove-category-summary' => '"$1" শ্ৰেণীক আঁতৰ কৰক',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -239,7 +239,7 @@ Esto ocurre de vezu cuando la categoría s\'amestó a la páxina nuna plantía.'
 	'inlinecategorizer-remove-category-summary' => 'Desaniciar la categoría "$1"',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Gulmammad
  * @author Vugar 1981
  * @author Wertuose
@@ -288,7 +288,7 @@ $messages['bcl'] = array(
 Nangyayári iní pag an kategorya ipigdúgang sa pahina sa saróng templato.',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Yury Tarasievich
  */
 $messages['be'] = array(
@@ -335,7 +335,7 @@ $messages['be-tarask'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Выдаленая катэгорыя «$1»',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -376,7 +376,7 @@ $messages['bn'] = array(
 	'inlinecategorizer-remove-category-summary' => '"$1" বিষয়শ্রেণী অপসারণ',
 );
 
-/** Bishnupria Manipuri (ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী)
+/** Bishnupria Manipuri (বিষ্ণুপ্রিয়া মণিপুরী)
  * @author Usingha
  */
 $messages['bpy'] = array(
@@ -391,7 +391,7 @@ $messages['bpy'] = array(
 	'inlinecategorizer-remove-category-summary' => 'বিষয়থাক "$1" পুস',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -421,7 +421,7 @@ C\'hoarvezout a ra p\'eo bet ouzhpennet ar rummad er bajenn dre ur patrom',
 	'inlinecategorizer-remove-category-summary' => 'Diverkañ ar rummad "$1"',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -436,7 +436,7 @@ Ovo se obično dešava kada je kategorija dodana na stranicu preko šablona.',
 	'inlinecategorizer-remove-category-summary' => 'Ukloni kategoriju "$1"',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Ssola
  * @author Toniher
  */
@@ -465,7 +465,7 @@ $messages['ce'] = array(
 	'inlinecategorizer-remove-category-summary' => 'ДIайакхина кадегар «$1»',
 );
 
-/** Sorani (کوردی) */
+/** Sorani Kurdish (کوردی) */
 $messages['ckb'] = array(
 	'inlinecategorizer-confirm-save' => 'پاشەکەوت',
 );
@@ -479,7 +479,7 @@ $messages['cps'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Kwa-on ang kategorya nga  "$1"',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -538,7 +538,7 @@ Mae hyn fel arfer yn golygu bod y categori wedi ei gynnwys yn y dudalen oddi mew
 	'inlinecategorizer-remove-category-summary' => 'Tynnu\'r categori "$1"',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  * @author Emilkris33
  * @author Peter Alberti
@@ -700,7 +700,7 @@ $messages['eo'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Forigi kategorion "$1"',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
  * @author Fitoschido
@@ -733,7 +733,7 @@ Esto suele ocurrir cuando la categoría se añadió a la página por una plantil
 	'inlinecategorizer-remove-category-summary' => 'Quitar categoría «$1»',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Oop
  * @author Pikne
  */
@@ -762,7 +762,7 @@ Tõrge ilmneb harilikult siis, kui kategooria on lisatud malliga.',
 	'inlinecategorizer-remove-category-summary' => 'Kategooria "$1" eemaldamine',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Unai Fdz. de Betoño
  */
@@ -810,7 +810,7 @@ $messages['fa'] = array(
 	'inlinecategorizer-remove-category-summary' => 'حذف رده «$1»',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  * @author Olli
@@ -842,7 +842,7 @@ Yleensä näin käy, kun luokka on lisätty sivulle mallineen avulla.',
 	'inlinecategorizer-remove-category-summary' => 'Luokan ”$1” poisto',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  * @author Hashar
  * @author Houcinee1
@@ -879,7 +879,7 @@ Cela se produit généralement lorsque la catégorie a été ajoutée à la page
 	'inlinecategorizer-remove-category-summary' => 'Enlever la catégorie « $1 »',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -908,7 +908,7 @@ En g·ènèral, cen arreve quand la catègorie at étâ apondua a la pâge avou�
 	'inlinecategorizer-remove-category-summary' => 'Enlevar la catègorie « $1 »',
 );
 
-/** Friulian (Furlan)
+/** Friulian (furlan)
  * @author Klenje
  */
 $messages['fur'] = array(
@@ -928,7 +928,7 @@ $messages['ga'] = array(
 	'inlinecategorizer-confirm-save' => 'Sábháil',
 );
 
-/** Simplified Gan script (‪赣语(简体)‬) */
+/** Simplified Gan script (‪赣语（简体）‬) */
 $messages['gan-hans'] = array(
 	'inlinecategorizer-add-category-summary' => '添进分类「$1」',
 	'inlinecategorizer-confirm-save' => '存到',
@@ -938,7 +938,7 @@ $messages['gan-hans'] = array(
 	'inlinecategorizer-remove-category-summary' => '搦开分类「$1」',
 );
 
-/** Traditional Gan script (‪贛語(繁體)‬)
+/** Traditional Gan script (‪贛語（繁體）‬)
  * @author Symane
  */
 $messages['gan-hant'] = array(
@@ -1083,7 +1083,7 @@ $messages['hif-latn'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Vibhag "$1" ke hatao',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  * @author Tivek
  */
@@ -1141,7 +1141,7 @@ To so zwjetša stawa, hdyž kategorija je so stronje w předłoze přidała.',
 	'inlinecategorizer-remove-category-summary' => 'Kategoriju "$1" wotstronić',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -1180,7 +1180,7 @@ $messages['hy'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Հեռացնել «$1» կատեգորիան',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -1265,7 +1265,7 @@ $messages['io'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Forigar kategorio "$1"',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author Jóna Þórunn
  * @author Maxí
  */
@@ -1274,7 +1274,7 @@ $messages['is'] = array(
 	'inlinecategorizer-error-title' => 'Villa',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Darth Kule
  * @author Gianfranco
@@ -1364,7 +1364,7 @@ $messages['ka'] = array(
 	'inlinecategorizer-remove-category-summary' => 'წაიშალა კატეგორია "$1".',
 );
 
-/** Kalaallisut (Kalaallisut)
+/** Kalaallisut (kalaallisut)
  * @author Aputtu
  */
 $messages['kl'] = array(
@@ -1499,7 +1499,7 @@ Dëst geschitt gewéinlech da wann eng Kategorie duerch eng Schabloun op d'Säit
 	'inlinecategorizer-remove-category-summary' => 'Kategorie "$1" ewechhuelen',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Garas
  * @author Homo
  * @author Ignas693
@@ -1531,7 +1531,7 @@ Dažniausiai taip nutinka, kai kategorija būna pridėta į šabloną, kuris nau
 	'inlinecategorizer-remove-category-summary' => 'Panaikinti kategoriją „$1“',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -1542,7 +1542,7 @@ $messages['ltg'] = array(
 	'inlinecategorizer-error-title' => 'Klaida',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Dark Eagle
  */
 $messages['lv'] = array(
@@ -1616,7 +1616,7 @@ $messages['mg'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Hanala ilay sokajy « $1 »',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -1676,7 +1676,7 @@ $messages['ml'] = array(
 	'inlinecategorizer-remove-category-summary' => 'വർഗ്ഗം "$1" നീക്കംചെയ്യുക',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1862,7 +1862,7 @@ Dit gebeurt meestal als de categorie via een sjabloon aan de pagina is toegevoeg
 	'inlinecategorizer-remove-category-summary' => 'categorie "$1" verwijderen',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Ranveig
  */
@@ -1878,7 +1878,7 @@ Det skuldast som oftast at kategorien er vorte lagd til i sida inni ein mal.',
 	'inlinecategorizer-remove-category-summary' => 'Fjern kategorien "$1"',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1914,7 +1914,7 @@ $messages['pdc'] = array(
 	'inlinecategorizer-confirm-ok' => 'OK',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -2013,7 +2013,7 @@ $messages['ps'] = array(
 	'inlinecategorizer-remove-category-summary' => 'د "$1" وېشنيزه ليرې کول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
  */
@@ -2042,7 +2042,7 @@ Isto normalmente ocorre quando a categoria foi adicionada à página através de
 	'inlinecategorizer-remove-category-summary' => 'remover a categoria "$1"',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  * @author Helder.wiki
  * @author Luckas Blade
@@ -2089,7 +2089,7 @@ Kay hina kanqaqa katiguriya plantillapi p\'anqaman yapasqa kaptinchá.',
 	'inlinecategorizer-remove-category-summary' => '"$1" sutiyuq katiguriyata qichuy',
 );
 
-/** Romansh (Rumantsch)
+/** Romansh (rumantsch)
  * @author Gion-andri
  */
 $messages['rm'] = array(
@@ -2103,7 +2103,7 @@ Quai capita normalmain sche la categoria è vegnida integrada en in model.",
 	'inlinecategorizer-remove-category-summary' => 'Allontanar la categoria "$1"',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  * @author Minisarm
  * @author Stelistcristi
@@ -2135,7 +2135,7 @@ Acest lucru are loc de obicei atunci când categoria a fost adăugată în pagin
 	'inlinecategorizer-remove-category-summary' => 'Eliminarea categoriei „$1”',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -2164,7 +2164,7 @@ Stu fatte normalmende succede quanne 'a categorije ha state aggiunde a 'a pàgen
 	'inlinecategorizer-remove-category-summary' => 'Live \'a categorije "$1"',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -2223,7 +2223,7 @@ $messages['rue'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Одобрати катеґорію „$1“',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -2252,7 +2252,7 @@ $messages['sah'] = array(
 	'inlinecategorizer-remove-category-summary' => '«$1» категория сотулунна',
 );
 
-/** Sardinian (Sardu)
+/** Sardinian (sardu)
  * @author Andria
  */
 $messages['sc'] = array(
@@ -2275,7 +2275,7 @@ $messages['si'] = array(
 	'inlinecategorizer-remove-category-summary' => '"$1" වර්ගය ඉවත් කරන්න',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -2290,7 +2290,7 @@ To sa zvyčajne stane, keď bola kategória pridaná na stránku v pomocou šabl
 	'inlinecategorizer-remove-category-summary' => 'Odstrániť kategóriu „$1“',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -2335,7 +2335,7 @@ Dies passiert normalerweise, wenn de Kategorie ieber anne Vurloage eingebunda ie
 	'inlinecategorizer-remove-category-summary' => 'Kategorie „$1“ entferna',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Slaven Kosanovic
  */
@@ -2365,7 +2365,7 @@ $messages['sr-ec'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Уклони категорију "$1"',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Liangent
  * @author Michaello
  * @author Rancher
@@ -2432,7 +2432,7 @@ Hal ieu ilaharna dilarapkeun kana kategori anu ditambahkeun kana citakan.',
 	'inlinecategorizer-remove-category-summary' => 'Hapus kategori "$1"',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author Poxnar
  * @author WikiPhoenix
@@ -2514,7 +2514,7 @@ $messages['te'] = array(
 	'inlinecategorizer-remove-category-summary' => '"$1" వర్గాన్ని తొలగించండి',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -2529,7 +2529,7 @@ $messages['tg-cyrl'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Ҳазви гурӯҳӣ "$1"',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2615,7 +2615,7 @@ Bu genelde kategori sayfaya bir şablon aracılığıyla eklendiğinde meydana g
 	'inlinecategorizer-remove-category-summary' => '"$1" kategorisini kaldır',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ajdar
  * @author Don Alessandro
  * @author KhayR
@@ -2644,7 +2644,7 @@ $messages['ug-arab'] = array(
 	'inlinecategorizer-remove-category-summary' => '"$1" تۈرنى چىقىرىۋەت',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Dim Grits
  * @author Тест
@@ -2675,7 +2675,7 @@ $messages['uk'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Вилучити категорію „$1“',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -2783,7 +2783,7 @@ $messages['yue'] = array(
 	'inlinecategorizer-remove-category-summary' => '拎走分類「$1」',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author PhiLiP
  * @author Xiaomingyan
@@ -2812,7 +2812,7 @@ $messages['zh-hans'] = array(
 	'inlinecategorizer-remove-category-summary' => '移除分类“$1”',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
