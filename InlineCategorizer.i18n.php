@@ -95,7 +95,7 @@ Dit gebeur gewoonlik as die kategorie via \'n sjabloon by die bladsy bygevoeg is
 	'inlinecategorizer-remove-category-summary' => 'Verwyder kategorie "$1"',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -303,7 +303,7 @@ $messages['be'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Сцерці катэгорыю "$1"',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -624,7 +624,7 @@ $messages['diq'] = array(
 	'inlinecategorizer-remove-category-summary' => 'kategoriyê "$1"i biwedarne',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -950,7 +950,7 @@ $messages['gan-hant'] = array(
 	'inlinecategorizer-remove-category-summary' => '搦開分類「$1」',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -1111,7 +1111,7 @@ Ovo se obično događa kada je kategorija na stranicu dodana u predlošku.',
 	'inlinecategorizer-remove-category-summary' => 'Ukloni kategoriju "$1"',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -2194,7 +2194,7 @@ $messages['ru'] = array(
 	'inlinecategorizer-remove-category-summary' => 'удалить категорию «$1»',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
