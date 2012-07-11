@@ -259,7 +259,7 @@ $messages['az'] = array(
 	'inlinecategorizer-remove-category' => 'Kateqoriyanı sil',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Рустам Нурыев
  */
 $messages['ba'] = array(
@@ -452,7 +452,7 @@ Això sol passar quan la categoria s'ha afegit a la pàgina en una plantilla.",
 	'inlinecategorizer-remove-category-summary' => "Elimina la categoria ''$1''",
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -1410,7 +1410,7 @@ $messages['ko'] = array(
 	'inlinecategorizer-remove-category-summary' => '"$1" 분류 지우기',
 );
 
-/** Karachay-Balkar (Къарачай-Малкъар)
+/** Karachay-Balkar (къарачай-малкъар)
  * @author Iltever
  * @author Къарачайлы
  */
@@ -1595,7 +1595,7 @@ $messages['mai'] = array(
 	'inlinecategorizer-remove-category-summary' => 'संवर्ग "$1" हटाउ',
 );
 
-/** Moksha (Мокшень)
+/** Moksha (мокшень)
  * @author Jarmanj Turtash
  */
 $messages['mdf'] = array(
@@ -1751,7 +1751,7 @@ Dan ġeneralment jiġri meta l-kategorija ġiet miżjuda mal-paġna permezz ta\'
 	'inlinecategorizer-remove-category-summary' => 'Neħħi l-kategorija "$1"',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1770,9 +1770,8 @@ $messages['myv'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Нардамс категориянть "$1"',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author EivindJ
- * @author Jon Harald Søby
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2690,7 +2689,7 @@ De solito questo el càpita co che la categoria la xe stà zontà a la pagina pa
 	'inlinecategorizer-remove-category-summary' => 'Cava categoria "$1"',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
@@ -2748,7 +2747,7 @@ $messages['vo'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Moükön kladi: "$1"',
 );
 
-/** Kalmyk (Хальмг)
+/** Kalmyk (хальмг)
  * @author Huuchin
  */
 $messages['xal'] = array(
