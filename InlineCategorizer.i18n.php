@@ -613,14 +613,21 @@ $messages['de-formal'] = array(
  * @author Xoser
  */
 $messages['diq'] = array(
-	'inlinecategorizer-add-category' => 'Kategorî de bike',
+	'inlinecategorizer-add-category' => 'Kategorî deke',
 	'inlinecategorizer-add-category-submit' => 'De bike',
 	'inlinecategorizer-add-category-summary' => 'Kategorî de bike "$1"',
+	'inlinecategorizer-cancel' => 'Timar kerdışi bıterkne',
+	'inlinecategorizer-cancel-all' => 'Vurnayışa pêron bıterkne',
+	'inlinecategorizer-confirm-ok' => 'TEMAM',
 	'inlinecategorizer-confirm-save' => 'Star ke',
+	'inlinecategorizer-confirm-save-all' => 'Vurnayışa pêron star ke',
 	'inlinecategorizer-confirm-title' => 'Hereketî konfirme bike',
+	'inlinecategorizer-edit-category' => 'Kategori timar ke',
+	'inlinecategorizer-edit-category-summary' => 'Kategori "$1" , "$2" deye vuriya',
 	'inlinecategorizer-error-title' => 'Xırab',
-	'inlinecategorizer-remove-category-error' => 'Ma nieşkenî ena kategorî wedarne.
-Çi wext yew kategorî yew template de ca geno, ena probelem bena.',
+	'inlinecategorizer-remove-category' => 'Kategori wedarne',
+	'inlinecategorizer-remove-category-error' => 'No kategoriyo nêwedarêno.
+Çi wext yew kategorî yew şablon de ca geno, pela dı ena problem bena.',
 	'inlinecategorizer-remove-category-summary' => 'kategoriyê "$1"i biwedarne',
 );
 
@@ -1812,7 +1819,7 @@ $messages['nds-nl'] = array(
 	'inlinecategorizer-api-unknown-error' => 'De API gaf n onbekende foutmelding.',
 	'inlinecategorizer-cancel' => 'Bewarkingen ofbreken',
 	'inlinecategorizer-cancel-all' => 'Alle wiezigingen aofbreken',
-	'inlinecategorizer-category-already-present' => 'Disse pagina steet al in de kategorie $1',
+	'inlinecategorizer-category-already-present' => 'Disse zied steet al in de kategorie $1',
 	'inlinecategorizer-category-hook-error' => 'n Lokale funksie verhinderden t opslaon van de wiezigingen',
 	'inlinecategorizer-category-question' => "Waorumme wi'j de volgende wiezigingen anbrengen:",
 	'inlinecategorizer-confirm-ok' => 'Oké',
@@ -1821,12 +1828,12 @@ $messages['nds-nl'] = array(
 	'inlinecategorizer-confirm-title' => 'Haandeling bevestigen',
 	'inlinecategorizer-edit-category' => 'Bewark kategorie',
 	'inlinecategorizer-edit-category-error' => 't Was niet meugelik um de kategorie "$1" te wiezigen.
-Dit gebeurt meestentieds as de kategorie via n mal op de pagina ezet is.',
+Dit gebeurt meestentieds as de kategorie via n mal op de zied ezet is.',
 	'inlinecategorizer-edit-category-summary' => 'Wiezig kategorie "$1" naor "$2"',
 	'inlinecategorizer-error-title' => 'Fout',
 	'inlinecategorizer-remove-category' => 'Kategorie vortdoon',
 	'inlinecategorizer-remove-category-error' => 'Kon de kategorie "$1" niet vortdoon.
-Dit gebeurt meestentieds as de kategorie via n mal op de pagina ezet is.',
+Dit gebeurt meestentieds as de kategorie via n mal op de zied ezet is.',
 	'inlinecategorizer-remove-category-summary' => 'Kategorie "$1" vortdoon',
 );
 
