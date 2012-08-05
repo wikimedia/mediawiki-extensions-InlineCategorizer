@@ -626,7 +626,7 @@ $messages['diq'] = array(
 	'inlinecategorizer-edit-category-summary' => 'Kategori "$1" , "$2" deye vuriya',
 	'inlinecategorizer-error-title' => 'Xırab',
 	'inlinecategorizer-remove-category' => 'Kategori wedarne',
-	'inlinecategorizer-remove-category-error' => 'No kategoriyo nêwedarêno.
+	'inlinecategorizer-remove-category-error' => 'Kategoriyê "$1" yo nêbesterneyêno.
 Çi wext yew kategorî yew şablon de ca geno, pela dı ena problem bena.',
 	'inlinecategorizer-remove-category-summary' => 'kategoriyê "$1"i biwedarne',
 );
