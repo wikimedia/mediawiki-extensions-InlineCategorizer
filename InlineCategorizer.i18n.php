@@ -2268,11 +2268,13 @@ $messages['sc'] = array(
 
 /** Sinhala (සිංහල)
  * @author Calcey
+ * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
 	'inlinecategorizer-add-category' => 'වර්ගයක් එකතු කරන්න',
 	'inlinecategorizer-add-category-submit' => 'එකතු කරන්න',
 	'inlinecategorizer-add-category-summary' => '"$1" වර්ගය ඇතුළත් කරන්න',
+	'inlinecategorizer-confirm-ok' => 'හරි',
 	'inlinecategorizer-confirm-save' => 'සුරකින්න',
 	'inlinecategorizer-confirm-title' => 'ක්‍රියාව තහවුරු කරන්න',
 	'inlinecategorizer-error-title' => 'දෝෂය',
