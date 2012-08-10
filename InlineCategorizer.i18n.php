@@ -1357,15 +1357,23 @@ $messages['jv'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author David1010
  * @author გიორგიმელა
  */
 $messages['ka'] = array(
 	'inlinecategorizer-add-category' => 'კატეგორიის ჩამატება',
 	'inlinecategorizer-add-category-submit' => 'ჩამატება',
 	'inlinecategorizer-add-category-summary' => 'ჩაემატა კატეგორია "$1".',
+	'inlinecategorizer-cancel' => 'რედაქტირების გაუქმება',
+	'inlinecategorizer-cancel-all' => 'ყველა ცვლილების გაუქმება',
+	'inlinecategorizer-confirm-ok' => 'კარგი',
 	'inlinecategorizer-confirm-save' => 'შენახვა',
+	'inlinecategorizer-confirm-save-all' => 'ყველა ცვლილების შენახვა',
 	'inlinecategorizer-confirm-title' => 'მოქმედების დადასტურება',
+	'inlinecategorizer-edit-category' => 'კატეგორიის რედაქტირება',
+	'inlinecategorizer-edit-category-summary' => 'კატეგორია „$1“-ს შეცვლა „$2“-ით.',
 	'inlinecategorizer-error-title' => 'შეცდომა',
+	'inlinecategorizer-remove-category' => 'კატეგორიის წაშლა',
 	'inlinecategorizer-remove-category-error' => 'ამ კატეგორიის შეკრება შეუძლებელია.
 ხშირედ ეს ხდება მაშინ, როდესაც კატეგორია ჩამატებულია თარგიდან.',
 	'inlinecategorizer-remove-category-summary' => 'წაიშალა კატეგორია "$1".',
