@@ -2022,7 +2022,10 @@ $messages['ps'] = array(
 	'inlinecategorizer-add-category' => 'وېشنيزه ورګډول',
 	'inlinecategorizer-add-category-submit' => 'ورګډول',
 	'inlinecategorizer-add-category-summary' => 'د "$1" وېشنيزه ورګډول',
+	'inlinecategorizer-confirm-ok' => 'ښه',
 	'inlinecategorizer-confirm-save' => 'خوندي کول',
+	'inlinecategorizer-confirm-save-all' => 'ټول بدلونونه خوندي کول',
+	'inlinecategorizer-edit-category' => 'وېشنيزه سمول',
 	'inlinecategorizer-error-title' => 'ستونزه',
 	'inlinecategorizer-remove-category-summary' => 'د "$1" وېشنيزه ليرې کول',
 );
