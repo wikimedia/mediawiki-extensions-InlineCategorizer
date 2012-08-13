@@ -439,11 +439,13 @@ Ovo se obično dešava kada je kategorija dodana na stranicu preko šablona.',
 /** Catalan (català)
  * @author Ssola
  * @author Toniher
+ * @author පසිඳු කාවින්ද
  */
 $messages['ca'] = array(
 	'inlinecategorizer-add-category' => 'Afegeix categoria',
 	'inlinecategorizer-add-category-submit' => 'Afegeix',
 	'inlinecategorizer-add-category-summary' => "Afageix la categoria ''$1''",
+	'inlinecategorizer-confirm-ok' => 'OK',
 	'inlinecategorizer-confirm-save' => 'Desa',
 	'inlinecategorizer-confirm-title' => "Confirma l'acció",
 	'inlinecategorizer-error-title' => 'Error',
