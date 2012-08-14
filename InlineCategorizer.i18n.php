@@ -2291,6 +2291,7 @@ $messages['si'] = array(
 	'inlinecategorizer-confirm-save' => 'සුරකින්න',
 	'inlinecategorizer-confirm-title' => 'ක්‍රියාව තහවුරු කරන්න',
 	'inlinecategorizer-error-title' => 'දෝෂය',
+	'inlinecategorizer-remove-category' => 'ප්‍රවර්ගය ඉවත් කරන්න',
 	'inlinecategorizer-remove-category-error' => 'මෙම වර්ගය ඉවත් කිරීම කළ නොහැකි විය.
 මෙය සාමාන්‍යයෙන් සිදු වන්නේ වර්ගය සැකිල්ලක ඇති පිටුවකට එකතු කර ඇති විටය.',
 	'inlinecategorizer-remove-category-summary' => '"$1" වර්ගය ඉවත් කරන්න',
