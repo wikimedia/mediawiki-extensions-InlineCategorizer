@@ -774,11 +774,13 @@ Tõrge ilmneb harilikult siis, kui kategooria on lisatud malliga.',
 /** Basque (euskara)
  * @author An13sa
  * @author Unai Fdz. de Betoño
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
 	'inlinecategorizer-add-category' => 'Kategoria gehitu',
 	'inlinecategorizer-add-category-submit' => 'Gehitu',
 	'inlinecategorizer-add-category-summary' => '"$1" kategoria gehitu',
+	'inlinecategorizer-confirm-ok' => 'Ados',
 	'inlinecategorizer-confirm-save' => 'Gorde',
 	'inlinecategorizer-confirm-title' => 'Ekintza egiaztatu',
 	'inlinecategorizer-error-title' => 'Errorea',
@@ -932,9 +934,11 @@ $messages['fur'] = array(
 
 /** Irish (Gaeilge)
  * @author Kwekubo
+ * @author පසිඳු කාවින්ද
  */
 $messages['ga'] = array(
 	'inlinecategorizer-confirm-save' => 'Sábháil',
+	'inlinecategorizer-error-title' => 'Earráid',
 );
 
 /** Simplified Gan script (‪赣语（简体）‬) */
