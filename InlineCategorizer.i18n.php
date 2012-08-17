@@ -2736,6 +2736,23 @@ $messages['uk'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Вилучити категорію „$1“',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'inlinecategorizer-add-category' => 'زمرہ شامل کریں',
+	'inlinecategorizer-add-category-submit' => 'شامل کریں',
+	'inlinecategorizer-cancel' => 'ترمیم کریں منسوخ',
+	'inlinecategorizer-cancel-all' => 'سب تبدیلیاں منسوخ',
+	'inlinecategorizer-confirm-ok' => 'ٹھیک ہے',
+	'inlinecategorizer-confirm-save' => 'محفوظ کریں',
+	'inlinecategorizer-confirm-save-all' => 'سب تبدیلیاں محفوظ کریں',
+	'inlinecategorizer-confirm-title' => 'کارروائی کی تصدیق',
+	'inlinecategorizer-edit-category' => 'زمرہ میں ترمیم کریں',
+	'inlinecategorizer-error-title' => 'غلطی',
+	'inlinecategorizer-remove-category' => 'زمرہ حذف کریں',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
