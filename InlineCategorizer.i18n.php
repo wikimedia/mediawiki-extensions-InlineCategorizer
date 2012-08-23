@@ -784,7 +784,7 @@ $messages['eu'] = array(
 	'inlinecategorizer-confirm-save' => 'Gorde',
 	'inlinecategorizer-confirm-title' => 'Ekintza egiaztatu',
 	'inlinecategorizer-error-title' => 'Errorea',
-	'inlinecategorizer-remove-category-error' => 'Ezin izan da kategoria ezabatu.
+	'inlinecategorizer-remove-category-error' => 'Ezin izan da "$1" kategoria ezabatu.
 Arrazoia izan ohi da kategoria hori txantiloi batek erantsi diola orrialdera.',
 	'inlinecategorizer-remove-category-summary' => '"$1" kategoria ezabatu',
 );
