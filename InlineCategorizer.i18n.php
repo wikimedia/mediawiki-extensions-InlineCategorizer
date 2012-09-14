@@ -1380,8 +1380,8 @@ $messages['ka'] = array(
 	'inlinecategorizer-edit-category-summary' => 'კატეგორია „$1“-ს შეცვლა „$2“-ით.',
 	'inlinecategorizer-error-title' => 'შეცდომა',
 	'inlinecategorizer-remove-category' => 'კატეგორიის წაშლა',
-	'inlinecategorizer-remove-category-error' => 'ამ კატეგორიის შეკრება შეუძლებელია.
-ხშირედ ეს ხდება მაშინ, როდესაც კატეგორია ჩამატებულია თარგიდან.',
+	'inlinecategorizer-remove-category-error' => 'კატეგორია „$1“ მოშორება ვერ მოხერხდა.
+ჩვეულებრივ ეს ხდება მაშინ, როდესაც კატეგორია ჩამატებულია თარგიდან.',
 	'inlinecategorizer-remove-category-summary' => 'წაიშალა კატეგორია "$1".',
 );
 
