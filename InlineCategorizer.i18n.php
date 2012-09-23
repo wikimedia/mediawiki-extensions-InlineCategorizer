@@ -624,10 +624,10 @@ $messages['diq'] = array(
 	'inlinecategorizer-confirm-save' => 'Star ke',
 	'inlinecategorizer-confirm-save-all' => 'Vurnayışa pêron star ke',
 	'inlinecategorizer-confirm-title' => 'Tesdiqiye',
-	'inlinecategorizer-edit-category' => 'Kategori timar ke',
-	'inlinecategorizer-edit-category-summary' => 'Kategori "$1" , "$2" deye vuriya',
+	'inlinecategorizer-edit-category' => 'Kategoriye timar ke',
+	'inlinecategorizer-edit-category-summary' => 'Kategoriya "$1" , "$2" deye vuriyê',
 	'inlinecategorizer-error-title' => 'Xırab',
-	'inlinecategorizer-remove-category' => 'Kategori wedarne',
+	'inlinecategorizer-remove-category' => 'Kategoriyer wedarne',
 	'inlinecategorizer-remove-category-error' => 'Kategoriyê "$1" yo nêbesterneyêno.
 Çi wext yew kategorî yew şablon de ca geno, pela dı ena problem bena.',
 	'inlinecategorizer-remove-category-summary' => 'kategoriyê "$1"i biwedarne',
