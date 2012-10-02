@@ -303,7 +303,7 @@ $messages['be'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Сцерці катэгорыю "$1"',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -603,7 +603,7 @@ Dies passiert normalerweise, wenn die Kategorie über eine Vorlage eingebunden i
 	'inlinecategorizer-remove-category-summary' => 'Kategorie „$1“ entfernen',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -941,7 +941,7 @@ $messages['ga'] = array(
 	'inlinecategorizer-error-title' => 'Earráid',
 );
 
-/** Simplified Gan script (‪赣语（简体）‬) */
+/** Simplified Gan script (赣语（简体）‎) */
 $messages['gan-hans'] = array(
 	'inlinecategorizer-add-category-summary' => '添进分类「$1」',
 	'inlinecategorizer-confirm-save' => '存到',
@@ -951,7 +951,7 @@ $messages['gan-hans'] = array(
 	'inlinecategorizer-remove-category-summary' => '搦开分类「$1」',
 );
 
-/** Traditional Gan script (‪贛語（繁體）‬)
+/** Traditional Gan script (贛語（繁體）‎)
  * @author Symane
  */
 $messages['gan-hant'] = array(
@@ -1477,7 +1477,7 @@ Dat es fö jewöhnlej_esu, wann di Saachjropp övver en Schabloon en di Sigg enj
 	'inlinecategorizer-remove-category-summary' => 'Saachjropp „$1“ eruß nämme',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author Gomada
  */
 $messages['ku-latn'] = array(
@@ -1791,7 +1791,7 @@ $messages['myv'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Нардамс категориянть "$1"',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author EivindJ
  * @author Nghtwlkr
  */
@@ -1882,7 +1882,7 @@ Dit gebeurt meestal als de categorie via een sjabloon aan de pagina is toegevoeg
 	'inlinecategorizer-remove-category-summary' => 'categorie "$1" verwijderen',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Ranveig
  */
@@ -2361,7 +2361,7 @@ Dies passiert normalerweise, wenn de Kategorie ieber anne Vurloage eingebunda ie
 	'inlinecategorizer-remove-category-summary' => 'Kategorie „$1“ entferna',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Slaven Kosanovic
  */
@@ -2391,7 +2391,7 @@ $messages['sr-ec'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Уклони категорију "$1"',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Liangent
  * @author Michaello
  * @author Rancher
@@ -2861,7 +2861,7 @@ $messages['yue'] = array(
 	'inlinecategorizer-remove-category-summary' => '拎走分類「$1」',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author PhiLiP
  * @author Xiaomingyan
@@ -2890,7 +2890,7 @@ $messages['zh-hans'] = array(
 	'inlinecategorizer-remove-category-summary' => '移除分类“$1”',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
