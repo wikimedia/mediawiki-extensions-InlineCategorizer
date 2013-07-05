@@ -1913,14 +1913,14 @@ Aquò se produsís generalament quand la categoria es estada aponduda a la pagin
 	'inlinecategorizer-remove-category-summary' => 'Levar la categoria « $1 »',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
  * @author Psubhashish
  */
 $messages['or'] = array(
 	'inlinecategorizer-add-category-submit' => 'ଯୋଡ଼ିବେ',
 	'inlinecategorizer-confirm-ok' => 'ଠିକ ଅଛି',
-	'inlinecategorizer-confirm-save' => 'ସାଇତିବେ',
+	'inlinecategorizer-confirm-save' => 'ସାଇତିବେ [Save]',
 	'inlinecategorizer-error-title' => 'ଭୁଲ',
 );
 
@@ -2162,6 +2162,7 @@ Acest lucru are loc de obicei atunci când categoria a fost adăugată în pagin
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'inlinecategorizer-desc' => "Module JavaScript ca abbilite le cangiaminde, le aggiunde e le luaminde de le collegaminde de categorije direttamende da 'a pàgene",
 	'inlinecategorizer-add-category' => "Aggiunge 'a categorije",
 	'inlinecategorizer-add-category-submit' => 'Aggiunge',
 	'inlinecategorizer-add-category-summary' => 'Aggiunge \'a categorije "$1"',
@@ -2916,4 +2917,3 @@ $messages['zh-hant'] = array(
 	'inlinecategorizer-remove-category-error' => '不能移除分類“$1”。這通常是由於該分類是隨模板加入頁面的。',
 	'inlinecategorizer-remove-category-summary' => '移除分類「$1」',
 );
-
