@@ -1821,11 +1821,12 @@ Dette skjer som regel fordi kategorien har blitt lagt til via en mal.',
 	'inlinecategorizer-remove-category-summary' => 'Fjern kategorien «$1»',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Purodha
  * @author Servien
  */
 $messages['nds-nl'] = array(
+	'inlinecategorizer-desc' => 'JavaScript-module die t plaotsen, vortdoon en wiezigen van kategorieverwiezingen drekt vanuut de zied meugelik maakt',
 	'inlinecategorizer-add-category' => 'Kategorie derbie zetten',
 	'inlinecategorizer-add-category-submit' => 'Derbie zetten',
 	'inlinecategorizer-add-category-summary' => 'Kategorie "$1" derbie doon',
