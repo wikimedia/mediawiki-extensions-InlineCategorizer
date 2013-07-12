@@ -110,15 +110,16 @@ $messages['an'] = array(
 );
 
 /** Old English (Ænglisc)
+ * @author Gott wisst
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
-	'inlinecategorizer-add-category' => 'Flocc ēacian',
-	'inlinecategorizer-add-category-submit' => 'Ēacian',
-	'inlinecategorizer-add-category-summary' => 'Flocc "$1" ēacian',
-	'inlinecategorizer-confirm-save' => 'Sparian',
-	'inlinecategorizer-error-title' => 'Ƿōh',
-	'inlinecategorizer-remove-category-summary' => 'Flocc "$1" forniman',
+	'inlinecategorizer-add-category' => 'Ēacnian mid flocce',
+	'inlinecategorizer-add-category-submit' => 'Besettan',
+	'inlinecategorizer-add-category-summary' => 'Ēacnian mid flocce "$1"',
+	'inlinecategorizer-confirm-save' => 'Hordian',
+	'inlinecategorizer-error-title' => 'Wōh',
+	'inlinecategorizer-remove-category-summary' => 'Forniman flocc "$1"',
 );
 
 /** Arabic (العربية)
