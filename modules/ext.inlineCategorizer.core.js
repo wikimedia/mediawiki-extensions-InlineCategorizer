@@ -621,7 +621,7 @@ mw.InlineCategorizer.prototype = {
 
 				// Old cat wasn't found, likely to be transcluded
 				if ( !$.isArray( matches ) ) {
-					ajaxcat.showError( mw.msg( 'inlinecategorizer-edit-category-error' ) );
+					ajaxcat.showError( mw.msg( 'inlinecategorizer-edit-category-error', oldCatName ) );
 					return false;
 				}
 
@@ -795,7 +795,7 @@ mw.InlineCategorizer.prototype = {
 				newText = newText.replace( categoryRegex, '' );
 
 				if ( newText === oldText ) {
-					ajaxcat.showError( mw.msg( 'inlinecategorizer-remove-category-error' ) );
+					ajaxcat.showError( mw.msg( 'inlinecategorizer-remove-category-error', category ) );
 					return false;
 				}
 
