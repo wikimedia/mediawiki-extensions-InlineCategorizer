@@ -45,25 +45,57 @@ This usually occurs when the category has been added to the page in a template.'
  * @author EugeneZelenko
  * @author Fryed-peach
  * @author Lloffiwr
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'inlinecategorizer-desc' => '{{desc}}',
+	'inlinecategorizer-desc' => '{{desc|name=Inline Categorizer|url=http://www.mediawiki.org/wiki/Extension:InlineCategorizer}}',
+	'inlinecategorizer-add-category' => '{{doc-actionlink}}
+{{Identical|Add category}}',
 	'inlinecategorizer-add-category-submit' => '{{Identical|Add}}',
-	'inlinecategorizer-add-category-summary' => 'See {{msg-mw|inlinecategorizer-category-question}}. $1 is a category name.',
+	'inlinecategorizer-add-category-summary' => 'See {{msg-mw|inlinecategorizer-category-question}}.
+
+Parameters:
+* $1 - a category name',
 	'inlinecategorizer-api-error' => 'API = [http://en.wikipedia.org/wiki/Application_programming_interface Application programming interface].
 
-"returned" here means "reported".',
-	'inlinecategorizer-category-already-present' => 'Error message. $1 is the category name',
+"returned" here means "reported".
+
+Parameters:
+* $1 - error code
+* $2 - error message',
+	'inlinecategorizer-api-unknown-error' => 'Used as error message',
+	'inlinecategorizer-cancel' => 'Used as label for the button.
+
+See also:
+* {{msg-mw|Inlinecategorizer-remove-category}}',
+	'inlinecategorizer-cancel-all' => 'Used as label or tooltip for the "Cancel all" button',
+	'inlinecategorizer-category-already-present' => 'Error message. Parameters:
+* $1 - the category name',
+	'inlinecategorizer-category-hook-error' => 'Used as error message. Parameters:
+* $1 - category (Unused)',
 	'inlinecategorizer-category-question' => "Question the user is asked before submit. It's followed by a list of the changes.",
 	'inlinecategorizer-confirm-ok' => '{{Identical|OK}}',
-	'inlinecategorizer-confirm-save' => 'Submit button {{Identical|Save}}',
+	'inlinecategorizer-confirm-save' => 'Used as label for the Submit button.
+{{Identical|Save}}',
 	'inlinecategorizer-confirm-save-all' => 'Submit button to save all changes',
 	'inlinecategorizer-confirm-title' => 'Title for a dialog box in which the user is asked for an edit summary',
 	'inlinecategorizer-edit-category' => 'Tooltip for the edit link displayed after each category at the foot of a page. Refers to the specific category. "Edit this category" is also correct.',
-	'inlinecategorizer-edit-category-summary' => 'See {{msg-mw|inlinecategorizer-category-question}}. $1 and $2 are both category names.',
-	'inlinecategorizer-error-title' => '{{Identical|Error}}',
+	'inlinecategorizer-edit-category-error' => 'Used as error message. Parameters:
+* $1 - ...',
+	'inlinecategorizer-edit-category-summary' => 'See {{msg-mw|inlinecategorizer-category-question}}.
+
+Parameters:
+* $1 - category name
+* $2 - category name',
+	'inlinecategorizer-error-title' => 'Used as title for a dismissable error dialog.
+{{Identical|Error}}',
 	'inlinecategorizer-remove-category' => 'Tooltip for link to remove a category from the page, displayed after each category at the foot of a page. Refers to the specific category. "Remove this category" is also correct.',
-	'inlinecategorizer-remove-category-summary' => 'See {{msg-mw|inlinecategorizer-category-question}}. $1 is a category name.',
+	'inlinecategorizer-remove-category-error' => 'Used as error message. Parameters:
+* $1 - ...',
+	'inlinecategorizer-remove-category-summary' => 'See {{msg-mw|inlinecategorizer-category-question}}.
+
+Parameters:
+* $1 - a category name',
 );
 
 /** Afrikaans (Afrikaans)
@@ -1328,17 +1360,17 @@ Ciò si verifica in genere quando la categoria è stata aggiunta alla pagina in 
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'inlinecategorizer-desc' => 'ページから直接カテゴリリンクを変更/追加/除去できるようにするJavaScriptモジュール',
+	'inlinecategorizer-desc' => 'ページから直接カテゴリ リンクを変更/追加/除去できるようにする JavaScript モジュール',
 	'inlinecategorizer-add-category' => 'カテゴリを追加',
 	'inlinecategorizer-add-category-submit' => '追加',
 	'inlinecategorizer-add-category-summary' => 'カテゴリ「$1」を追加',
-	'inlinecategorizer-api-error' => 'APIがエラーを返しました: $1: $2',
-	'inlinecategorizer-api-unknown-error' => 'APIが不明なエラーを返しました。',
+	'inlinecategorizer-api-error' => 'API がエラーを返しました: $1: $2',
+	'inlinecategorizer-api-unknown-error' => 'API が不明なエラーを返しました。',
 	'inlinecategorizer-cancel' => '編集をキャンセル',
 	'inlinecategorizer-cancel-all' => 'すべての変更をキャンセル',
 	'inlinecategorizer-category-already-present' => 'このページは既にカテゴリ「$1」に属しています',
 	'inlinecategorizer-category-hook-error' => 'ローカル関数の変更は保存できません。',
-	'inlinecategorizer-category-question' => 'なぜ、次のような変更が必要ですか：',
+	'inlinecategorizer-category-question' => '以下の変更が必要である理由:',
 	'inlinecategorizer-confirm-ok' => 'OK',
 	'inlinecategorizer-confirm-save' => '保存',
 	'inlinecategorizer-confirm-save-all' => 'すべての変更を保存',
