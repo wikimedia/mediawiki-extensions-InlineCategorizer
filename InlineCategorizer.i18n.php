@@ -2588,6 +2588,7 @@ $messages['te'] = array(
 	'inlinecategorizer-confirm-save' => 'భద్రపరచు',
 	'inlinecategorizer-confirm-save-all' => 'అన్ని మార్పులను భద్రపరచు',
 	'inlinecategorizer-confirm-title' => 'చర్యని నిర్ధారించండి',
+	'inlinecategorizer-edit-category' => 'వర్గాన్ని మార్చండి',
 	'inlinecategorizer-edit-category-summary' => 'వర్గాన్ని "$1" నుండి "$2"కి మార్చు',
 	'inlinecategorizer-error-title' => 'పొరపాటు',
 	'inlinecategorizer-remove-category' => 'వర్గాన్ని తొలగించు',
