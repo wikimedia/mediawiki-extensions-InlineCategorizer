@@ -489,15 +489,18 @@ Això sol passar quan la categoria s'ha afegit a la pàgina en una plantilla.",
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
-	'inlinecategorizer-add-category' => 'Тlетоха кадегар',
+	'inlinecategorizer-add-category' => 'Тlетоха категори',
 	'inlinecategorizer-add-category-submit' => 'Тlетоха',
-	'inlinecategorizer-add-category-summary' => 'Тlетоьхна кадегар «$1»',
+	'inlinecategorizer-add-category-summary' => 'Тlетоьхна категори «$1»',
+	'inlinecategorizer-cancel' => 'Цаоьшу хийцамаш',
+	'inlinecategorizer-cancel-all' => 'Цаоьшу массо хийцамаш',
 	'inlinecategorizer-confirm-save' => 'lалашдан',
 	'inlinecategorizer-confirm-title' => 'Тlечlагlде дийриг',
 	'inlinecategorizer-error-title' => 'Гlалат',
-	'inlinecategorizer-remove-category-summary' => 'ДIайакхина кадегар «$1»',
+	'inlinecategorizer-remove-category-summary' => 'дӀаяккха категори «$1»',
 );
 
 /** Sorani Kurdish (کوردی) */
