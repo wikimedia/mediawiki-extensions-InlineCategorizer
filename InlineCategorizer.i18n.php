@@ -546,6 +546,13 @@ To se obvykle stává v případě, že byla stránka do kategorie přidána pro
 	'inlinecategorizer-remove-category-summary' => 'Odebrání kategorie „$1“',
 );
 
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'inlinecategorizer-error-title' => 'блаꙁна',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */
