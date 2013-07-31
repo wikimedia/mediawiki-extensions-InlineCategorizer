@@ -1522,11 +1522,14 @@ Dat es fö jewöhnlej_esu, wann di Saachjropp övver en Schabloon en di Sigg enj
 );
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
+ * @author George Animal
  * @author Gomada
  */
 $messages['ku-latn'] = array(
+	'inlinecategorizer-add-category' => 'Kategoriyê lê zêde bike',
 	'inlinecategorizer-cancel' => 'Guhertinê betal bike',
 	'inlinecategorizer-cancel-all' => 'Hemû guhertinan betal bike',
+	'inlinecategorizer-confirm-ok' => 'Baş e',
 	'inlinecategorizer-confirm-save' => 'Tomar bike',
 	'inlinecategorizer-confirm-save-all' => 'Hemû guhertinan tomar bike',
 	'inlinecategorizer-edit-category' => 'Kategoriyê biguherîne',
