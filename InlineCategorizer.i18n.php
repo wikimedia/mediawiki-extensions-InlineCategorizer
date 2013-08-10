@@ -2757,10 +2757,12 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (українська)
  * @author AS
+ * @author Andriykopanytsia
  * @author Dim Grits
  * @author Тест
  */
 $messages['uk'] = array(
+	'inlinecategorizer-desc' => 'JavaScript-модуль, який дозволяє змінювати, додавати та вилучати посилання на категорії прямо зі сторінки',
 	'inlinecategorizer-add-category' => 'Додати категорію',
 	'inlinecategorizer-add-category-submit' => 'Додати',
 	'inlinecategorizer-add-category-summary' => 'Додати категорію „$1“',
