@@ -497,6 +497,7 @@ $messages['ce'] = array(
 	'inlinecategorizer-add-category-summary' => 'Тlетоьхна категори «$1»',
 	'inlinecategorizer-cancel' => 'Цаоьшу хийцамаш',
 	'inlinecategorizer-cancel-all' => 'Цаоьшу массо хийцамаш',
+	'inlinecategorizer-category-already-present' => 'ХӀара агӀо ю хӀокху $1 категори чуйогӀуш',
 	'inlinecategorizer-confirm-save' => 'lалашдан',
 	'inlinecategorizer-confirm-title' => 'Тlечlагlде дийриг',
 	'inlinecategorizer-error-title' => 'Гlалат',
