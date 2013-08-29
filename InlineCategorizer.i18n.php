@@ -1969,10 +1969,16 @@ $messages['oc'] = array(
 	'inlinecategorizer-add-category' => 'Apondre una categoria',
 	'inlinecategorizer-add-category-submit' => 'Apondre',
 	'inlinecategorizer-add-category-summary' => 'Apondre la categoria « $1 »',
+	'inlinecategorizer-cancel' => 'Anullar las modificacions',
+	'inlinecategorizer-cancel-all' => 'Anullar totes los cambiaments',
+	'inlinecategorizer-confirm-ok' => "D'acòrdi",
 	'inlinecategorizer-confirm-save' => 'Publicar',
+	'inlinecategorizer-confirm-save-all' => 'Enregistrar totas las modificacions',
 	'inlinecategorizer-confirm-title' => "Confirmar l'accion",
+	'inlinecategorizer-edit-category' => 'Modificar una categoria',
 	'inlinecategorizer-error-title' => 'Error',
-	'inlinecategorizer-remove-category-error' => 'Es pas estat possible de levar aquesta categoria.
+	'inlinecategorizer-remove-category' => 'Suprimir la categoria',
+	'inlinecategorizer-remove-category-error' => 'Es pas estat possible de levar la categoria « $1 ».
 Aquò se produsís generalament quand la categoria es estada aponduda a la pagina via un modèl.',
 	'inlinecategorizer-remove-category-summary' => 'Levar la categoria « $1 »',
 );
