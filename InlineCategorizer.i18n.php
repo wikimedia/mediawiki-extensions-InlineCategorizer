@@ -2109,6 +2109,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
 	'inlinecategorizer-add-category' => 'Adicionar categoria',
@@ -2121,7 +2122,7 @@ $messages['pt'] = array(
 	'inlinecategorizer-category-hook-error' => 'Uma função local impediu que as alterações fossem gravadas',
 	'inlinecategorizer-category-question' => 'Porque é que pretende fazer as seguintes alterações:',
 	'inlinecategorizer-confirm-ok' => 'OK',
-	'inlinecategorizer-confirm-save' => 'Gravar',
+	'inlinecategorizer-confirm-save' => 'Salvar',
 	'inlinecategorizer-confirm-save-all' => 'Gravar todas as alterações',
 	'inlinecategorizer-confirm-title' => 'Confirme a operação',
 	'inlinecategorizer-edit-category' => 'Editar categoria',
