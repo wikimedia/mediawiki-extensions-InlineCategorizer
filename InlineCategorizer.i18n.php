@@ -2137,11 +2137,14 @@ Isto normalmente ocorre quando a categoria foi adicionada à página através de
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Giro720
  * @author Helder.wiki
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
+	'inlinecategorizer-desc' => 'Um módulo em JavaScript que permite alterar, adicionar e remover categorias diretamente de uma página',
 	'inlinecategorizer-add-category' => 'Adicionar categoria',
 	'inlinecategorizer-add-category-submit' => 'Adicionar',
 	'inlinecategorizer-add-category-summary' => 'Adicionar categoria "$1"',
@@ -2149,7 +2152,7 @@ $messages['pt-br'] = array(
 	'inlinecategorizer-api-unknown-error' => 'A API retornou um erro desconhecido.',
 	'inlinecategorizer-cancel' => 'Cancelar as edições',
 	'inlinecategorizer-cancel-all' => 'Cancelar todas as alterações',
-	'inlinecategorizer-category-already-present' => 'Esta página já está na categoria $1',
+	'inlinecategorizer-category-already-present' => 'Esta página já está na categoria "$1"',
 	'inlinecategorizer-category-hook-error' => 'Uma função local impediu que as alterações fossem salvas.',
 	'inlinecategorizer-category-question' => 'Porque você pretende fazer as seguintes alterações:',
 	'inlinecategorizer-confirm-ok' => 'OK',
