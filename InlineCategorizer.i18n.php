@@ -1555,6 +1555,7 @@ $messages['ku-latn'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'inlinecategorizer-desc' => "JavaScript deen et erlaabt fir Kategorien direkt op enger Säit z'änneren, derbäizesetzen oder erofzehuelen",
@@ -1566,7 +1567,7 @@ $messages['lb'] = array(
 	'inlinecategorizer-cancel' => 'Ännerungen annuléieren',
 	'inlinecategorizer-cancel-all' => 'All Ännerungen annulléieren',
 	'inlinecategorizer-category-already-present' => 'Dës Säit ass schonn an der Kategorie $1',
-	'inlinecategorizer-category-hook-error' => "Eng lokal Fonctioun huet verhënnert datt d'Ännerunge gespäichert goufen",
+	'inlinecategorizer-category-hook-error' => "Eng lokal Funktioun huet verhënnert datt d'Ännerunge gespäichert goufen",
 	'inlinecategorizer-category-question' => 'Firwat wëllt Dir dës Ännerunge maachen:',
 	'inlinecategorizer-confirm-ok' => 'OK',
 	'inlinecategorizer-confirm-save' => 'Späicheren',
