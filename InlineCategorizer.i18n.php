@@ -2105,9 +2105,9 @@ $messages['prg'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'inlinecategorizer-add-category' => 'وېشنيزه ورګډول',
-	'inlinecategorizer-add-category-submit' => 'ورګډول',
-	'inlinecategorizer-add-category-summary' => 'د "$1" وېشنيزه ورګډول',
+	'inlinecategorizer-add-category' => 'وېشنيزه ورگډول',
+	'inlinecategorizer-add-category-submit' => 'ورگډول',
+	'inlinecategorizer-add-category-summary' => 'د "$1" وېشنيزه ورگډول',
 	'inlinecategorizer-confirm-ok' => 'ښه',
 	'inlinecategorizer-confirm-save' => 'خوندي کول',
 	'inlinecategorizer-confirm-save-all' => 'ټول بدلونونه خوندي کول',
