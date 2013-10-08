@@ -137,7 +137,7 @@ $messages['an'] = array(
 	'inlinecategorizer-confirm-save' => 'Alzar',
 	'inlinecategorizer-confirm-title' => 'Confirmar acción',
 	'inlinecategorizer-error-title' => 'Error',
-	'inlinecategorizer-remove-category-error' => "No s'ha puesto eliminar ista categoría. Isto gosa pasar, por un regular, quan a categoría ha estau adhibida por una plantilla.",
+	'inlinecategorizer-remove-category-error' => "No s'ha puesto eliminar ista categoría. Isto gosa pasar, por un regular, quan a categoría ha estau adhibida por una plantilla.", # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Sacar a categoría "$1"',
 );
 
@@ -187,12 +187,13 @@ $messages['ar'] = array(
 );
 
 /** Aramaic (ܐܪܡܝܐ)
+ * @author 334a
  * @author Basharh
  */
 $messages['arc'] = array(
 	'inlinecategorizer-add-category' => 'ܐܘܣܦ ܣܕܪܐ',
 	'inlinecategorizer-add-category-submit' => 'ܐܘܣܦ',
-	'inlinecategorizer-confirm-save' => 'ܢܛܘܪ',
+	'inlinecategorizer-confirm-save' => 'ܛܪ',
 	'inlinecategorizer-error-title' => 'ܦܘܕܐ',
 	'inlinecategorizer-remove-category-summary' => 'ܠܚܝ ܣܕܪܐ "$1"',
 );
@@ -208,11 +209,11 @@ $messages['arz'] = array(
 	'inlinecategorizer-confirm-title' => 'تأكيد العمليه',
 	'inlinecategorizer-error-title' => 'غلط',
 	'inlinecategorizer-remove-category-error' => 'مانفعش نشيل التصنيف دا.
-دا بيحصل عادة لما التصنيف بيتحط فى الصفحه عن طريق القالب',
+دا بيحصل عادة لما التصنيف بيتحط فى الصفحه عن طريق القالب', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'شيل التصنيف "$1"',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Chaipau
  * @author Gitartha.bordoloi
  */
@@ -318,7 +319,7 @@ $messages['bcl'] = array(
 	'inlinecategorizer-confirm-save' => 'Itagáma',
 	'inlinecategorizer-error-title' => 'Raót',
 	'inlinecategorizer-remove-category-error' => 'Daí mahahálì iníng kategorya.
-Nangyayári iní pag an kategorya ipigdúgang sa pahina sa saróng templato.',
+Nangyayári iní pag an kategorya ipigdúgang sa pahina sa saróng templato.', # Fuzzy
 );
 
 /** Belarusian (беларуская)
@@ -332,7 +333,7 @@ $messages['be'] = array(
 	'inlinecategorizer-confirm-title' => 'Пацверджанне',
 	'inlinecategorizer-error-title' => 'Памылка',
 	'inlinecategorizer-remove-category-error' => 'Не ўдалося сцерці катэгорыю.
-Так звычайна бывае, калі катэгорыя дададзеная ў старонку праз шаблон.',
+Так звычайна бывае, калі катэгорыя дададзеная ў старонку праз шаблон.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Сцерці катэгорыю "$1"',
 );
 
@@ -420,7 +421,7 @@ $messages['bpy'] = array(
 	'inlinecategorizer-confirm-title' => 'কামহান লেপকর',
 	'inlinecategorizer-error-title' => 'লালুইসে',
 	'inlinecategorizer-remove-category-error' => 'বিষয়রথাক এহান পুসানি নাইব।
-এহান অরতা সাধারণত বিষয়রথাকহান পাতাহানর মডেলর মা মিহিলে।',
+এহান অরতা সাধারণত বিষয়রথাকহান পাতাহানর মডেলর মা মিহিলে।', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'বিষয়থাক "$1" পুস',
 );
 
@@ -465,7 +466,7 @@ $messages['bs'] = array(
 	'inlinecategorizer-confirm-title' => 'Potvrdi akciju',
 	'inlinecategorizer-error-title' => 'Greška',
 	'inlinecategorizer-remove-category-error' => 'Nije bilo moguće ukloniti ovu kategoriju.
-Ovo se obično dešava kada je kategorija dodana na stranicu preko šablona.',
+Ovo se obično dešava kada je kategorija dodana na stranicu preko šablona.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Ukloni kategoriju "$1"',
 );
 
@@ -483,7 +484,7 @@ $messages['ca'] = array(
 	'inlinecategorizer-confirm-title' => "Confirma l'acció",
 	'inlinecategorizer-error-title' => 'Error',
 	'inlinecategorizer-remove-category-error' => "No ha estat possible eliminar aquesta categoria.
-Això sol passar quan la categoria s'ha afegit a la pàgina en una plantilla.",
+Això sol passar quan la categoria s'ha afegit a la pàgina en una plantilla.", # Fuzzy
 	'inlinecategorizer-remove-category-summary' => "Elimina la categoria ''$1''",
 );
 
@@ -504,7 +505,8 @@ $messages['ce'] = array(
 	'inlinecategorizer-remove-category-summary' => 'дӀаяккха категори «$1»',
 );
 
-/** Sorani Kurdish (کوردی) */
+/** Sorani Kurdish (کوردی)
+ */
 $messages['ckb'] = array(
 	'inlinecategorizer-confirm-save' => 'پاشەکەوت',
 );
@@ -986,13 +988,14 @@ $messages['ga'] = array(
 	'inlinecategorizer-error-title' => 'Earráid',
 );
 
-/** Simplified Gan script (赣语（简体）‎) */
+/** Simplified Gan script (赣语（简体）‎)
+ */
 $messages['gan-hans'] = array(
 	'inlinecategorizer-add-category-summary' => '添进分类「$1」',
 	'inlinecategorizer-confirm-save' => '存到',
 	'inlinecategorizer-error-title' => '错误',
 	'inlinecategorizer-remove-category-error' => '搦个只分类不开。
-通常发生嘚一只拕包入分类𠮶模板。',
+通常发生嘚一只拕包入分类𠮶模板。', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '搦开分类「$1」',
 );
 
@@ -1004,7 +1007,7 @@ $messages['gan-hant'] = array(
 	'inlinecategorizer-confirm-save' => '存到',
 	'inlinecategorizer-error-title' => '錯誤',
 	'inlinecategorizer-remove-category-error' => '搦箇隻分類不開。
-通常發生嘚一隻拕包入分類嗰模板。',
+通常發生嘚一隻拕包入分類嗰模板。', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '搦開分類「$1」',
 );
 
@@ -1124,7 +1127,7 @@ $messages['hi'] = array(
 	'inlinecategorizer-confirm-title' => 'क्रिया की पुष्टि करें',
 	'inlinecategorizer-error-title' => 'त्रुटि',
 	'inlinecategorizer-remove-category-error' => 'यह श्रेणी हटाई नहीं जा सकी।
-यह आमतौर पर तब होता है जब श्रेणी किसी साँचे के जरिए जोड़ी गई हो।',
+यह आमतौर पर तब होता है जब श्रेणी किसी साँचे के जरिए जोड़ी गई हो।', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'श्रेणी "$1" हटाएँ',
 );
 
@@ -1214,12 +1217,12 @@ $messages['hu'] = array(
 	'inlinecategorizer-confirm-title' => 'Művelet megerősítése',
 	'inlinecategorizer-edit-category' => 'Kategória szerkesztése',
 	'inlinecategorizer-edit-category-error' => 'Nem lehet szerkeszteni a kategóriát.
-Ez általában akkor fordul elő, ha a lapot egy sablon sorolja be az adott kategóriába.',
+Ez általában akkor fordul elő, ha a lapot egy sablon sorolja be az adott kategóriába.', # Fuzzy
 	'inlinecategorizer-edit-category-summary' => '„$1” kategória cseréje a következőre: „$2”',
 	'inlinecategorizer-error-title' => 'Hiba',
 	'inlinecategorizer-remove-category' => 'Kategória eltávolítása',
 	'inlinecategorizer-remove-category-error' => 'Nem sikerült eltávolítani a kategóriát.
-Ez általában akkor fordul elő, ha a kategóriát egy sablon adja hozzá a laphoz.',
+Ez általában akkor fordul elő, ha a kategóriát egy sablon adja hozzá a laphoz.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '„$1” kategória eltávolítása',
 );
 
@@ -1234,7 +1237,7 @@ $messages['hy'] = array(
 	'inlinecategorizer-confirm-title' => 'Հաստատել գործողությունը',
 	'inlinecategorizer-error-title' => 'Սխալ',
 	'inlinecategorizer-remove-category-error' => 'Չհաջողվեց հեռացնել այս կատեգորիան։
-Դա սովորաբար պատահում է, երբ կատեգորիան ավելացվում է կաղապարի միջից։',
+Դա սովորաբար պատահում է, երբ կատեգորիան ավելացվում է կաղապարի միջից։', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Հեռացնել «$1» կատեգորիան',
 );
 
@@ -1503,7 +1506,7 @@ $messages['krc'] = array(
 	'inlinecategorizer-confirm-title' => 'Ишлеуню мюкюл эт',
 	'inlinecategorizer-error-title' => 'Халат',
 	'inlinecategorizer-remove-category-error' => 'Категория кетерилмейди.
-Бу проблема кёбюсюне, категория шаблонну юсю бла бетге къошулса, болады.',
+Бу проблема кёбюсюне, категория шаблонну юсю бла бетге къошулса, болады.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '«$1» категория кетерилди',
 );
 
@@ -1524,7 +1527,7 @@ $messages['ksh'] = array(
 	'inlinecategorizer-category-question' => 'Woröm wells De heh di Änderonge maache:',
 	'inlinecategorizer-confirm-ok' => 'Lohß Jonn!',
 	'inlinecategorizer-confirm-save' => 'Avshpeishere',
-	'inlinecategorizer-confirm-save-all' => 'All di Änderunge faßhallde',
+	'inlinecategorizer-confirm-save-all' => 'All di Änderonge faßhallde',
 	'inlinecategorizer-confirm-title' => 'Akßjuhn beschtähtejje',
 	'inlinecategorizer-edit-category' => 'Donn heh di Saachjropp tuusche',
 	'inlinecategorizer-edit-category-error' => 'Mer kunnte di Saachjropp „$1“ nit ußtuusche.
@@ -1638,7 +1641,8 @@ $messages['lv'] = array(
 	'inlinecategorizer-error-title' => 'Kļūda (Error)',
 );
 
-/** Literary Chinese (文言) */
+/** Literary Chinese (文言)
+ */
 $messages['lzh'] = array(
 	'inlinecategorizer-add-category' => '加類',
 	'inlinecategorizer-add-category-submit' => '加',
@@ -1647,7 +1651,7 @@ $messages['lzh'] = array(
 	'inlinecategorizer-confirm-title' => '確',
 	'inlinecategorizer-error-title' => '錯',
 	'inlinecategorizer-remove-category-error' => '無取此類也。
-常於一模入類。',
+常於一模入類。', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '取類「$1」',
 );
 
@@ -1855,7 +1859,7 @@ $messages['myv'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Нардамс категориянть "$1"',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author EivindJ
  * @author Nghtwlkr
  */
@@ -1921,7 +1925,7 @@ Dit gebeurt meestentieds as de kategorie via n mal op de zied ezet is.',
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'inlinecategorizer-desc' => 'JavaScriptmodule die het toevoegen, verwijderen en wijzigen van categorieverwijzingen direct vanuit de pagina mogelijk maakt',
+	'inlinecategorizer-desc' => 'JavaScriptmodule die het toevoegen, verwijderen en wijzigen van categoriekoppelingen direct vanuit de pagina mogelijk maakt',
 	'inlinecategorizer-add-category' => 'Categorie toevoegen',
 	'inlinecategorizer-add-category-submit' => 'Toevoegen',
 	'inlinecategorizer-add-category-summary' => 'categorie "$1" toevoegen',
@@ -1947,7 +1951,7 @@ Dit gebeurt meestal als de categorie via een sjabloon aan de pagina is toegevoeg
 	'inlinecategorizer-remove-category-summary' => 'categorie "$1" verwijderen',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Gunnernett
  * @author Ranveig
  */
@@ -1959,7 +1963,7 @@ $messages['nn'] = array(
 	'inlinecategorizer-confirm-title' => 'Stadfest handling',
 	'inlinecategorizer-error-title' => 'Feil',
 	'inlinecategorizer-remove-category-error' => 'Det var ikkje mogleg å fjerna kategorien.
-Det skuldast som oftast at kategorien er vorte lagd til i sida inni ein mal.',
+Det skuldast som oftast at kategorien er vorte lagd til i sida inni ein mal.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Fjern kategorien "$1"',
 );
 
@@ -2055,7 +2059,7 @@ $messages['pms'] = array(
 	'inlinecategorizer-confirm-title' => 'Conferma assion',
 	'inlinecategorizer-error-title' => 'Eror',
 	'inlinecategorizer-remove-category-error' => "A l'era pa possìbil gavé sta categorìa-sì.
-Sòn-sì a càpita normalment quand la categorìa a l'é stàita giontà a la pàgina ant në stamp.",
+Sòn-sì a càpita normalment quand la categorìa a l'é stàita giontà a la pàgina ant në stamp.", # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Gava la categorìa "$1"',
 );
 
@@ -2206,7 +2210,7 @@ $messages['rm'] = array(
 	'inlinecategorizer-confirm-save' => 'Memorisar',
 	'inlinecategorizer-error-title' => 'Errur',
 	'inlinecategorizer-remove-category-error' => "I n'era betg pussaivel da stizzar questa categoria. 
-Quai capita normalmain sche la categoria è vegnida integrada en in model.",
+Quai capita normalmain sche la categoria è vegnida integrada en in model.", # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Allontanar la categoria "$1"',
 );
 
@@ -2382,7 +2386,7 @@ $messages['si'] = array(
 	'inlinecategorizer-error-title' => 'දෝෂය',
 	'inlinecategorizer-remove-category' => 'ප්‍රවර්ගය ඉවත් කරන්න',
 	'inlinecategorizer-remove-category-error' => 'මෙම වර්ගය ඉවත් කිරීම කළ නොහැකි විය.
-මෙය සාමාන්‍යයෙන් සිදු වන්නේ වර්ගය සැකිල්ලක ඇති පිටුවකට එකතු කර ඇති විටය.',
+මෙය සාමාන්‍යයෙන් සිදු වන්නේ වර්ගය සැකිල්ලක ඇති පිටුවකට එකතු කර ඇති විටය.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '"$1" වර්ගය ඉවත් කරන්න',
 );
 
@@ -2397,7 +2401,7 @@ $messages['sk'] = array(
 	'inlinecategorizer-confirm-title' => 'Potvrdiť operáciu',
 	'inlinecategorizer-error-title' => 'Chyba',
 	'inlinecategorizer-remove-category-error' => 'Nebolo možné odstrániť túto kategóriu.
-To sa zvyčajne stane, keď bola kategória pridaná na stránku v pomocou šablóny.',
+To sa zvyčajne stane, keď bola kategória pridaná na stránku v pomocou šablóny.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Odstrániť kategóriu „$1“',
 );
 
@@ -2442,7 +2446,7 @@ $messages['sli'] = array(
 	'inlinecategorizer-confirm-title' => 'Aksjonn bestätiga',
 	'inlinecategorizer-error-title' => 'Fahler',
 	'inlinecategorizer-remove-category-error' => 'Is woar ne meeglich, de Kategorie zu entferna.
-Dies passiert normalerweise, wenn de Kategorie ieber anne Vurloage eingebunda ies.',
+Dies passiert normalerweise, wenn de Kategorie ieber anne Vurloage eingebunda ies.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Kategorie „$1“ entferna',
 );
 
@@ -2518,7 +2522,7 @@ $messages['stq'] = array(
 	'inlinecategorizer-confirm-title' => 'Aktion bestäätigje',
 	'inlinecategorizer-error-title' => 'Failer',
 	'inlinecategorizer-remove-category-error' => 'Dät waas nit muugelk, ju Kategorie wächtouhoaljen.
-Dät passiert normoalerwiese, wan ju Kategorie uur ne Foarloage an ju Siede bietouföiged is',
+Dät passiert normoalerwiese, wan ju Kategorie uur ne Foarloage an ju Siede bietouföiged is', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Kategorie „$1“ wächhoalje',
 );
 
@@ -2539,7 +2543,7 @@ $messages['su'] = array(
 	'inlinecategorizer-error-title' => 'Éror',
 	'inlinecategorizer-remove-category' => 'Hapus katégori',
 	'inlinecategorizer-remove-category-error' => 'Ieu kategori teu mungkin dihapus.
-Hal ieu ilaharna dilarapkeun kana kategori anu ditambahkeun kana citakan.',
+Hal ieu ilaharna dilarapkeun kana kategori anu ditambahkeun kana citakan.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Hapus kategori "$1"',
 );
 
@@ -2581,24 +2585,24 @@ $messages['sw'] = array(
 	'inlinecategorizer-add-category' => 'Ongeza jamii',
 	'inlinecategorizer-add-category-submit' => 'Ongeza',
 	'inlinecategorizer-add-category-summary' => 'Ongeza jamii ya "$1"',
-	'inlinecategorizer-api-error' => 'API iliripoti hitilafu: $1: $2.',
-	'inlinecategorizer-api-unknown-error' => 'API iliripoti hitilafu isiyojulikana.',
+	'inlinecategorizer-api-error' => 'API iliripoti hitilafu: $1: $2.', # Fuzzy
+	'inlinecategorizer-api-unknown-error' => 'API iliripoti hitilafu isiyojulikana.', # Fuzzy
 	'inlinecategorizer-cancel' => 'Futa maharirio',
-	'inlinecategorizer-cancel-all' => 'Futa mabadiliko yote',
-	'inlinecategorizer-category-already-present' => 'Ukarasa huu tayari uko katika jamii ya $1',
-	'inlinecategorizer-category-question' => 'Kwa nini unataka kufanya mabadiliko yafuatayo:',
+	'inlinecategorizer-cancel-all' => 'Futa mabadiliko yote', # Fuzzy
+	'inlinecategorizer-category-already-present' => 'Ukarasa huu tayari uko katika jamii ya $1', # Fuzzy
+	'inlinecategorizer-category-question' => 'Kwa nini unataka kufanya mabadiliko yafuatayo:', # Fuzzy
 	'inlinecategorizer-confirm-ok' => 'Sawa',
 	'inlinecategorizer-confirm-save' => 'Hifadhi',
 	'inlinecategorizer-confirm-save-all' => 'Hifadhi mabadiliko yote',
 	'inlinecategorizer-confirm-title' => 'Uthibitishe kitendo',
 	'inlinecategorizer-edit-category' => 'Hariri jamii',
 	'inlinecategorizer-edit-category-error' => 'Ilikuwa si ​​rahisi kuhariri jamii ya "$1". 
-Hii kwa kawaida hutokea wakati jamii imekuwa imeingizwa katika ukurasa ndani ya kigezo.',
-	'inlinecategorizer-edit-category-summary' => 'Jamii ya "$1" imebadilishwa iwe "$2"',
+Hii kwa kawaida hutokea wakati jamii imekuwa imeingizwa katika ukurasa ndani ya kigezo.', # Fuzzy
+	'inlinecategorizer-edit-category-summary' => 'Jamii ya "$1" imebadilishwa iwe "$2"', # Fuzzy
 	'inlinecategorizer-error-title' => 'Hitilafu',
 	'inlinecategorizer-remove-category' => 'Ondoa jamii',
 	'inlinecategorizer-remove-category-error' => ' Jamii "$1" haikuweza kuondolewa.
-Huwa jamii haiwezi kuondolewa kwenye ukurasa wakati jamii imeingizwa ndani ya kigezo fulani.',
+Huwa jamii haiwezi kuondolewa kwenye ukurasa wakati jamii imeingizwa ndani ya kigezo fulani.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Ondoa jamii ya "$1"',
 );
 
@@ -2657,7 +2661,7 @@ $messages['tg-cyrl'] = array(
 	'inlinecategorizer-confirm-title' => 'Таъйиди амал',
 	'inlinecategorizer-error-title' => 'Хато',
 	'inlinecategorizer-remove-category-error' => 'Имкони ҳазви ин гурӯҳ вуҷуд надошт.
-Ин иттифоқ маъмулан замоне меафтад, ки гурӯҳ аз тариқи як шаблон ба саҳифа изофа шуда бошад.',
+Ин иттифоқ маъмулан замоне меафтад, ки гурӯҳ аз тариқи як шаблон ба саҳифа изофа шуда бошад.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Ҳазви гурӯҳӣ "$1"',
 );
 
@@ -2672,7 +2676,7 @@ $messages['tg-latn'] = array(
 	'inlinecategorizer-confirm-title' => "Ta'jidi amal",
 	'inlinecategorizer-error-title' => 'Xato',
 	'inlinecategorizer-remove-category-error' => "Imkoni hazvi in gurūh vuçud nadoşt.
-In ittifoq ma'mulan zamone meaftad, ki gurūh az tariqi jak şablon ba sahifa izofa şuda boşad.",
+In ittifoq ma'mulan zamone meaftad, ki gurūh az tariqi jak şablon ba sahifa izofa şuda boşad.", # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Hazvi gurūhī "$1"',
 );
 
@@ -2688,7 +2692,7 @@ $messages['th'] = array(
 	'inlinecategorizer-confirm-title' => 'ยืนยันการกระทำ',
 	'inlinecategorizer-error-title' => 'เกิดข้อผิดพลาด',
 	'inlinecategorizer-remove-category-error' => 'ไม่สามารถลบหมวดหมู่นี้ได้
-มักจะเกิดขึ้นอันเนื่องมาจากหมวดหมู่นี้ได้ถูกเพิ่มจากการเพิ่มแม่แบบเข้าไป',
+มักจะเกิดขึ้นอันเนื่องมาจากหมวดหมู่นี้ได้ถูกเพิ่มจากการเพิ่มแม่แบบเข้าไป', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'นำหมวดหมู่ "$1" ออก',
 );
 
@@ -2705,7 +2709,7 @@ $messages['tk'] = array(
 	'inlinecategorizer-confirm-title' => 'Işi tassykla',
 	'inlinecategorizer-error-title' => 'Säwlik',
 	'inlinecategorizer-remove-category-error' => 'Bu kategoriýany aýyryp bolmady.
-Bu adatça kategoriýa sahypanyň içindäki bir şablona goşulgy bolsa ýüze çykýar.',
+Bu adatça kategoriýa sahypanyň içindäki bir şablona goşulgy bolsa ýüze çykýar.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '"$1" kategoriýasyny aýyr',
 );
 
@@ -2758,7 +2762,7 @@ $messages['tr'] = array(
 	'inlinecategorizer-error-title' => 'Hata',
 	'inlinecategorizer-remove-category' => 'Kategoriyi kaldır',
 	'inlinecategorizer-remove-category-error' => 'Kategori silinemiyor. 
-Bu genelde kategori sayfaya bir şablon aracılığıyla eklendiğinde meydana gelir.',
+Bu genelde kategori sayfaya bir şablon aracılığıyla eklendiğinde meydana gelir.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '"$1" kategorisini kaldır',
 );
 
@@ -2773,7 +2777,7 @@ $messages['tt-cyrl'] = array(
 	'inlinecategorizer-confirm-save' => 'Саклау',
 	'inlinecategorizer-error-title' => 'Хата',
 	'inlinecategorizer-remove-category-error' => 'Бу бүлекне алып ташлап булмады.
-Гадәттә калып аша өстәлгән бүлекләрдә шушындый хаталар чыга.',
+Гадәттә калып аша өстәлгән бүлекләрдә шушындый хаталар чыга.', # Fuzzy
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
@@ -2787,7 +2791,7 @@ $messages['ug-arab'] = array(
 	'inlinecategorizer-confirm-title' => 'ھەرىكەت جەزملە',
 	'inlinecategorizer-error-title' => 'خاتالىق',
 	'inlinecategorizer-remove-category-error' => 'بۇ تۈرنى چىقىرىۋەتكىلى بولمايدۇ.
-مەلۇم بىر قېلىپقا بۇ تۈر قوشۇلغان بولسا مۇشۇ خىل ئەھۋال يۈز بېرىدۇ.',
+مەلۇم بىر قېلىپقا بۇ تۈر قوشۇلغان بولسا مۇشۇ خىل ئەھۋال يۈز بېرىدۇ.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '"$1" تۈرنى چىقىرىۋەت',
 );
 
@@ -2852,7 +2856,7 @@ $messages['vec'] = array(
 	'inlinecategorizer-confirm-title' => "Conferma l'azion",
 	'inlinecategorizer-error-title' => 'Eròr',
 	'inlinecategorizer-remove-category-error' => 'No se gà podesto cavar sta categoria.
-De solito questo el càpita co che la categoria la xe stà zontà a la pagina par via de un modèl.',
+De solito questo el càpita co che la categoria la xe stà zontà a la pagina par via de un modèl.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Cava categoria "$1"',
 );
 
@@ -2867,7 +2871,7 @@ $messages['vep'] = array(
 	'inlinecategorizer-confirm-title' => 'Vahvištoitta tegend',
 	'inlinecategorizer-error-title' => 'Petuz',
 	'inlinecategorizer-remove-category-error' => 'Ei voi čuta kategorijad poiš.
-Nece voib olda, ku kategorii om ližatud šablonan turbiš.',
+Nece voib olda, ku kategorii om ližatud šablonan turbiš.', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => 'Čuta poiš "$1"-kategorii',
 );
 
@@ -2936,7 +2940,8 @@ $messages['yi'] = array(
 	'inlinecategorizer-remove-category-summary' => 'אַוועקנעמען קאַטעגאריע "$1"',
 );
 
-/** Cantonese (粵語) */
+/** Cantonese (粵語)
+ */
 $messages['yue'] = array(
 	'inlinecategorizer-add-category' => '加分類',
 	'inlinecategorizer-add-category-submit' => '加',
@@ -2945,7 +2950,7 @@ $messages['yue'] = array(
 	'inlinecategorizer-confirm-title' => '確認動作',
 	'inlinecategorizer-error-title' => '錯誤',
 	'inlinecategorizer-remove-category-error' => '唔能夠拎走呢個分類。
-通常係發生響一個模度加入咗嗰個分類。',
+通常係發生響一個模度加入咗嗰個分類。', # Fuzzy
 	'inlinecategorizer-remove-category-summary' => '拎走分類「$1」',
 );
 
