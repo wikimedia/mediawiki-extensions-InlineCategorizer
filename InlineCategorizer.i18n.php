@@ -78,7 +78,8 @@ See also:
 	'inlinecategorizer-confirm-save' => 'Used as label for the Submit button.
 {{Identical|Save}}',
 	'inlinecategorizer-confirm-save-all' => 'Submit button to save all changes',
-	'inlinecategorizer-confirm-title' => 'Title for a dialog box in which the user is asked for an edit summary',
+	'inlinecategorizer-confirm-title' => 'Title for a dialog box in which the user is asked for an edit summary.
+{{Identical|Confirm action}}',
 	'inlinecategorizer-edit-category' => 'Tooltip for the edit link displayed after each category at the foot of a page. Refers to the specific category. "Edit this category" is also correct.',
 	'inlinecategorizer-edit-category-error' => 'Used as error message. Parameters:
 * $1 - ...',
@@ -1388,7 +1389,7 @@ $messages['ja'] = array(
 	'inlinecategorizer-confirm-ok' => 'OK',
 	'inlinecategorizer-confirm-save' => '保存',
 	'inlinecategorizer-confirm-save-all' => 'すべての変更を保存',
-	'inlinecategorizer-confirm-title' => '操作確認',
+	'inlinecategorizer-confirm-title' => '操作の確認',
 	'inlinecategorizer-edit-category' => 'カテゴリを編集',
 	'inlinecategorizer-edit-category-error' => 'カテゴリ「$1」を編集できませんでした。
 このエラーは通常、テンプレートによってページに追加されたカテゴリである場合に発生します。',
@@ -1774,9 +1775,10 @@ $messages['mn'] = array(
 
 /** Marathi (मराठी)
  * @author Htt
+ * @author V.narsikar
  */
 $messages['mr'] = array(
-	'inlinecategorizer-confirm-ok' => 'ठीक',
+	'inlinecategorizer-confirm-ok' => 'ठिक आहे',
 	'inlinecategorizer-confirm-save' => 'जतन करा',
 	'inlinecategorizer-confirm-save-all' => 'सर्व बदल जतन करा',
 );
