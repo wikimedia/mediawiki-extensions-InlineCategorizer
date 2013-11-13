@@ -80,7 +80,8 @@ See also:
 	'inlinecategorizer-confirm-save-all' => 'Submit button to save all changes',
 	'inlinecategorizer-confirm-title' => 'Title for a dialog box in which the user is asked for an edit summary.
 {{Identical|Confirm action}}',
-	'inlinecategorizer-edit-category' => 'Tooltip for the edit link displayed after each category at the foot of a page. Refers to the specific category. "Edit this category" is also correct.',
+	'inlinecategorizer-edit-category' => 'Tooltip for the edit link displayed after each category at the foot of a page. Refers to the specific category. "Edit this category" is also correct.
+{{Identical|Edit category}}',
 	'inlinecategorizer-edit-category-error' => 'Used as error message. Parameters:
 * $1 - ...',
 	'inlinecategorizer-edit-category-summary' => 'See {{msg-mw|inlinecategorizer-category-question}}.
@@ -90,13 +91,15 @@ Parameters:
 * $2 - category name',
 	'inlinecategorizer-error-title' => 'Used as title for a dismissable error dialog.
 {{Identical|Error}}',
-	'inlinecategorizer-remove-category' => 'Tooltip for link to remove a category from the page, displayed after each category at the foot of a page. Refers to the specific category. "Remove this category" is also correct.',
+	'inlinecategorizer-remove-category' => 'Tooltip for link to remove a category from the page, displayed after each category at the foot of a page. Refers to the specific category. "Remove this category" is also correct.
+{{Identical|Remove category}}',
 	'inlinecategorizer-remove-category-error' => 'Used as error message. Parameters:
 * $1 - ...',
 	'inlinecategorizer-remove-category-summary' => 'See {{msg-mw|inlinecategorizer-category-question}}.
 
 Parameters:
-* $1 - a category name',
+* $1 - a category name
+{{Identical|Remove category}}',
 );
 
 /** Afrikaans (Afrikaans)
