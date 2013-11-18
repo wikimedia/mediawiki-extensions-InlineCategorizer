@@ -662,10 +662,11 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  * @author Xoser
  */
 $messages['diq'] = array(
-	'inlinecategorizer-add-category' => 'Kategorî deke',
+	'inlinecategorizer-add-category' => 'Kategori dek',
 	'inlinecategorizer-add-category-submit' => 'De bike',
 	'inlinecategorizer-add-category-summary' => 'Kategorî de bike "$1"',
 	'inlinecategorizer-cancel' => 'Timar kerdışi bıterkne',
