@@ -524,7 +524,7 @@ $messages['cps'] = array(
 	'inlinecategorizer-remove-category-summary' => 'Kwa-on ang kategorya nga  "$1"',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -553,7 +553,7 @@ To se obvykle stává v případě, že byla stránka do kategorie přidána pro
 	'inlinecategorizer-remove-category-summary' => 'Odebrání kategorie „$1“',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
