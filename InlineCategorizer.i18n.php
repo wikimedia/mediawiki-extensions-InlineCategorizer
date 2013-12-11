@@ -2964,6 +2964,7 @@ $messages['yue'] = array(
  * @author Hydra
  * @author PhiLiP
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'inlinecategorizer-add-category' => '加入分类',
@@ -2980,11 +2981,11 @@ $messages['zh-hans'] = array(
 	'inlinecategorizer-confirm-save' => '保存',
 	'inlinecategorizer-confirm-save-all' => '保存所有更改',
 	'inlinecategorizer-confirm-title' => '确认动作',
-	'inlinecategorizer-edit-category' => '编辑类别',
+	'inlinecategorizer-edit-category' => '编辑分类',
 	'inlinecategorizer-edit-category-error' => '不能编辑分类“$1”。这通常是由于该分类是随模板加入页面的。',
-	'inlinecategorizer-edit-category-summary' => '更改类别 "$1" 至 "$2"',
+	'inlinecategorizer-edit-category-summary' => '更改分类 "$1" 至 "$2"',
 	'inlinecategorizer-error-title' => '错误',
-	'inlinecategorizer-remove-category' => '删除类别',
+	'inlinecategorizer-remove-category' => '删除分类',
 	'inlinecategorizer-remove-category-error' => '不能移除分类“$1”。这通常是由于该分类是随模板加入页面的。',
 	'inlinecategorizer-remove-category-summary' => '移除分类“$1”',
 );
