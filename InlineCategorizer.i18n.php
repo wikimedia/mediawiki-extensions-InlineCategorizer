@@ -1566,10 +1566,10 @@ $messages['ku-latn'] = array(
  * @author Soued031
  */
 $messages['lb'] = array(
-	'inlinecategorizer-desc' => "JavaScript deen et erlaabt fir Kategorien direkt op enger Säit z'änneren, dobäizesetzen oder erofzehuelen",
-	'inlinecategorizer-add-category' => 'Kategorie dobäisetzen',
-	'inlinecategorizer-add-category-submit' => 'Dobäisetzen',
-	'inlinecategorizer-add-category-summary' => 'Kategorie "$1" dobäisetzen',
+	'inlinecategorizer-desc' => "JavaScript deen et erlaabt fir Kategorien direkt op enger Säit z'änneren, derbäizesetzen oder erofzehuelen",
+	'inlinecategorizer-add-category' => 'Kategorie derbäisetzen',
+	'inlinecategorizer-add-category-submit' => 'Derbäisetzen',
+	'inlinecategorizer-add-category-summary' => 'Kategorie "$1" derbäisetzen',
 	'inlinecategorizer-api-error' => 'Den API huet e Feeler signaliséiert: $1: $2',
 	'inlinecategorizer-api-unknown-error' => "D'API huet een onbekannte Feeler zréckgeschéckt.",
 	'inlinecategorizer-cancel' => 'Ännerungen annuléieren',
@@ -1583,12 +1583,12 @@ $messages['lb'] = array(
 	'inlinecategorizer-confirm-title' => 'Aktioun confirméieren',
 	'inlinecategorizer-edit-category' => 'Kategorie änneren',
 	'inlinecategorizer-edit-category-error' => "Et war net méiglech d'Kategorie $1 z'änneren.
-Dat geschitt gewéinlech wann d'Kategorie duerch eng Schabloun op d'Säit dobäigesat gouf.",
+Dat geschitt gewéinlech wann d'Kategorie duerch eng Schabloun op d'Säit derbäigesat gouf.",
 	'inlinecategorizer-edit-category-summary' => 'Kategorie "$1" op "$2" änneren',
 	'inlinecategorizer-error-title' => 'Feeler',
 	'inlinecategorizer-remove-category' => 'Kategorie ewechhuelen',
 	'inlinecategorizer-remove-category-error' => "Et war net méiglech d'Kategorie $1 ewechzehuelen.
-Dëst geschitt gewéinlech da wann eng Kategorie duerch eng Schabloun op d'Säit dobäigesat gouf.",
+Dëst geschitt gewéinlech da wann eng Kategorie duerch eng Schabloun op d'Säit derbäigesat gouf.",
 	'inlinecategorizer-remove-category-summary' => 'Kategorie "$1" ewechhuelen',
 );
 
