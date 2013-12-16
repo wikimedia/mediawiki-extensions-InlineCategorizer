@@ -561,6 +561,7 @@ $messages['cu'] = array(
 );
 
 /** Welsh (Cymraeg)
+ * @author Cymrodor
  * @author Lloffiwr
  */
 $messages['cy'] = array(
@@ -576,8 +577,8 @@ $messages['cy'] = array(
 	'inlinecategorizer-category-hook-error' => 'Rhwystrodd ffwythiant lleol y newidiadau rhag cael eu rhoi ar gadw.',
 	'inlinecategorizer-category-question' => "Pam ydych chi am wneud y newidiadau sy'n dilyn:",
 	'inlinecategorizer-confirm-ok' => 'Iawn',
-	'inlinecategorizer-confirm-save' => 'Cadwer',
-	'inlinecategorizer-confirm-save-all' => 'Cadwer yr holl newidiadau',
+	'inlinecategorizer-confirm-save' => 'Cadw',
+	'inlinecategorizer-confirm-save-all' => "Cadw'r holl newidiadau",
 	'inlinecategorizer-confirm-title' => "Cadarnhau'r weithred",
 	'inlinecategorizer-edit-category' => "Golygu'r categori",
 	'inlinecategorizer-edit-category-error' => 'Nid oedd modd golygu\'r categori "$1".
@@ -2962,11 +2963,13 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Liuxinyu970226
  * @author PhiLiP
  * @author Xiaomingyan
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'inlinecategorizer-desc' => '一个允许在页面直接更改、添加和移除分类连接的JavaScript模块',
 	'inlinecategorizer-add-category' => '加入分类',
 	'inlinecategorizer-add-category-submit' => '添加',
 	'inlinecategorizer-add-category-summary' => '加入分类“$1”',
@@ -2983,7 +2986,7 @@ $messages['zh-hans'] = array(
 	'inlinecategorizer-confirm-title' => '确认动作',
 	'inlinecategorizer-edit-category' => '编辑分类',
 	'inlinecategorizer-edit-category-error' => '不能编辑分类“$1”。这通常是由于该分类是随模板加入页面的。',
-	'inlinecategorizer-edit-category-summary' => '更改分类 "$1" 至 "$2"',
+	'inlinecategorizer-edit-category-summary' => '更改分类“$1”至“$2”',
 	'inlinecategorizer-error-title' => '错误',
 	'inlinecategorizer-remove-category' => '删除分类',
 	'inlinecategorizer-remove-category-error' => '不能移除分类“$1”。这通常是由于该分类是随模板加入页面的。',
