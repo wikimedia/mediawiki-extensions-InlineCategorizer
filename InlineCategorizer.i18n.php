@@ -985,6 +985,20 @@ $messages['fur'] = array(
 	'inlinecategorizer-remove-category-summary' => "Gjave la categorie ''$1''",
 );
 
+/** Western Frisian (Frysk)
+ * @author Kening Aldgilles
+ */
+$messages['fy'] = array(
+	'inlinecategorizer-cancel' => 'Bewurking ôfbrekke',
+	'inlinecategorizer-cancel-all' => 'Alle feroaringen weromsette',
+	'inlinecategorizer-confirm-ok' => 'Okee',
+	'inlinecategorizer-confirm-save' => 'Fêstlizze',
+	'inlinecategorizer-confirm-save-all' => 'Jo feroarings bewarje',
+	'inlinecategorizer-edit-category' => 'Kategory bewurkje',
+	'inlinecategorizer-remove-category' => 'Kategory fuorthelje',
+	'inlinecategorizer-remove-category-summary' => 'Kategory $1 fuorthelje',
+);
+
 /** Irish (Gaeilge)
  * @author Kwekubo
  * @author පසිඳු කාවින්ද
