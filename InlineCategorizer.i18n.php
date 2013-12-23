@@ -497,8 +497,8 @@ Això sol passar quan la categoria s'ha afegit a la pàgina en una plantilla.", 
  * @author Умар
  */
 $messages['ce'] = array(
-	'inlinecategorizer-add-category' => 'Тlетоха категори',
-	'inlinecategorizer-add-category-submit' => 'Тlетоха',
+	'inlinecategorizer-add-category' => 'ТӀетоха категори',
+	'inlinecategorizer-add-category-submit' => 'ТӀетоха',
 	'inlinecategorizer-add-category-summary' => 'Тlетоьхна категори «$1»',
 	'inlinecategorizer-cancel' => 'Цаоьшу хийцамаш',
 	'inlinecategorizer-cancel-all' => 'Цаоьшу массо хийцамаш',
