@@ -528,6 +528,7 @@ $messages['cps'] = array(
  * @author Mormegil
  */
 $messages['cs'] = array(
+	'inlinecategorizer-desc' => 'JavaScriptový modul, který umožňuje měnit, přidávat a odstraňovat odkazy na kategorie přímo na stránce',
 	'inlinecategorizer-add-category' => 'Přidat kategorii',
 	'inlinecategorizer-add-category-submit' => 'Přidat',
 	'inlinecategorizer-add-category-summary' => 'Přidání kategorie „$1“',
