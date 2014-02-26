@@ -2650,6 +2650,7 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Veeven
  */
 $messages['te'] = array(
@@ -2666,7 +2667,7 @@ $messages['te'] = array(
 	'inlinecategorizer-confirm-title' => 'చర్యని నిర్ధారించండి',
 	'inlinecategorizer-edit-category' => 'వర్గాన్ని మార్చండి',
 	'inlinecategorizer-edit-category-summary' => 'వర్గాన్ని "$1" నుండి "$2"కి మార్చు',
-	'inlinecategorizer-error-title' => 'పొరపాటు',
+	'inlinecategorizer-error-title' => 'లోపం',
 	'inlinecategorizer-remove-category' => 'వర్గాన్ని తొలగించు',
 	'inlinecategorizer-remove-category-error' => '"$1" వర్గాన్ని తొలగించడం సాధ్యం కాలేదు.
 పేజీకి ఆ వర్గం ఒక మూస ద్వారా చేరినప్పుడు సాధారణంగా ఇలా జరుగుతుంది.',
