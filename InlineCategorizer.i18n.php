@@ -505,6 +505,7 @@ $messages['ce'] = array(
 	'inlinecategorizer-category-already-present' => 'ХӀара агӀо ю хӀокху $1 категори чуйогӀуш',
 	'inlinecategorizer-confirm-save' => 'Ӏалашдан',
 	'inlinecategorizer-confirm-title' => 'Тlечlагlде дийриг',
+	'inlinecategorizer-edit-category' => 'Хийца категори',
 	'inlinecategorizer-error-title' => 'Гlалат',
 	'inlinecategorizer-remove-category-summary' => 'дӀаяккха категори «$1»',
 );
