@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "Helix84"
+        ]
+    },
+    "inlinecategorizer-add-category": "Pridať kategóriu",
+    "inlinecategorizer-add-category-submit": "Pridať",
+    "inlinecategorizer-add-category-summary": "Pridať kategóriu „$1“",
+    "inlinecategorizer-confirm-save": "Uložiť",
+    "inlinecategorizer-confirm-title": "Potvrdiť operáciu",
+    "inlinecategorizer-error-title": "Chyba",
+    "inlinecategorizer-remove-category-error": "Nebolo možné odstrániť túto kategóriu.\nTo sa zvyčajne stane, keď bola kategória pridaná na stránku v pomocou šablóny.",
+    "inlinecategorizer-remove-category-summary": "Odstrániť kategóriu „$1“"
+}

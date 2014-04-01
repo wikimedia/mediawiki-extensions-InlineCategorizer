@@ -1,13 +1,12 @@
 <?php
 /**
  * InlineCategorizer extension
- * 
+ *
  * @file
  * @ingroup Extensions
- * 
+ *
  * @author Timo Tijhof <ttijhof@wikimedia.org>
  * @license GPL v2 or later
- * @version 0.0.1
  */
 
 /* Configuration */
@@ -31,7 +30,7 @@ $wgExtensionCredits['other'][] = array(
 		'Timo Tijhof',
 		'Leo Koppelkamm',
 	),
-	'version' => '0.0.1',
+	'version' => '0.1.0',
 	'descriptionmsg' => 'inlinecategorizer-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:InlineCategorizer'
 );
@@ -39,6 +38,7 @@ $wgExtensionCredits['other'][] = array(
 // Autoloading
 $dir = dirname( __FILE__ ) . '/';
 $wgAutoloadClasses['InlineCategorizerHooks'] = $dir . 'InlineCategorizer.hooks.php';
+$wgMessagesDirs['InlineCategorizer'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['InlineCategorizer'] = $dir . 'InlineCategorizer.i18n.php';
 
 // Hooks
