@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Andria"
-        ]
-    },
-    "inlinecategorizer-confirm-save": "Sarba",
-    "inlinecategorizer-error-title": "Faddina"
+	"@metadata": {
+		"authors": [
+			"Andria"
+		]
+	},
+	"inlinecategorizer-confirm-save": "Sarba",
+	"inlinecategorizer-error-title": "Faddina"
 }

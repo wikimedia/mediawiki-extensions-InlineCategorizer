@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Htt",
-            "V.narsikar"
-        ]
-    },
-    "inlinecategorizer-confirm-ok": "ठिक आहे",
-    "inlinecategorizer-confirm-save": "जतन करा",
-    "inlinecategorizer-confirm-save-all": "सर्व बदल जतन करा"
+	"@metadata": {
+		"authors": [
+			"Htt",
+			"V.narsikar"
+		]
+	},
+	"inlinecategorizer-confirm-ok": "ठिक आहे",
+	"inlinecategorizer-confirm-save": "जतन करा",
+	"inlinecategorizer-confirm-save-all": "सर्व बदल जतन करा"
 }

@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ans",
-            "Octahedron80"
-        ]
-    },
-    "inlinecategorizer-add-category": "เพิ่มหมวดหมู่",
-    "inlinecategorizer-add-category-submit": "เพิ่ม",
-    "inlinecategorizer-add-category-summary": "เพิ่มหมวดหมู่ \"$1\"",
-    "inlinecategorizer-confirm-save": "บันทึก",
-    "inlinecategorizer-confirm-title": "ยืนยันการกระทำ",
-    "inlinecategorizer-error-title": "เกิดข้อผิดพลาด",
-    "inlinecategorizer-remove-category-error": "ไม่สามารถลบหมวดหมู่นี้ได้\nมักจะเกิดขึ้นอันเนื่องมาจากหมวดหมู่นี้ได้ถูกเพิ่มจากการเพิ่มแม่แบบเข้าไป",
-    "inlinecategorizer-remove-category-summary": "นำหมวดหมู่ \"$1\" ออก"
+	"@metadata": {
+		"authors": [
+			"Ans",
+			"Octahedron80"
+		]
+	},
+	"inlinecategorizer-add-category": "เพิ่มหมวดหมู่",
+	"inlinecategorizer-add-category-submit": "เพิ่ม",
+	"inlinecategorizer-add-category-summary": "เพิ่มหมวดหมู่ \"$1\"",
+	"inlinecategorizer-confirm-save": "บันทึก",
+	"inlinecategorizer-confirm-title": "ยืนยันการกระทำ",
+	"inlinecategorizer-error-title": "เกิดข้อผิดพลาด",
+	"inlinecategorizer-remove-category-error": "ไม่สามารถลบหมวดหมู่นี้ได้\nมักจะเกิดขึ้นอันเนื่องมาจากหมวดหมู่นี้ได้ถูกเพิ่มจากการเพิ่มแม่แบบเข้าไป",
+	"inlinecategorizer-remove-category-summary": "นำหมวดหมู่ \"$1\" ออก"
 }

@@ -1,22 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "Emperyan",
-            "Srhat"
-        ]
-    },
-    "inlinecategorizer-add-category": "Kategori ekle",
-    "inlinecategorizer-add-category-submit": "Ekle",
-    "inlinecategorizer-add-category-summary": "\"$1\" kategorisini ekle",
-    "inlinecategorizer-cancel": "Düzenlemeyi iptal et",
-    "inlinecategorizer-cancel-all": "Tüm değişiklikleri iptal et",
-    "inlinecategorizer-confirm-ok": "TAMAM",
-    "inlinecategorizer-confirm-save": "Kaydet",
-    "inlinecategorizer-confirm-save-all": "Tüm değişiklikleri kaydet",
-    "inlinecategorizer-confirm-title": "İşlemi onayla",
-    "inlinecategorizer-edit-category": "Kategori düzenle",
-    "inlinecategorizer-error-title": "Hata",
-    "inlinecategorizer-remove-category": "Kategoriyi kaldır",
-    "inlinecategorizer-remove-category-error": "Kategori silinemiyor. \nBu genelde kategori sayfaya bir şablon aracılığıyla eklendiğinde meydana gelir.",
-    "inlinecategorizer-remove-category-summary": "\"$1\" kategorisini kaldır"
+	"@metadata": {
+		"authors": [
+			"Emperyan",
+			"Srhat"
+		]
+	},
+	"inlinecategorizer-add-category": "Kategori ekle",
+	"inlinecategorizer-add-category-submit": "Ekle",
+	"inlinecategorizer-add-category-summary": "\"$1\" kategorisini ekle",
+	"inlinecategorizer-cancel": "Düzenlemeyi iptal et",
+	"inlinecategorizer-cancel-all": "Tüm değişiklikleri iptal et",
+	"inlinecategorizer-confirm-ok": "TAMAM",
+	"inlinecategorizer-confirm-save": "Kaydet",
+	"inlinecategorizer-confirm-save-all": "Tüm değişiklikleri kaydet",
+	"inlinecategorizer-confirm-title": "İşlemi onayla",
+	"inlinecategorizer-edit-category": "Kategori düzenle",
+	"inlinecategorizer-error-title": "Hata",
+	"inlinecategorizer-remove-category": "Kategoriyi kaldır",
+	"inlinecategorizer-remove-category-error": "Kategori silinemiyor. \nBu genelde kategori sayfaya bir şablon aracılığıyla eklendiğinde meydana gelir.",
+	"inlinecategorizer-remove-category-summary": "\"$1\" kategorisini kaldır"
 }

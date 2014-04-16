@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Klenje"
-        ]
-    },
-    "inlinecategorizer-add-category": "Zonte categorie",
-    "inlinecategorizer-add-category-submit": "Zonte",
-    "inlinecategorizer-add-category-summary": "Zonte la categorie ''$1''",
-    "inlinecategorizer-confirm-save": "Salve",
-    "inlinecategorizer-confirm-title": "Conferme l'azion",
-    "inlinecategorizer-error-title": "Erôr",
-    "inlinecategorizer-remove-category-summary": "Gjave la categorie ''$1''"
+	"@metadata": {
+		"authors": [
+			"Klenje"
+		]
+	},
+	"inlinecategorizer-add-category": "Zonte categorie",
+	"inlinecategorizer-add-category-submit": "Zonte",
+	"inlinecategorizer-add-category-summary": "Zonte la categorie ''$1''",
+	"inlinecategorizer-confirm-save": "Salve",
+	"inlinecategorizer-confirm-title": "Conferme l'azion",
+	"inlinecategorizer-error-title": "Erôr",
+	"inlinecategorizer-remove-category-summary": "Gjave la categorie ''$1''"
 }

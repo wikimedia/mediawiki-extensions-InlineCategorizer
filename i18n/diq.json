@@ -1,25 +1,25 @@
 {
-    "@metadata": {
-        "authors": [
-            "Erdemaslancan",
-            "Gorizon",
-            "Mirzali",
-            "Xoser"
-        ]
-    },
-    "inlinecategorizer-add-category": "Kategoriye cı ke",
-    "inlinecategorizer-add-category-submit": "De bike",
-    "inlinecategorizer-add-category-summary": "Kategorî de bike \"$1\"",
-    "inlinecategorizer-cancel": "Vurnayışi bıtexelne",
-    "inlinecategorizer-cancel-all": "Vurnayışan pêro bıtexelne",
-    "inlinecategorizer-confirm-ok": "TEMAM",
-    "inlinecategorizer-confirm-save": "Qeyd ke",
-    "inlinecategorizer-confirm-save-all": "Vurnayışan pêro qeyd ke",
-    "inlinecategorizer-confirm-title": "Tesdiqiye",
-    "inlinecategorizer-edit-category": "Kategoriye timar ke",
-    "inlinecategorizer-edit-category-summary": "Kategoriya \"$1\" , \"$2\" deye vuriyê",
-    "inlinecategorizer-error-title": "Xırab",
-    "inlinecategorizer-remove-category": "Kategoriyer wedarne",
-    "inlinecategorizer-remove-category-error": "Kategoriyê \"$1\" yo nêbesterneyêno.\nÇi wext yew kategorî yew şablon de ca geno, pela dı ena problem bena.",
-    "inlinecategorizer-remove-category-summary": "kategoriyê \"$1\"i biwedarne"
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan",
+			"Gorizon",
+			"Mirzali",
+			"Xoser"
+		]
+	},
+	"inlinecategorizer-add-category": "Kategoriye cı ke",
+	"inlinecategorizer-add-category-submit": "De bike",
+	"inlinecategorizer-add-category-summary": "Kategorî de bike \"$1\"",
+	"inlinecategorizer-cancel": "Vurnayışi bıtexelne",
+	"inlinecategorizer-cancel-all": "Vurnayışan pêro bıtexelne",
+	"inlinecategorizer-confirm-ok": "TEMAM",
+	"inlinecategorizer-confirm-save": "Qeyd ke",
+	"inlinecategorizer-confirm-save-all": "Vurnayışan pêro qeyd ke",
+	"inlinecategorizer-confirm-title": "Tesdiqiye",
+	"inlinecategorizer-edit-category": "Kategoriye timar ke",
+	"inlinecategorizer-edit-category-summary": "Kategoriya \"$1\" , \"$2\" deye vuriyê",
+	"inlinecategorizer-error-title": "Xırab",
+	"inlinecategorizer-remove-category": "Kategoriyer wedarne",
+	"inlinecategorizer-remove-category-error": "Kategoriyê \"$1\" yo nêbesterneyêno.\nÇi wext yew kategorî yew şablon de ca geno, pela dı ena problem bena.",
+	"inlinecategorizer-remove-category-summary": "kategoriyê \"$1\"i biwedarne"
 }
