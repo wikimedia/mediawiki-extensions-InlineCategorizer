@@ -9,7 +9,7 @@
 		]
 	},
 	"inlinecategorizer-desc": "一个允许在页面直接更改、添加和移除分类连接的JavaScript模块",
-	"inlinecategorizer-add-category": "加入分类",
+	"inlinecategorizer-add-category": "添加分类",
 	"inlinecategorizer-add-category-submit": "添加",
 	"inlinecategorizer-add-category-summary": "加入分类“$1”",
 	"inlinecategorizer-api-error": "API返回了错误：$1：$2。",
