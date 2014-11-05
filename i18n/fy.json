@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kening Aldgilles"
+			"Kening Aldgilles",
+			"Robin0van0der0vliet"
 		]
 	},
 	"inlinecategorizer-cancel": "Bewurking ôfbrekke",
@@ -10,6 +11,7 @@
 	"inlinecategorizer-confirm-save": "Fêstlizze",
 	"inlinecategorizer-confirm-save-all": "Jo feroarings bewarje",
 	"inlinecategorizer-edit-category": "Kategory bewurkje",
+	"inlinecategorizer-error-title": "Flater",
 	"inlinecategorizer-remove-category": "Kategory fuorthelje",
 	"inlinecategorizer-remove-category-summary": "Kategory $1 fuorthelje"
 }
