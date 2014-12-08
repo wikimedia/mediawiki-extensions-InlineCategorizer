@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mark85296341"
+			"Mark85296341",
+			"Liuxinyu970226"
 		]
 	},
 	"inlinecategorizer-add-category": "加入分類",
-	"inlinecategorizer-add-category-submit": "加入",
+	"inlinecategorizer-add-category-submit": "新增",
 	"inlinecategorizer-add-category-summary": "加入分類「$1」",
 	"inlinecategorizer-api-error": "API返回了錯誤：$1：$2。",
 	"inlinecategorizer-api-unknown-error": "API返回了未知錯誤。",
