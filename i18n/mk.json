@@ -9,7 +9,7 @@
 	"inlinecategorizer-add-category": "Додај категорија",
 	"inlinecategorizer-add-category-submit": "Додај",
 	"inlinecategorizer-add-category-summary": "Додај категорија \"$1\"",
-	"inlinecategorizer-api-error": "API врати грешка: $1: $2",
+	"inlinecategorizer-api-error": "Извршникот врати грешка: $1: $2",
 	"inlinecategorizer-api-unknown-error": "API врати непозната грешка.",
 	"inlinecategorizer-cancel": "Откажи уредувања",
 	"inlinecategorizer-cancel-all": "Откажи ги сите промени",
