@@ -5,10 +5,11 @@
 			"EugeneZelenko",
 			"Fryed-peach",
 			"Lloffiwr",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"inlinecategorizer-desc": "{{desc|name=Inline Categorizer|url=http://www.mediawiki.org/wiki/Extension:InlineCategorizer}}",
+	"inlinecategorizer-desc": "{{desc|name=Inline Categorizer|url=https://www.mediawiki.org/wiki/Extension:InlineCategorizer}}",
 	"inlinecategorizer-add-category": "{{doc-actionlink}}\n{{Identical|Add category}}",
 	"inlinecategorizer-add-category-submit": "{{Identical|Add}}",
 	"inlinecategorizer-add-category-summary": "See {{msg-mw|inlinecategorizer-category-question}}.\n\nParameters:\n* $1 - a category name",
