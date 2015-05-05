@@ -13,5 +13,6 @@
 	"inlinecategorizer-confirm-save-all": "Hemû guhertinan tomar bike",
 	"inlinecategorizer-edit-category": "Kategoriyê biguherîne",
 	"inlinecategorizer-error-title": "Çewtî",
-	"inlinecategorizer-remove-category": "Kategoriyê jê bibe"
+	"inlinecategorizer-remove-category": "Kategoriyê jê bibe",
+	"inlinecategorizer-remove-category-summary": "Kategoriya \"$1\" jê bibe"
 }
