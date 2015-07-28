@@ -14,7 +14,7 @@
 	"inlinecategorizer-cancel": "Откажи уредувања",
 	"inlinecategorizer-cancel-all": "Откажи ги сите промени",
 	"inlinecategorizer-category-already-present": "Страницава веќе ѝ припаѓа на категоријата $1",
-	"inlinecategorizer-category-hook-error": "Локална функција го спречи зачувувањето на измените",
+	"inlinecategorizer-category-hook-error": "Месна функција го спречи зачувувањето на измените.",
 	"inlinecategorizer-category-question": "Зошто сакате да ги извршите следниве измени:",
 	"inlinecategorizer-confirm-ok": "ОК",
 	"inlinecategorizer-confirm-save": "Зачувај",
