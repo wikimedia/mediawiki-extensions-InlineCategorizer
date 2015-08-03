@@ -4,7 +4,8 @@
 			"AS",
 			"Andriykopanytsia",
 			"Dim Grits",
-			"Тест"
+			"Тест",
+			"Ата"
 		]
 	},
 	"inlinecategorizer-desc": "JavaScript-модуль, який дозволяє змінювати, додавати та вилучати посилання на категорії прямо зі сторінки",
@@ -13,7 +14,7 @@
 	"inlinecategorizer-add-category-summary": "Додати категорію „$1“",
 	"inlinecategorizer-api-error": "API повернув помилку: $1: $2 .",
 	"inlinecategorizer-api-unknown-error": "API сповістив про невідому помилку.",
-	"inlinecategorizer-cancel": "Скасувати правку",
+	"inlinecategorizer-cancel": "Скасувати редагування",
 	"inlinecategorizer-cancel-all": "Скасувати всі зміни",
 	"inlinecategorizer-category-already-present": "Ця сторінка вже належить до категорії \"$1\"",
 	"inlinecategorizer-category-hook-error": "Локальної функція перешкодила застосуванню змін.",
