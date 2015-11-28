@@ -3,12 +3,13 @@
 		"authors": [
 			"Ajdar",
 			"Don Alessandro",
-			"KhayR"
+			"KhayR",
+			"Ильнар"
 		]
 	},
 	"inlinecategorizer-add-category": "Бүлек өстәргә",
 	"inlinecategorizer-add-category-submit": "Өстәргә",
 	"inlinecategorizer-confirm-save": "Саклау",
 	"inlinecategorizer-error-title": "Хата",
-	"inlinecategorizer-remove-category-error": "Бу бүлекне алып ташлап булмады.\nГадәттә калып аша өстәлгән бүлекләрдә шушындый хаталар чыга."
+	"inlinecategorizer-remove-category-error": "Бу «$1» төркемне алып ташлап булмады.\nГадәттә калып аша өстәлгән бүлекләрдә шушындый хаталар чыга."
 }
