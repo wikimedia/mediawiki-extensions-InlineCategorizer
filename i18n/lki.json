@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lakzon"
+		]
+	},
+	"inlinecategorizer-add-category": "افزودن رده/ڕِزگ",
+	"inlinecategorizer-edit-category": "دةسکاری رده/ڕِزگ",
+	"inlinecategorizer-edit-category-summary": "تغییر رده «$1» به «$2»",
+	"inlinecategorizer-remove-category": "حةذف رده/ڕِزگ",
+	"inlinecategorizer-remove-category-summary": "$1 حةذف رده/ڕِزگ"
+}
