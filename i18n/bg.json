@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"Vodnokon4e"
 		]
 	},
+	"inlinecategorizer-desc": "JavaScript-модул, позволяващ промяна, добавяне и премахване на връзки към категории директно от страница",
 	"inlinecategorizer-add-category": "Добавяне на категория",
 	"inlinecategorizer-add-category-submit": "Добавяне",
 	"inlinecategorizer-add-category-summary": "Добавяне на категория „$1“",
