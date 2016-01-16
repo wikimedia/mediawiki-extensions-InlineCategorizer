@@ -4,7 +4,8 @@
 			"An13sa",
 			"Unai Fdz. de Betoño",
 			"පසිඳු කාවින්ද",
-			"Subi"
+			"Subi",
+			"Xabier Armendaritz"
 		]
 	},
 	"inlinecategorizer-add-category": "Kategoria gehitu",
@@ -16,6 +17,6 @@
 	"inlinecategorizer-confirm-save-all": "Gorde orrialde guztiak",
 	"inlinecategorizer-confirm-title": "Ekintza egiaztatu",
 	"inlinecategorizer-error-title": "Errorea",
-	"inlinecategorizer-remove-category-error": "Ezin izan da \"$1\" kategoria ezabatu.\nArrazoia izan ohi da kategoria hori txantiloi batek erantsi diola orrialdera.",
+	"inlinecategorizer-remove-category-error": "Ezin izan da «$1» kategoria ezabatu.\nArrazoia izan ohi da kategoria hori txantiloi batean erantsi diotela orriari.",
 	"inlinecategorizer-remove-category-summary": "\"$1\" kategoria ezabatu"
 }
