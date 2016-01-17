@@ -4,9 +4,9 @@
 			"Lakzon"
 		]
 	},
-	"inlinecategorizer-add-category": "افزودن رده/ڕِزگ",
+	"inlinecategorizer-add-category": "افزودن ڕِزگ",
 	"inlinecategorizer-edit-category": "دەسکاری ڕِزگ(رده)",
-	"inlinecategorizer-edit-category-summary": "تغییر رده «$1» به «$2»",
-	"inlinecategorizer-remove-category": "حةذف رده/ڕِزگ",
-	"inlinecategorizer-remove-category-summary": "$1 حةذف رده/ڕِزگ"
+	"inlinecategorizer-edit-category-summary": "گؤەڕانن ڕزگ «$1» وە «$2»",
+	"inlinecategorizer-remove-category": "ڕِزگە پاکآکە",
+	"inlinecategorizer-remove-category-summary": "ڕِزگە $1 پاکآکە"
 }
