@@ -6,4 +6,4 @@ jQuery( document ).ready( function () {
 	// Separate function for call to prevent jQuery
 	// from executing it in the document context.
 	mw.page.inlineCategorizer.setup();
-} );
+});

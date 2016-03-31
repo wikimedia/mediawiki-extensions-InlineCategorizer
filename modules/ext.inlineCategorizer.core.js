@@ -8,7 +8,10 @@
  * Relies on: mw.config (wgFormattedNamespaces, wgNamespaceIds,
  * wgCaseSensitiveNamespaces, wgUserGroups), mw.util.wikiGetlink
  */
-( function ($) {
+
+/*jshint -W038 */
+
+( function ( $, mw ) {
 
 	/* Local scope */
 
@@ -233,7 +236,7 @@ mw.InlineCategorizer = function( options ) {
 	 * @context Element
 	 * @param e {jQuery Event}
 	 */
-	this.handleAddLink = function( e ) {
+	this.handleAddLink = function() {
 		var	$el = $( this ),
 			$link = $([]),
 			categoryText = $el.parent().find( '.mw-addcategory-input' ).val() || '';
@@ -248,7 +251,7 @@ mw.InlineCategorizer = function( options ) {
 	 * @context Element
 	 * @param e {jQuery Event}
 	 */
-	this.createEditInterface = function( e ) {
+	this.createEditInterface = function() {
 		var $el = $( this ),
 			$link = $el.data( 'link' ),
 			category = $link.text(),
@@ -290,7 +293,7 @@ mw.InlineCategorizer = function( options ) {
 	 * @context Element
 	 * @param e {jQuery Event}
 	 */
-	this.handleEditLink = function( e ) {
+	this.handleEditLink = function() {
 		var	input, category, sortkey, categoryOld,
 			$el = $( this ),
 			$link = $el.parent().parent().find( 'a:not(.icon)' );
@@ -326,7 +329,7 @@ mw.InlineCategorizer = function( options ) {
 	 * @context Element
 	 * @param e {jQuery Event}
 	 */
-	this.handleDeleteLink = function( e ) {
+	this.handleDeleteLink = function() {
 		var	$el = $( this ),
 			$link = $el.parent().find( 'a:not(.icon)' ),
 			category = $link.text();
@@ -353,7 +356,7 @@ mw.InlineCategorizer = function( options ) {
 	this.handleStashedCategories = function() {
 
 		// Remove "holes" in array
-		var dialogDescriptions = $.grep( ajaxcat.stash.dialogDescriptions, function( n, i ) {
+		var dialogDescriptions = $.grep( ajaxcat.stash.dialogDescriptions, function( n ) {
 			return n;
 		} );
 
@@ -367,7 +370,7 @@ mw.InlineCategorizer = function( options ) {
 		}
 
 		// Remove "holes" in array
-		var summaryShort = $.grep( ajaxcat.stash.editSummaries, function( n,i ) {
+		var summaryShort = $.grep( ajaxcat.stash.editSummaries, function( n ) {
 			return n;
 		} );
 		summaryShort = summaryShort.join( ', ' );
@@ -485,8 +488,7 @@ mw.InlineCategorizer.prototype = {
 		// Create add category prompt
 		var	$promptContainer = $( '<div class="mw-addcategory-prompt"></div>' ),
 			$promptTextbox = $( '<input type="text" size="30" class="mw-addcategory-input"></input>' ),
-			$addButton = $( '<input type="button" class="mw-addcategory-button"></input>' ),
-			ajaxcat = this;
+			$addButton = $( '<input type="button" class="mw-addcategory-button"></input>' );
 
 		if ( prefill !== '' ) {
 			$promptTextbox.val( prefill );
@@ -1117,7 +1119,7 @@ mw.InlineCategorizer.prototype = {
 
 		mw.util.$content.append( dialog );
 
-		buttons[mw.msg( 'inlinecategorizer-confirm-ok' )] = function( e ) {
+		buttons[mw.msg( 'inlinecategorizer-confirm-ok' )] = function() {
 			dialog.dialog( 'close' );
 		};
 
@@ -1152,4 +1154,4 @@ mw.InlineCategorizer.prototype = {
 	}
 };
 
-})(jQuery);
+}( jQuery, mediaWiki ) );
