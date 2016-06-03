@@ -20,10 +20,10 @@
 	"inlinecategorizer-confirm-save-all": "Enregistrar totas las modificacions",
 	"inlinecategorizer-confirm-title": "Confirmar l'accion",
 	"inlinecategorizer-edit-category": "Modificar una categoria",
-	"inlinecategorizer-edit-category-error": "Es pas estat possible de modificar la categoria « $1 ».\nAquò se produsís generalament quand la categoria es estada aponduda a la pagina via un modèl.",
+	"inlinecategorizer-edit-category-error": "Es pas estat possible de modificar la categoria « $1 ».\nAquò se produtz generalament quand la categoria es estada aponduda a la pagina via un modèl.",
 	"inlinecategorizer-edit-category-summary": "Cambiar la categoria « $1 » cap a « $2 »",
 	"inlinecategorizer-error-title": "Error",
 	"inlinecategorizer-remove-category": "Suprimir la categoria",
-	"inlinecategorizer-remove-category-error": "Es pas estat possible de levar la categoria « $1 ».\nAquò se produsís generalament quand la categoria es estada aponduda a la pagina via un modèl.",
+	"inlinecategorizer-remove-category-error": "Es pas estat possible de levar la categoria « $1 ».\nAquò se produtz generalament quand la categoria es estada aponduda a la pagina via un modèl.",
 	"inlinecategorizer-remove-category-summary": "Levar la categoria « $1 »"
 }
