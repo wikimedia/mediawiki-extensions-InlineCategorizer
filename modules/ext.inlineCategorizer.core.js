@@ -236,7 +236,7 @@ mw.InlineCategorizer = function( options ) {
 	this.handleAddLink = function( e ) {
 		var	$el = $( this ),
 			$link = $([]),
-			categoryText = $.ucFirst( $el.parent().find( '.mw-addcategory-input' ).val() || '' );
+			categoryText = $el.parent().find( '.mw-addcategory-input' ).val() || '';
 
 		// Resolve redirects
 		ajaxcat.resolveRedirects( categoryText, function( resolvedCatTitle ) {

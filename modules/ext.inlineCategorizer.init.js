@@ -1,4 +1,4 @@
-jQuery( document ).ready( function(){
+jQuery( document ).ready( function () {
 	/**
 	* Initialize an instance of InlineCategorizer into mw.page
 	*/
