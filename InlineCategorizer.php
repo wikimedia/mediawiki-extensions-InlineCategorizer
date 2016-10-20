@@ -74,7 +74,6 @@ $wgResourceModules['ext.inlineCategorizer.core'] = array(
 		'inlinecategorizer-edit-category-summary',
 		'inlinecategorizer-remove-category-summary',
 		'inlinecategorizer-category-question',
-		'inlinecategorizer-category-and',
 		'inlinecategorizer-error-title',
 		'inlinecategorizer-remove-category-error',
 		'inlinecategorizer-edit-category-error',
