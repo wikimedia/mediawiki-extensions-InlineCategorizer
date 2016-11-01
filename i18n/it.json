@@ -25,7 +25,7 @@
 	"inlinecategorizer-edit-category-error": "Non è stato possibile modificare la categoria \"$1\".\nDi solito avviene quando la categoria è stata aggiunta alla pagina da un template.",
 	"inlinecategorizer-edit-category-summary": "modificare la categoria \"$1\" in \"$2\"",
 	"inlinecategorizer-error-title": "Errore",
-	"inlinecategorizer-remove-category": "Elimina categoria",
+	"inlinecategorizer-remove-category": "Rimuovere categoria",
 	"inlinecategorizer-remove-category-error": "Non è stato possibile rimuovere la categoria \"$1\".\nCiò si verifica in genere quando la categoria è stata aggiunta alla pagina in un template.",
 	"inlinecategorizer-remove-category-summary": "rimuovere la categoria \"$1\""
 }
