@@ -5,7 +5,8 @@
 			"Gorizon",
 			"Mirzali",
 			"Xoser",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Gambollar"
 		]
 	},
 	"inlinecategorizer-add-category": "Kategoriye cı ke",
@@ -21,6 +22,6 @@
 	"inlinecategorizer-edit-category-summary": "Kategoriya \"$1\" , \"$2\" deye vuriyê",
 	"inlinecategorizer-error-title": "Xeta",
 	"inlinecategorizer-remove-category": "Kategoriyer wedarne",
-	"inlinecategorizer-remove-category-error": "Kategoriyê \"$1\" yo nêbesterneyêno.\nÇi wext yew kategorî yew şablon de ca geno, pela dı ena problem bena.",
+	"inlinecategorizer-remove-category-error": "Kategoriyê \"$1\" yo nêbesterneyêno.\nÇı wext jew kategori jew şablon de ca geno, pera dı ena problem bena.",
 	"inlinecategorizer-remove-category-summary": "kategoriyê \"$1\"i biwedarne"
 }
