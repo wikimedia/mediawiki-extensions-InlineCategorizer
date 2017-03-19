@@ -5,7 +5,8 @@
 			"Andriykopanytsia",
 			"Dim Grits",
 			"Тест",
-			"Ата"
+			"Ата",
+			"Ahonc"
 		]
 	},
 	"inlinecategorizer-desc": "JavaScript-модуль, який дозволяє змінювати, додавати та вилучати посилання на категорії прямо зі сторінки",
@@ -24,7 +25,7 @@
 	"inlinecategorizer-confirm-save-all": "Зберегти всі зміни",
 	"inlinecategorizer-confirm-title": "Підтвердити дію",
 	"inlinecategorizer-edit-category": "Змінити категорію",
-	"inlinecategorizer-edit-category-error": "Не вдалося змінити категорію \"$1\".\nЦе зазвичай відбувається, коли категорію було додано до сторінки за допомогою шаблона.",
+	"inlinecategorizer-edit-category-error": "Не вдалося змінити категорію «$1».\nЦе зазвичай відбувається, коли категорію було додано до сторінки за допомогою шаблону.",
 	"inlinecategorizer-edit-category-summary": "Змінити категорію \"$1\" на \"$2\"",
 	"inlinecategorizer-error-title": "Помилка",
 	"inlinecategorizer-remove-category": "Вилучити категорію",
