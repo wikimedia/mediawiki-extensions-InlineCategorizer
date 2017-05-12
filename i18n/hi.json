@@ -12,6 +12,6 @@
 	"inlinecategorizer-confirm-save-all": "सभी बदलाव सहेजें",
 	"inlinecategorizer-confirm-title": "क्रिया की पुष्टि करें",
 	"inlinecategorizer-error-title": "त्रुटि",
-	"inlinecategorizer-remove-category-error": "यह श्रेणी हटाई नहीं जा सकी।\nयह आमतौर पर तब होता है जब श्रेणी किसी साँचे के जरिए जोड़ी गई हो।",
+	"inlinecategorizer-remove-category-error": "यह \"$1\" श्रेणी नहीं हटाई जा सकती है।\nयह आमतौर पर तब होता है जब श्रेणी किसी साँचे के जरिए जोड़ी गई हो।",
 	"inlinecategorizer-remove-category-summary": "श्रेणी \"$1\" हटाएँ"
 }
