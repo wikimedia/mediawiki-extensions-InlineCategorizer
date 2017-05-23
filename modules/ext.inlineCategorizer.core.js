@@ -11,7 +11,7 @@
 
 /*jshint -W038 */
 
-( function ( $, mw ) {
+( function ( $ ) {
 
 	/* Local scope */
 
@@ -1154,4 +1154,4 @@ mw.InlineCategorizer.prototype = {
 	}
 };
 
-}( jQuery, mediaWiki ) );
+}( jQuery ) );
