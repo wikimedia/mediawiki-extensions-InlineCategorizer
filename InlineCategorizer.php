@@ -58,6 +58,7 @@ $wgResourceModules['ext.inlineCategorizer.core'] = array(
 		'jquery.suggestions',
 		'jquery.ui.dialog',
 		'mediawiki.Title',
+		'mediawiki.util',
 	),
 	'messages' => array(
 		'inlinecategorizer-add-category',
