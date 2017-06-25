@@ -13,7 +13,7 @@
 	"inlinecategorizer-add-category": "{{doc-actionlink}}\n{{Identical|Add category}}",
 	"inlinecategorizer-add-category-submit": "{{Identical|Add}}",
 	"inlinecategorizer-add-category-summary": "See {{msg-mw|inlinecategorizer-category-question}}.\n\nParameters:\n* $1 - a category name",
-	"inlinecategorizer-api-error": "API = [http://en.wikipedia.org/wiki/Application_programming_interface Application programming interface].\n\n\"returned\" here means \"reported\".\n\nParameters:\n* $1 - error code\n* $2 - error message",
+	"inlinecategorizer-api-error": "API = [https://en.wikipedia.org/wiki/Application_programming_interface Application programming interface].\n\n\"returned\" here means \"reported\".\n\nParameters:\n* $1 - error code\n* $2 - error message",
 	"inlinecategorizer-api-unknown-error": "Used as error message",
 	"inlinecategorizer-cancel": "Used as label for the button.\n\nSee also:\n* {{msg-mw|Inlinecategorizer-remove-category}}",
 	"inlinecategorizer-cancel-all": "Used as label or tooltip for the \"Cancel all\" button",
