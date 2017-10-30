@@ -40,7 +40,6 @@ $wgExtensionCredits['other'][] = array(
 $dir = dirname( __FILE__ ) . '/';
 $wgAutoloadClasses['InlineCategorizerHooks'] = $dir . 'InlineCategorizer.hooks.php';
 $wgMessagesDirs['InlineCategorizer'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['InlineCategorizer'] = $dir . 'InlineCategorizer.i18n.php';
 
 // Hooks
 $wgHooks['BeforePageDisplay'][] = 'InlineCategorizerHooks::beforePageDisplay';
