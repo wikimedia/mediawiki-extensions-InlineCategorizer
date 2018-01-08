@@ -3,9 +3,11 @@
 		"authors": [
 			"Mark85296341",
 			"Liuxinyu970226",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
+	"inlinecategorizer-desc": "可直接從頁面啟動更改、添加，以及移除分類連結的 JavaScript 模組",
 	"inlinecategorizer-add-category": "加入分類",
 	"inlinecategorizer-add-category-submit": "新增",
 	"inlinecategorizer-add-category-summary": "加入分類「$1」",
