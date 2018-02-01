@@ -33,7 +33,7 @@ $wgExtensionCredits['other'][] = array(
 	'version' => '0.1.0',
 	'descriptionmsg' => 'inlinecategorizer-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:InlineCategorizer',
-	'license-name' => 'GPL-2.0+'
+	'license-name' => 'GPL-2.0-or-later'
 );
 
 // Autoloading
