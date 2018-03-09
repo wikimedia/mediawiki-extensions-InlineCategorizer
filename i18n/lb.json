@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Les Meloures"
 		]
 	},
 	"inlinecategorizer-desc": "JavaScript deen et erlaabt fir Kategorien direkt op enger Säit z'änneren, dobäizesetzen oder erofzehuelen",
 	"inlinecategorizer-add-category": "Kategorie dobäisetzen",
-	"inlinecategorizer-add-category-submit": "Dobäisetzen",
+	"inlinecategorizer-add-category-submit": "Derbäisetzen",
 	"inlinecategorizer-add-category-summary": "Kategorie \"$1\" dobäisetzen",
 	"inlinecategorizer-api-error": "Den API huet e Feeler signaliséiert: $1: $2",
 	"inlinecategorizer-api-unknown-error": "D'API huet een onbekannte Feeler zréckgeschéckt.",
