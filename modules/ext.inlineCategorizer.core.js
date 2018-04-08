@@ -4,9 +4,6 @@
  * @author Michael Dale, 2009
  * @author Leo Koppelkamm, 2011
  * @author Timo Tijhof, 2011
- *
- * Relies on: mw.config (wgFormattedNamespaces, wgNamespaceIds,
- * wgCaseSensitiveNamespaces, wgUserGroups), mw.util.wikiGetlink
  */
 
 /*jshint -W038 */
