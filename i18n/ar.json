@@ -4,9 +4,11 @@
 			"Alexknight12",
 			"Houcinee1",
 			"Meno25",
-			"OsamaK"
+			"OsamaK",
+			"ديفيد"
 		]
 	},
+	"inlinecategorizer-desc": "وحدة جافا سكريبت التي تمكن من تغيير وإضافة وإزالة وصلات التصنيفات مباشرة من الصفحة",
 	"inlinecategorizer-add-category": "أضف تصنيفا",
 	"inlinecategorizer-add-category-submit": "أضف",
 	"inlinecategorizer-add-category-summary": "إضافة التصنيف \"$1\"",
