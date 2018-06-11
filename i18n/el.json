@@ -4,9 +4,11 @@
 			"Crazymadlover",
 			"Kiolalis",
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Nikosgranturismogt"
 		]
 	},
+	"inlinecategorizer-desc": "Δομοστοιχείο JavaScript που επιτρέπει την άμεση αλλαγή, προσθήκη και αφαίρεση συνδέσμων κατηγορίας από μια σελίδα",
 	"inlinecategorizer-add-category": "Προσθήκη κατηγορίας",
 	"inlinecategorizer-add-category-submit": "Προσθήκη",
 	"inlinecategorizer-add-category-summary": "Προσθήκη κατηγορίας \"$1\"",
