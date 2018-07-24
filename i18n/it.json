@@ -12,7 +12,7 @@
 	"inlinecategorizer-add-category-summary": "aggiungere la categoria \"$1\"",
 	"inlinecategorizer-api-error": "L'API ha restituito un errore: $1: $2",
 	"inlinecategorizer-api-unknown-error": "L'API ha restituito un errore sconosciuto.",
-	"inlinecategorizer-cancel": "Annulla le modifiche",
+	"inlinecategorizer-cancel": "Annulla modifica",
 	"inlinecategorizer-cancel-all": "Annulla tutte le modifiche",
 	"inlinecategorizer-category-already-present": "Questa pagina appartiene già alla categoria $1",
 	"inlinecategorizer-category-hook-error": "Una funzione locale ha impedito che le modifiche vengano salvate",
