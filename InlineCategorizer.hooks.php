@@ -19,7 +19,7 @@ class InlineCategorizerHooks {
 		if ( count( $wgInlineCategorizerNamespaces ) === 0
 			|| in_array( $out->getTitle()->getNamespace(), $wgInlineCategorizerNamespaces )
 		) {
-			$out->addModules( 'ext.inlineCategorizer.init' );
+			$out->addModules( 'ext.inlineCategorizer.core' );
 		}
 		return true;
 	}

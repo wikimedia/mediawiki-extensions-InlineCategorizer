@@ -84,8 +84,3 @@ $wgResourceModules['ext.inlineCategorizer.core'] = array(
 		'inlinecategorizer-api-unknown-error',
 	),
 ) + $commonModuleInfo;
-
-$wgResourceModules['ext.inlineCategorizer.init'] = array(
-	'scripts' => 'ext.inlineCategorizer.init.js',
-	'dependencies' => 'ext.inlineCategorizer.core',
-) + $commonModuleInfo;
