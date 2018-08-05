@@ -13,7 +13,7 @@
 	/* Local scope */
 
 	var	catNsId = mw.config.get( 'wgNamespaceIds' ).category,
-		isCatNsSensitive = $.inArray( 14, mw.config.get( 'wgCaseSensitiveNamespaces' ) ) !== -1;
+		isCatNsSensitive = $.inArray( catNsId, mw.config.get( 'wgCaseSensitiveNamespaces' ) ) !== -1;
 
 	function getDefaultOptions() {
 		return {
@@ -753,7 +753,7 @@ mw.InlineCategorizer.prototype = {
 		var cats = this.options.$container
 				.find( this.options.categoryLinkSelector )
 				.map( function() {
-					return $.trim( $( this ).text() );
+					return mw.Title.makeTitle( catNsId, $( this ).text() ).getNameText();
 				} );
 		return cats;
 	},
@@ -765,10 +765,10 @@ mw.InlineCategorizer.prototype = {
 	 * @return {Boolean}
 	 */
 	containsCat: function( newCat ) {
-		newCat = $.ucFirst( newCat );
+		newCat = mw.Title.makeTitle( catNsId, newCat ).getNameText();
 		var match = false;
 		$.each( this.getCats(), function(i, cat) {
-			if ( $.ucFirst( cat ) === newCat ) {
+			if ( cat === newCat ) {
 				match = true;
 				// Stop once we have a match
 				return false;
