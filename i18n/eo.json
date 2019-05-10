@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
+	"inlinecategorizer-desc": "JavaScript-modulo kiu ebligas ŝanĝado, aldonado, kaj forigado de kategoriaj ligiloj rekte el paĝo",
 	"inlinecategorizer-add-category": "Aldoni kategorion",
 	"inlinecategorizer-add-category-submit": "Aldoni",
 	"inlinecategorizer-add-category-summary": "Aldoni kategorion \"$1\"",
