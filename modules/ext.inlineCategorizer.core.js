@@ -8,7 +8,7 @@
 
 /*jshint -W038 */
 
-( function ( $ ) {
+( function () {
 
 	/* Local scope */
 
@@ -619,7 +619,7 @@ mw.InlineCategorizer.prototype = {
 					matches = newText.match( categoryRegex );
 
 				// Old cat wasn't found, likely to be transcluded
-				if ( !$.isArray( matches ) ) {
+				if ( !Array.isArray( matches ) ) {
 					ajaxcat.showError( mw.msg( 'inlinecategorizer-edit-category-error', oldCatName ) );
 					return false;
 				}
@@ -1076,7 +1076,7 @@ mw.InlineCategorizer.prototype = {
 	/**
 	 * Add hooks
 	 * Currently available: beforeAdd, beforeChange, beforeDelete,
-	 *						afterAdd, afterChange, afterDelete
+	 * afterAdd, afterChange, afterDelete
 	 * If the hook function returns false, all changes are aborted.
 	 *
 	 * @param string type Type of hook to add
@@ -1158,4 +1158,4 @@ $( function () {
 	categorizer.setup();
 } );
 
-}( jQuery ) );
+}() );
