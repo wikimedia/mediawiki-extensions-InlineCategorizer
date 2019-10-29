@@ -143,13 +143,13 @@
 	 */
 	function buildRegex( category, matchLineBreak ) {
 		var	categoryRegex, categoryNSFragment,
-			titleFragment = mw.RegExp.escape( category ).replace( /( |_)/g, '[ _]' ),
+			titleFragment = mw.util.escapeRegExp( category ).replace( /( |_)/g, '[ _]' ),
 			firstChar = titleFragment.charAt( 0 );
 
 		// Filter out all names for category namespace
 		categoryNSFragment = $.map( mw.config.get( 'wgNamespaceIds' ), function( id, name ) {
 			if ( id === catNsId ) {
-				name = mw.RegExp.escape( name );
+				name = mw.util.escapeRegExp( name );
 				return !isCatNsSensitive ? makeCaseInsensitive( name ) : name;
 			}
 			// Otherwise don't include in categoryNSFragment
