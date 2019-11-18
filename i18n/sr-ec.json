@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Rancher",
-			"Slaven Kosanovic"
+			"Slaven Kosanovic",
+			"Zoranzoki21"
 		]
 	},
+	"inlinecategorizer-desc": "Јаваскрипт модул који омогућава промену, додавање и уклањање веза из категорија директно са странице",
 	"inlinecategorizer-add-category": "Додај категорију",
 	"inlinecategorizer-add-category-submit": "Додај",
 	"inlinecategorizer-add-category-summary": "Додај категорију \"$1\"",
