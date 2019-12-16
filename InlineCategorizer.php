@@ -55,7 +55,7 @@ $wgResourceModules['ext.inlineCategorizer.core'] = array(
 	'styles' => 'ext.inlineCategorizer.core.css',
 	'dependencies' => array(
 		'jquery.suggestions',
-		'jquery.ui.dialog',
+		'jquery.ui',
 		'mediawiki.Title',
 		'mediawiki.util',
 	),
