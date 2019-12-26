@@ -21,10 +21,10 @@
 	"inlinecategorizer-confirm-save-all": "Зачувај ги сите промени",
 	"inlinecategorizer-confirm-title": "Потврди дејство",
 	"inlinecategorizer-edit-category": "Уреди категорија",
-	"inlinecategorizer-edit-category-error": "Категоријата „$1“ не можеше да се уреди.\nОва обично се случува кога категоријата е додадена на страница преку некој шаблон.",
+	"inlinecategorizer-edit-category-error": "Категоријата „$1“ не можеше да се уреди.\nОва обично се случува кога категоријата е додадена на страница преку некоја предлошка.",
 	"inlinecategorizer-edit-category-summary": "Замена на категоријата „$1“ со „$2“",
 	"inlinecategorizer-error-title": "Грешка",
 	"inlinecategorizer-remove-category": "Отстрани категорија",
-	"inlinecategorizer-remove-category-error": "Не можев да ја отстранам категоријата „$1“.\nОва обично се случува кога категоријата е додадена на страница преку некој шаблон.",
+	"inlinecategorizer-remove-category-error": "Не можев да ја отстранам категоријата „$1“.\nОва обично се случува кога категоријата е додадена на страница преку некоја предлошка.",
 	"inlinecategorizer-remove-category-summary": "Избриши категорија \"$1\""
 }
