@@ -21,7 +21,6 @@ class InlineCategorizerHooks {
 		) {
 			$out->addModules( 'ext.inlineCategorizer.core' );
 		}
-		return true;
 	}
 
 }
