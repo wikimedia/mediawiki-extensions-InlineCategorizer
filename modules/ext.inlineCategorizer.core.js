@@ -13,7 +13,7 @@
 	/* Local scope */
 
 	var	catNsId = mw.config.get( 'wgNamespaceIds' ).category,
-		isCatNsSensitive = $.inArray( catNsId, mw.config.get( 'wgCaseSensitiveNamespaces' ) ) !== -1;
+		isCatNsSensitive = mw.config.get( 'wgCaseSensitiveNamespaces' ).indexOf( catNsId ) !== -1;
 
 	function getDefaultOptions() {
 		return {
@@ -21,7 +21,7 @@
 			$container: $( '.catlinks' ),
 			$containerNormal: $( '#mw-normal-catlinks' ),
 			categoryLinkSelector: 'li a:not(.icon)',
-			multiEdit: $.inArray( 'user', mw.config.get( 'wgUserGroups' ) ) !== -1,
+			multiEdit: mw.config.get( 'wgUserGroups' ).indexOf( 'user' ) !== -1,
 			resolveRedirects: true
 		};
 	}
@@ -268,7 +268,7 @@ mw.InlineCategorizer = function( options ) {
 		// Get the deleteButton associated with this category link,
 		$link.data( 'deleteButton' )
 			// (re)set click handler
-			.unbind( 'click' )
+			.off( 'click' )
 			.click( function() {
 				// When the delete button is clicked:
 				// - Remove the suggestion box
@@ -277,10 +277,10 @@ mw.InlineCategorizer = function( options ) {
 				$input.remove();
 				$link.show().data( 'editButton' ).show();
 				$( this )
-					.unbind( 'click' )
+					.off( 'click' )
 					.click( ajaxcat.handleDeleteLink )
 					.attr( 'title', mw.msg( 'inlinecategorizer-remove-category' ) );
-			})
+			} )
 			.attr( 'title', mw.msg( 'inlinecategorizer-cancel' ) );
 	};
 
@@ -317,7 +317,7 @@ mw.InlineCategorizer = function( options ) {
 		// Resolve redirects
 		ajaxcat.resolveRedirects( category, function( resolvedCatTitle ) {
 			ajaxcat.handleCategoryEdit( $link, categoryOld, resolvedCatTitle, sortkey, isAdded );
-		});
+		} );
 	};
 
 	/**
@@ -339,6 +339,7 @@ mw.InlineCategorizer = function( options ) {
 			// It's already removed...
 			return;
 		}
+
 		ajaxcat.handleCategoryDelete( $link, category );
 	};
 
@@ -351,7 +352,6 @@ mw.InlineCategorizer = function( options ) {
 	 * @return ?
 	 */
 	this.handleStashedCategories = function() {
-
 		// Remove "holes" in array
 		var dialogDescriptions = $.grep( ajaxcat.stash.dialogDescriptions, function( n ) {
 			return n;
@@ -379,7 +379,7 @@ mw.InlineCategorizer = function( options ) {
 				// Run the text through all action functions
 				var newtext = oldtext;
 				for ( var i = 0; i < fns.length; i++ ) {
-					if ( $.isFunction( fns[i] ) ) {
+					if ( typeof fns[i] === 'function' ) {
 						newtext = fns[i]( newtext );
 						if ( newtext === false ) {
 							return false;
@@ -410,6 +410,7 @@ mw.InlineCategorizer.prototype = {
 		if ( !mw.config.get( 'wgIsArticle' ) ) {
 			return;
 		}
+
 		var options = this.options,
 			ajaxcat = this,
 			// Create [Add Category] link
@@ -419,7 +420,7 @@ mw.InlineCategorizer.prototype = {
 				mw.msg( 'inlinecategorizer-add-category' )
 			).click( function() {
 				$( this ).nextAll().toggle().filter( '.mw-addcategory-input' ).focus();
-			});
+			} );
 
 		// Create add category prompt
 		this.addContainer = this.makeSuggestionBox( '', this.handleAddLink, mw.msg( 'inlinecategorizer-add-category-submit' ) );
@@ -429,7 +430,7 @@ mw.InlineCategorizer.prototype = {
 		// Create edit & delete link for each category.
 		$( '#catlinks' ).find( 'li a' ).each( function() {
 			ajaxcat.createCatButtons( $( this ) );
-		});
+		} );
 
 		options.$containerNormal.append( this.addContainer );
 
@@ -477,6 +478,7 @@ mw.InlineCategorizer.prototype = {
 
 	/**
 	 * Create a suggestion box for use in edit/add dialogs
+	 *
 	 * @param prefill {String} Prefill input
 	 * @param callback {Function} Called on submit
 	 * @param buttonVal {String} Button text
@@ -613,7 +615,7 @@ mw.InlineCategorizer.prototype = {
 		var	categoryRegex = buildRegex( oldCatName ),
 			editSummary = '[[' + new mw.Title( oldCatName, catNsId ).toText() + ']] -> [[' + catTitle.toText() + ']]';
 
-		ajaxcat.doConfirmEdit({
+		ajaxcat.doConfirmEdit( {
 			modFn: function( oldText ) {
 				var	newText = ajaxcat.runHooks( oldText, 'beforeChange', oldCatName, catName ),
 					matches = newText.match( categoryRegex );
@@ -651,12 +653,13 @@ mw.InlineCategorizer.prototype = {
 			},
 			$link: $link,
 			action: 'edit'
-		});
+		} );
 	},
 
 	/**
 	 * Checks the API whether the category in question is a redirect.
 	 * Also returns existance info (to color link red/blue)
+	 *
 	 * @param category {String} Name of category to resolve
 	 * @param callback {Function} Called with 1 argument (mw.Title object)
 	 */
@@ -725,6 +728,7 @@ mw.InlineCategorizer.prototype = {
 
 	/**
 	 * Append spinner wheel to element.
+	 *
 	 * @param $el {jQuery}
 	 * @return {mw.inlineCategorizer}
 	 */
@@ -735,6 +739,7 @@ mw.InlineCategorizer.prototype = {
 
 	/**
 	 * Find and remove spinner wheel from inside element.
+	 *
 	 * @param $el {jQuery}
 	 * @return {mw.inlineCategorizer}
 	 */
@@ -767,7 +772,7 @@ mw.InlineCategorizer.prototype = {
 	containsCat: function( newCat ) {
 		newCat = mw.Title.makeTitle( catNsId, newCat ).getNameText();
 		var match = false;
-		$.each( this.getCats(), function(i, cat) {
+		$.each( this.getCats(), function( i, cat ) {
 			if ( cat === newCat ) {
 				match = true;
 				// Stop once we have a match
@@ -788,7 +793,7 @@ mw.InlineCategorizer.prototype = {
 		var	categoryRegex = buildRegex( category, true ),
 			ajaxcat = this;
 
-		this.doConfirmEdit({
+		this.doConfirmEdit( {
 			modFn: function( oldText ) {
 				var newText = ajaxcat.runHooks( oldText, 'beforeDelete', category );
 				newText = newText.replace( categoryRegex, '' );
@@ -811,7 +816,7 @@ mw.InlineCategorizer.prototype = {
 			},
 			$link: $link,
 			action: 'delete'
-		});
+		} );
 	},
 
 	/**
@@ -852,8 +857,8 @@ mw.InlineCategorizer.prototype = {
 
 	/**
 	 * Do the actual edit.
-	 * Gets token & text from api, runs it through fn
-	 * and saves it with summary.
+	 * Gets token & text from api, runs it through fn and saves it with summary.
+	 *
 	 * @param page {String} Pagename
 	 * @param fn {Function} edit function
 	 * @param summary {String}
@@ -918,10 +923,9 @@ mw.InlineCategorizer.prototype = {
 						postEditVars,
 						doneFn,
 						'json'
-					)
-					.error( function( xhr, text, error ) {
+					).error( function( xhr, text, error ) {
 						ajaxcat.showError( mw.msg( 'inlinecategorizer-api-error', text, error ) );
-					});
+					} );
 				} );
 			},
 			'json'
@@ -956,7 +960,6 @@ mw.InlineCategorizer.prototype = {
 
 		// Check whether to use multiEdit mode:
 		if ( this.options.multiEdit && props.action !== 'all' ) {
-
 			// Stash away
 			props.$link
 				.data( 'stashIndex', this.stash.fns.length )
@@ -1035,7 +1038,7 @@ mw.InlineCategorizer.prototype = {
 		try {
 			delete this.stash.fns[i];
 			delete this.stash.dialogDescriptions[i];
-		} catch(e) {}
+		} catch ( e ) {}
 
 		if ( $.isEmpty( this.stash.fns ) ) {
 			this.stash.fns = [];
@@ -1055,7 +1058,7 @@ mw.InlineCategorizer.prototype = {
 	 */
 	resetAll: function( del ) {
 		var	$links = this.options.$container.find( this.options.categoryLinkSelector ),
-			$del = $([]),
+			$del = $( [] ),
 			ajaxcat = this;
 
 		if ( del ) {
@@ -1086,10 +1089,9 @@ mw.InlineCategorizer.prototype = {
 	 *	3. (only for beforeChange/afterChange): newcategory
 	 */
 	addHook: function( type, fn ) {
-		if ( !this.hooks[type] || !$.isFunction( fn ) ) {
+		if ( !this.hooks[type] || typeof fn !== 'function' ) {
 			return;
-		}
-		else {
+		} else {
 			this.hooks[type].push( fn );
 		}
 	},
