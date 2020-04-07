@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ainali",
 			"Boivie",
 			"Poxnar",
-			"WikiPhoenix",
-			"Ainali"
+			"WikiPhoenix"
 		]
 	},
 	"inlinecategorizer-desc": "JavaScript-modul som gör det möjligt att ändra, lägga till och ta bort kategorilänkar direkt från en sida",

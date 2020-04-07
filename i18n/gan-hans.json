@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"inlinecategorizer-add-category-summary": "添进分类「$1」",
 	"inlinecategorizer-confirm-save": "存到",
 	"inlinecategorizer-error-title": "错误",

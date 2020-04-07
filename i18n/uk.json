@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"AS",
+			"Ahonc",
 			"Andriykopanytsia",
 			"Dim Grits",
-			"Тест",
 			"Ата",
-			"Ahonc"
+			"Тест"
 		]
 	},
 	"inlinecategorizer-desc": "JavaScript-модуль, який дозволяє змінювати, додавати та вилучати посилання на категорії прямо зі сторінки",

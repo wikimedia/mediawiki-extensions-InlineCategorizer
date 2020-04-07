@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Emperyan",
-			"Srhat",
-			"BaRaN6161 TURK"
+			"Srhat"
 		]
 	},
 	"inlinecategorizer-desc": "Kategori sayfalarını doğrudan bir sayfadan değiştirmeyi, eklemeyi ve kaldırmayı sağlayan JavaScript modülü",

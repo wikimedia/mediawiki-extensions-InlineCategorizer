@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mark85296341",
-			"Liuxinyu970226",
+			"Kly",
 			"LNDDYL",
-			"Kly"
+			"Liuxinyu970226",
+			"Mark85296341"
 		]
 	},
 	"inlinecategorizer-desc": "可直接從頁面啟動更改、添加，以及移除分類連結的 JavaScript 模組",

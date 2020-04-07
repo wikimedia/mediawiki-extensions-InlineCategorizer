@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EivindJ",
-			"Nghtwlkr",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Nghtwlkr"
 		]
 	},
 	"inlinecategorizer-desc": "JavaScript-modul som muliggjør endring, tillegging og fjerning av kategorilenker direkte fra en side",
