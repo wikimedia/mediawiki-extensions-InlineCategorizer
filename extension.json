@@ -21,7 +21,7 @@
 		}
 	},
 	"AutoloadClasses": {
-		"InlineCategorizerHooks": "InlineCategorizer.hooks.php"
+		"InlineCategorizerHooks": "InlineCategorizerHooks.php"
 	},
 	"MessagesDirs": {
 		"InlineCategorizer": [

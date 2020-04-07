@@ -9,7 +9,7 @@
 class InlineCategorizerHooks {
 
 	/**
-	 * BeforePageDisplay hook
+	 * @param OutputPage $out
 	 */
 	public static function beforePageDisplay( $out ) {
 		global $wgInlineCategorizerNamespaces;

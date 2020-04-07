@@ -6,7 +6,7 @@
  * @ingroup Extensions
  *
  * @author Timo Tijhof <ttijhof@wikimedia.org>
- * @license GPL v2 or later
+ * @license GPL-2.0-or-later
  */
 
 if ( function_exists( 'wfLoadExtension' ) ) {
