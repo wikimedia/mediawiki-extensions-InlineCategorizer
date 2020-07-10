@@ -12,7 +12,7 @@
 	"inlinecategorizer-api-error": "De API gaf n foutmelding: $1: $2",
 	"inlinecategorizer-api-unknown-error": "De API gaf n onbekende foutmelding.",
 	"inlinecategorizer-cancel": "Bewarkingen ofbreken",
-	"inlinecategorizer-cancel-all": "Alle wiezigingen aofbreken",
+	"inlinecategorizer-cancel-all": "Alle wysigingen afbreaken",
 	"inlinecategorizer-category-already-present": "Disse zied steet al in de kategorie $1",
 	"inlinecategorizer-category-hook-error": "n Lokale funksie verhinderden t opslaon van de wiezigingen",
 	"inlinecategorizer-category-question": "Waorumme wi'j de volgende wiezigingen anbrengen:",
