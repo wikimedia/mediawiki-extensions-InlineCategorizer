@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Vahe Gharakhanyan",
 			"Xelgen"
 		]
@@ -8,6 +9,7 @@
 	"inlinecategorizer-add-category": "Ավելացնել կատեգորիա",
 	"inlinecategorizer-add-category-submit": "Ավելացնել",
 	"inlinecategorizer-add-category-summary": "Ավելացնել «$1» կատեգորիան",
+	"inlinecategorizer-confirm-ok": "Լավ",
 	"inlinecategorizer-confirm-save": "Հիշել",
 	"inlinecategorizer-confirm-title": "Հաստատել գործողությունը",
 	"inlinecategorizer-error-title": "Սխալ",
