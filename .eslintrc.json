@@ -23,6 +23,7 @@
 		"no-jquery/no-each-util": "warn",
 		"no-jquery/no-map-util": "warn",
 		"no-jquery/no-parse-html-literal": "warn",
-		"no-jquery/variable-pattern": "warn"
+		"no-jquery/variable-pattern": "warn",
+		"block-scoped-var": "warn"
 	}
 }
