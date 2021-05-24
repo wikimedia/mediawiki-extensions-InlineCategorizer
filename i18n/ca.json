@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
+			"Jmarchn",
 			"Ssola",
 			"Toniher",
 			"පසිඳු කාවින්ද"
@@ -14,6 +15,6 @@
 	"inlinecategorizer-confirm-save": "Desa",
 	"inlinecategorizer-confirm-title": "Confirma l'acció",
 	"inlinecategorizer-error-title": "Error",
-	"inlinecategorizer-remove-category-error": "No ha estat possible eliminar aquesta categoria.\nAixò sol passar quan la categoria s'ha afegit a la pàgina en una plantilla.",
+	"inlinecategorizer-remove-category-error": "No ha estat possible eliminar la categoria \"$1\".\nAixò sol passar quan la categoria s'ha afegit a la pàgina en una plantilla.",
 	"inlinecategorizer-remove-category-summary": "Elimina la categoria ''$1''"
 }
