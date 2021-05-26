@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jarmanj Turtash"
+			"Jarmanj Turtash",
+			"Kareyac"
 		]
 	},
+	"inlinecategorizer-add-category-submit": "Поладомс",
 	"inlinecategorizer-confirm-save": "Ванфтомс",
 	"inlinecategorizer-error-title": "Эльбятькс"
 }
