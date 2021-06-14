@@ -77,7 +77,7 @@
 			success: function ( data ) {
 				// Process data.query.allpages into an array of titles
 				var pages = data.query.allpages,
-					titleArr = $.map( pages, function ( page ) {
+					titleArr = pages.map( function ( page ) {
 						return new mw.Title( page.title ).getMainText();
 					} );
 
@@ -269,13 +269,13 @@
 
 			// Get the deleteButton associated with this category link,
 			$link.data( 'deleteButton' )
-			// (re)set click handler
+				// (re)set click handler
 				.off( 'click' )
 				.click( function () {
-				// When the delete button is clicked:
-				// - Remove the suggestion box
-				// - Show the link and it's edit button
-				// - (re)set the click handler again
+					// When the delete button is clicked:
+					// - Remove the suggestion box
+					// - Show the link and it's edit button
+					// - (re)set the click handler again
 					$input.remove();
 					$link.show().data( 'editButton' ).show();
 					$( this )
@@ -334,11 +334,11 @@
 				category = $link.text();
 
 			if ( $link.is( '.mw-added-category, .mw-changed-category' ) ) {
-			// We're just cancelling the addition or edit
+				// We're just cancelling the addition or edit
 				ajaxcat.resetCatLink( $link, $link.hasClass( 'mw-added-category' ) );
 				return;
 			} else if ( $link.is( '.mw-removed-category' ) ) {
-			// It's already removed...
+				// It's already removed...
 				return;
 			}
 
@@ -354,13 +354,14 @@
 		 * @return ?
 		 */
 		this.handleStashedCategories = function () {
-		// Remove "holes" in array
+			// Remove "holes" in array
+			// Replace this by .flat() when supported by all Grade A browsers.
 			var dialogDescriptions = $.grep( ajaxcat.stash.dialogDescriptions, function ( n ) {
 				return n;
 			} );
 
 			if ( dialogDescriptions.length < 1 ) {
-			// Nothing to do here.
+				// Nothing to do here.
 				ajaxcat.saveAllButton.hide();
 				ajaxcat.cancelAllButton.hide();
 				return;
@@ -369,6 +370,7 @@
 			}
 
 			// Remove "holes" in array
+			// Replace this by .flat() when supported by all Grade A browsers.
 			var summaryShort = $.grep( ajaxcat.stash.editSummaries, function ( n ) {
 				return n;
 			} );
@@ -378,7 +380,7 @@
 
 			ajaxcat.doConfirmEdit( {
 				modFn: function ( oldtext ) {
-				// Run the text through all action functions
+					// Run the text through all action functions
 					var newtext = oldtext;
 					for ( var i = 0; i < fns.length; i++ ) {
 						if ( typeof fns[ i ] === 'function' ) {
@@ -404,11 +406,11 @@
 	/* Public methods */
 
 	mw.InlineCategorizer.prototype = {
-	/**
-	 * Create the UI
-	 */
+		/**
+		 * Create the UI
+		 */
 		setup: function () {
-		// Only do it for articles.
+			// Only do it for articles.
 			if ( !mw.config.get( 'wgIsArticle' ) ) {
 				return;
 			}
@@ -486,7 +488,7 @@
 		 * @param buttonVal {String} Button text
 		 */
 		makeSuggestionBox: function ( prefill, callback, buttonVal ) {
-		// Create add category prompt
+			// Create add category prompt
 			var $promptContainer = $( '<div class="mw-addcategory-prompt"></div>' ),
 				$promptTextbox = $( '<input type="text" size="30" class="mw-addcategory-input"></input>' ),
 				$addButton = $( '<input type="button" class="mw-addcategory-button"></input>' );
@@ -549,7 +551,7 @@
 			}
 
 			// Mark red if missing
-			$link[ ( catTitle.exists() === false ? 'addClass' : 'removeClass' ) ]( 'new' );
+			$link.toggleClass( 'new', !catTitle.exists() );
 
 			this.doConfirmEdit( {
 				modFn: function ( oldText ) {
@@ -566,7 +568,7 @@
 						ajaxcat.options.$container
 							.find( '#mw-normal-catlinks ul' ).append( $link.parent() );
 					} else {
-					// Remove input box & button
+						// Remove input box & button
 						$link.data( 'deleteButton' ).click();
 
 						// Update link text and href
@@ -598,7 +600,7 @@
 
 			// Category add needs to be handled differently
 			if ( isAdded ) {
-			// Pass sortkey back
+				// Pass sortkey back
 				this.handleCategoryAdd( $link, catTitle, catSortkey, true );
 				return;
 			}
@@ -611,7 +613,7 @@
 			}
 
 			// Mark red if missing
-			$link[ ( catTitle.exists() === false ? 'addClass' : 'removeClass' ) ]( 'new' );
+			$link.toggleClass( 'new', !catTitle.exists() );
 
 			var categoryRegex = buildRegex( oldCatName ),
 				editSummary = '[[' + new mw.Title( oldCatName, catNsId ).toText() + ']] -> [[' + catTitle.toText() + ']]';
@@ -631,7 +633,7 @@
 						newCategoryWikitext = '[[' + catTitle + suffix + ']]';
 
 					if ( matches.length > 1 ) {
-					// The category is duplicated. Remove all but one match
+						// The category is duplicated. Remove all but one match
 						for ( var i = 1; i < matches.length; i++ ) {
 							oldText = oldText.replace( matches[ i ], '' );
 						}
@@ -643,7 +645,7 @@
 				dialogDescription: mw.message( 'inlinecategorizer-edit-category-summary', oldCatName, catName ).escaped(),
 				editSummary: editSummary,
 				doneFn: function ( unsaved ) {
-				// Remove input box & button
+					// Remove input box & button
 					$link.data( 'deleteButton' ).click();
 
 					// Update link text and href
@@ -683,8 +685,8 @@
 
 				// If it's a redirect 'exists' is for the target, not the origin
 				if ( redirect ) {
-				// Register existance of redirect origin as well,
-				// a non-existent page can't be a redirect.
+					// Register existance of redirect origin as well,
+					// a non-existent page can't be a redirect.
 					mw.Title.exist.set( catTitle.toString(), true );
 
 					// Override title with the redirect target
@@ -773,15 +775,9 @@
 		 */
 		containsCat: function ( newCat ) {
 			newCat = mw.Title.makeTitle( catNsId, newCat ).getNameText();
-			var match = false;
-			$.each( this.getCats(), function ( i, cat ) {
-				if ( cat === newCat ) {
-					match = true;
-					// Stop once we have a match
-					return false;
-				}
+			return this.getCats().some( function ( cat ) {
+				return cat === newCat;
 			} );
-			return match;
 		},
 
 		/**
@@ -867,7 +863,7 @@
 		 * @param doneFn {String} Callback after all is done
 		 */
 		doEdit: function ( page, fn, summary, doneFn ) {
-		// Get an edit token for the page.
+			// Get an edit token for the page.
 			var getTokenVars = {
 					action: 'query',
 					prop: 'info|revisions',
@@ -962,7 +958,7 @@
 
 			// Check whether to use multiEdit mode:
 			if ( this.options.multiEdit && props.action !== 'all' ) {
-			// Stash away
+				// Stash away
 				props.$link
 					.data( 'stashIndex', this.stash.fns.length )
 					.data( 'summary', props.dialogDescription );
@@ -1019,7 +1015,7 @@
 			buttons[ mw.msg( 'inlinecategorizer-confirm-save' ) ] = submitFunction;
 
 			dialog.dialog( dialogOptions ).keyup( function ( e ) {
-			// Close on enter
+				// Close on enter
 				if ( e.keyCode === 13 ) {
 					submitFunction();
 				}
@@ -1142,7 +1138,7 @@
 		 * @return oldtext
 		 */
 		runHooks: function ( oldtext, type, category, categoryNew ) {
-		// No hooks registered
+			// No hooks registered
 			if ( !this.hooks[ type ] ) {
 				return oldtext;
 			} else {
