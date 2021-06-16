@@ -928,13 +928,13 @@
 							postEditVars,
 							doneFn,
 							'json'
-						).error( function ( xhr, text, error ) {
+						).fail( function ( xhr, text, error ) {
 							ajaxcat.showError( mw.msg( 'inlinecategorizer-api-error', text, error ) );
 						} );
 					} );
 				},
 				'json'
-			).error( function ( xhr, text, error ) {
+			).fail( function ( xhr, text, error ) {
 				ajaxcat.showError( mw.msg( 'inlinecategorizer-api-error', text, error ) );
 			} );
 		},
