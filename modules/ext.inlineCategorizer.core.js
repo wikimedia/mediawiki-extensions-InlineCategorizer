@@ -184,7 +184,7 @@
 		if ( text ) {
 			// eslint-disable-next-line mediawiki/class-doc
 			var $icon = $( '<span>' ).addClass( 'icon ' + icon );
-			$button.addClass( 'icon-parent' ).append( $icon ).append( mw.html.escape( text ) );
+			$button.addClass( 'icon-parent' ).text( text ).prepend( $icon );
 		} else {
 			// eslint-disable-next-line mediawiki/class-doc
 			$button.addClass( 'icon ' + icon );
@@ -256,7 +256,7 @@
 				category = $link.text(),
 				$input = ajaxcat.makeSuggestionBox( category,
 					ajaxcat.handleEditLink,
-					ajaxcat.options.multiEdit ? mw.msg( 'inlinecategorizer-confirm-ok' ) : mw.msg( 'inlinecategorizer-confirm-save' )
+					mw.msg( ajaxcat.options.multiEdit ? 'inlinecategorizer-confirm-ok' : 'inlinecategorizer-confirm-save' )
 				);
 
 			$link.after( $input ).hide();
@@ -489,9 +489,14 @@
 		 */
 		makeSuggestionBox: function ( prefill, callback, buttonVal ) {
 			// Create add category prompt
-			var $promptContainer = $( '<div class="mw-addcategory-prompt"></div>' ),
-				$promptTextbox = $( '<input type="text" size="30" class="mw-addcategory-input"></input>' ),
-				$addButton = $( '<input type="button" class="mw-addcategory-button"></input>' );
+			var $promptContainer = $( '<div>' )
+				.addClass( 'mw-addcategory-prompt' );
+			var $promptTextbox = $( '<input>' )
+				.attr( { type: 'text', size: 30 } )
+				.addClass( 'mw-addcategory-input' );
+			var $addButton = $( '<input>' )
+				.attr( 'type', 'button' )
+				.addClass( 'mw-addcategory-button' );
 
 			if ( prefill !== '' ) {
 				$promptTextbox.val( prefill );
@@ -979,19 +984,25 @@
 			}
 
 			// Summary of the action to be taken
-			summaryHolder = $( '<p>' )
-				.html( '<strong>' + mw.message( 'inlinecategorizer-category-question' ).escaped() + '</strong><br/>' + props.dialogDescription );
+			summaryHolder = $( '<p>' ).append(
+				$( '<strong>' ).text( mw.msg( 'inlinecategorizer-category-question' ) ),
+				$( '<br>' ),
+				props.dialogDescription
+			);
 
 			// Reason textbox.
-			reasonBox = $( '<input type="text" size="45"></input>' )
+			reasonBox = $( '<input>' )
+				.attr( { type: 'text', size: 45 } )
 				.addClass( 'mw-ajax-confirm-reason' );
 
 			// Produce a confirmation dialog
 			dialog = $( '<div>' )
 				.addClass( 'mw-ajax-confirm-dialog' )
 				.attr( 'title', mw.msg( 'inlinecategorizer-confirm-title' ) )
-				.append( summaryHolder )
-				.append( reasonBox );
+				.append(
+					summaryHolder,
+					reasonBox
+				);
 
 			// Submit button
 			submitFunction = function () {
