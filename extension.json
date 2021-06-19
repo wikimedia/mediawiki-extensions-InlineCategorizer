@@ -70,5 +70,13 @@
 			]
 		}
 	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "InlineCategorizer",
+		"scripts": "tests/qunit/ext.inlineCategorizer.core.test.js",
+		"dependencies": [
+			"ext.inlineCategorizer.core"
+		]
+	},
 	"manifest_version": 2
 }

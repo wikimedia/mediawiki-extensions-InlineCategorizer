@@ -121,17 +121,26 @@
 	}
 
 	/**
-	 * Makes regex string caseinsensitive.
+	 * Make string to case-insensitive RegExp string.
 	 * Useful when 'i' flag can't be used.
 	 * Return stuff like [Ff][Oo][Oo]
+	 * TODO: Support characters outside of the Unicode BMP
 	 *
-	 * @param {string} string Regex string
+	 * @param {string} string String for RegExp
 	 * @return {string} Processed RegExp string
 	 */
 	function makeCaseInsensitive( string ) {
 		var newString = '';
 		for ( var i = 0; i < string.length; i++ ) {
-			newString += '[' + string.charAt( i ).toUpperCase() + string.charAt( i ).toLowerCase() + ']';
+			var char = string.charAt( i );
+			var upper = char.toUpperCase();
+			var lower = char.toLowerCase();
+			newString += upper === lower ?
+				// Escape special RegExp characters
+				mw.util.escapeRegExp( char ) :
+				// Escaping of special RegExp characters is not needed
+				// because they never have upper !== lower.
+				'[' + upper + lower + ']';
 		}
 		return newString;
 	}
@@ -144,22 +153,26 @@
 	 * @return {RegExp}
 	 */
 	function buildRegex( category, matchLineBreak ) {
-		var categoryRegex, categoryNSFragment,
-			titleFragment = mw.util.escapeRegExp( category.substr( 1 ) ).replace( /( |_)/g, '[ _]' ),
-			firstChar = category.charAt( 0 );
+		var categoryRegex, categoryNSFragment, titleFragment;
 
 		// Filter out all names for category namespace
 		categoryNSFragment = $.map( mw.config.get( 'wgNamespaceIds' ), function ( id, name ) {
 			if ( id === catNsId ) {
-				name = mw.util.escapeRegExp( name );
-				return !isCatNsSensitive ? makeCaseInsensitive( name ) : name;
+				return !isCatNsSensitive ?
+					makeCaseInsensitive( name ) :
+					mw.util.escapeRegExp( name );
 			}
 			// Otherwise don't include in categoryNSFragment
 			return null;
 		} ).join( '|' );
 
-		firstChar = '[' + mw.util.escapeRegExp( firstChar.toUpperCase() + firstChar.toLowerCase() ) + ']';
-		titleFragment = firstChar + titleFragment;
+		// Ignore case of the first character of the category name.
+		titleFragment = makeCaseInsensitive( category.charAt( 0 ) ) +
+			mw.util.escapeRegExp( category.substr( 1 ) );
+
+		// Support ' ' and '_' as space.
+		titleFragment = titleFragment.replace( /( |_)/g, '[ _]' );
+
 		categoryRegex = '\\[\\[(' + categoryNSFragment + ')' + '[ _]*' + ':' + '[ _]*' + titleFragment + '[ _]*' + '(\\|[^\\]]*)?\\]\\]';
 		if ( matchLineBreak ) {
 			categoryRegex += '[ \\t\\r]*\\n?';
@@ -1171,5 +1184,12 @@
 		// from executing it in the document context.
 		categorizer.setup();
 	} );
+
+	// Expose private functions for QUnit tests.
+	if ( window.QUnit ) {
+		module.exports = {
+			makeCaseInsensitive: makeCaseInsensitive
+		};
+	}
 
 }() );
