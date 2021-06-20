@@ -511,8 +511,7 @@
 					fetch: fetchSuggestions,
 					cancel: function () {
 						var req = this.data( 'suggestions-request' );
-						// XMLHttpRequest.abort is unimplemented in IE6, also returns nonstandard value of 'unknown' for typeof
-						if ( req && typeof req.abort !== 'unknown' && typeof req.abort !== 'undefined' && req.abort ) {
+						if ( req && req.abort ) {
 							req.abort();
 						}
 					}
