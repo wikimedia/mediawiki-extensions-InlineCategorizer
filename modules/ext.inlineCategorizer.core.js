@@ -25,7 +25,7 @@
 	}
 
 	/**
-	 * @param s
+	 * @param {string} s
 	 * @return {string}
 	 */
 	function clean( s ) {
@@ -38,8 +38,7 @@
 	/**
 	 * Generates a random id out of 62 alpha-numeric characters.
 	 *
-	 * @param {number} Length of id (optional, defaults to 32)
-	 * @param idLength
+	 * @param {number} idLength Length of id (optional, defaults to 32)
 	 * @return {string}
 	 */
 	function generateRandomId( idLength ) {
@@ -56,8 +55,8 @@
 	/**
 	 * Helper function for $.fn.suggestions
 	 *
-	 * @context {jQuery}
-	 * @param value {String} Textbox value.
+	 * @this {jQuery}
+	 * @param {string} value Textbox value.
 	 */
 	function fetchSuggestions( value ) {
 		var request,
@@ -90,16 +89,18 @@
 	/**
 	 * Replace <nowiki> and comments with unique keys in the page text.
 	 *
-	 * @param text {string}
-	 * @param id {string} Unique key for this nowiki replacement layer call.
-	 * @param keys {Array} Array where fragments will be stored in.
+	 * @param {string} text
+	 * @param {string} id Unique key for this nowiki replacement layer call.
+	 * @param {Array} keys Array where fragments will be stored in.
 	 * @return {string}
 	 */
 	function replaceNowikis( text, id, keys ) {
-		var matches = text.match( /(<nowiki\>[\s\S]*?<\/nowiki>|<\!--[\s\S]*?--\>)/g );
-		for ( var i = 0; matches && i < matches.length; i++ ) {
-			keys[ i ] = matches[ i ];
-			text = text.replace( matches[ i ], String( id ) + '-' + i );
+		var matches = text.match( /(<nowiki>[\s\S]*?<\/nowiki>|<!--[\s\S]*?-->)/g );
+		if ( matches ) {
+			for ( var i = 0; i < matches.length; i++ ) {
+				keys[ i ] = matches[ i ];
+				text = text.replace( matches[ i ], String( id ) + '-' + i );
+			}
 		}
 		return text;
 	}
@@ -107,9 +108,9 @@
 	/**
 	 * Restore <nowiki> and comments from unique keys in the page text.
 	 *
-	 * @param text {string}
-	 * @param id {string} Unique key of the layer to be restored, as passed to replaceNowikis().
-	 * @param keys {Array} Array where fragements should be fetched from.
+	 * @param {string} text
+	 * @param {string} id Unique key of the layer to be restored, as passed to replaceNowikis().
+	 * @param {Array} keys Array where fragements should be fetched from.
 	 * @return {string}
 	 */
 	function restoreNowikis( text, id, keys ) {
@@ -124,8 +125,8 @@
 	 * Useful when 'i' flag can't be used.
 	 * Return stuff like [Ff][Oo][Oo]
 	 *
-	 * @param string {string} Regex string
-	 * @return {string} Processed regex string
+	 * @param {string} string Regex string
+	 * @return {string} Processed RegExp string
 	 */
 	function makeCaseInsensitive( string ) {
 		var newString = '';
@@ -138,8 +139,8 @@
 	/**
 	 * Build a regex that matches legal invocations of the passed category.
 	 *
-	 * @param category {String}
-	 * @param matchLineBreak {Boolean} Match one following linebreak as well?
+	 * @param {string} category
+	 * @param {boolean} matchLineBreak Match one following linebreak as well?
 	 * @return {RegExp}
 	 */
 	function buildRegex( category, matchLineBreak ) {
@@ -169,11 +170,11 @@
 	/**
 	 * Manufacture iconed button, with or without text.
 	 *
-	 * @param icon {String} The icon class.
-	 * @param title {String} Title attribute.
-	 * @param className {String} (optional) Additional classes to be added to the button.
-	 * @param text {String} (optional) Text label of button.
-	 * @return {jQuery} The button.
+	 * @param {string} icon The icon class
+	 * @param {string} title Title attribute
+	 * @param {string} [className] Additional classes to be added to the button
+	 * @param {string} [text] Text label of button
+	 * @return {jQuery} The button
 	 */
 	function createButton( icon, title, className, text ) {
 		// eslint-disable-next-line mediawiki/class-doc
@@ -196,7 +197,7 @@
 	 * mw.InlineCategorizer
 	 *
 	 * @constructor
-	 * @param options {Object}
+	 * @param {Object} options
 	 */
 	mw.InlineCategorizer = function ( options ) {
 
@@ -232,8 +233,7 @@
 		/**
 		 * Handle add category submit. Not to be called directly.
 		 *
-		 * @context Element
-		 * @param e {jQuery Event}
+		 * @this Element
 		 */
 		this.handleAddLink = function () {
 			var $el = $( this ),
@@ -247,8 +247,7 @@
 		};
 
 		/**
-		 * @context Element
-		 * @param e {jQuery Event}
+		 * @this Element
 		 */
 		this.createEditInterface = function () {
 			var $el = $( this ),
@@ -289,8 +288,7 @@
 		/**
 		 * Handle edit category submit. Not to be called directly.
 		 *
-		 * @context Element
-		 * @param e {jQuery Event}
+		 * @this Element
 		 */
 		this.handleEditLink = function () {
 			var input, category, sortkey, categoryOld,
@@ -318,15 +316,20 @@
 
 			// Resolve redirects
 			ajaxcat.resolveRedirects( category, function ( resolvedCatTitle ) {
-				ajaxcat.handleCategoryEdit( $link, categoryOld, resolvedCatTitle, sortkey, isAdded );
+				ajaxcat.handleCategoryEdit(
+					$link,
+					categoryOld,
+					resolvedCatTitle,
+					sortkey,
+					isAdded
+				);
 			} );
 		};
 
 		/**
 		 * Handle delete category submit. Not to be called directly.
 		 *
-		 * @context Element
-		 * @param e {jQuery Event}
+		 * @this Element
 		 */
 		this.handleDeleteLink = function () {
 			var $el = $( this ),
@@ -350,8 +353,7 @@
 		 * this is called when the user clicks "save all"
 		 * Combines the dialogDescriptions and edit functions.
 		 *
-		 * @context Element
-		 * @return ?
+		 * @this Element
 		 */
 		this.handleStashedCategories = function () {
 			// Remove "holes" in array
@@ -365,9 +367,8 @@
 				ajaxcat.saveAllButton.hide();
 				ajaxcat.cancelAllButton.hide();
 				return;
-			} else {
-				dialogDescriptions = dialogDescriptions.join( '<br/>' );
 			}
+			dialogDescriptions = dialogDescriptions.join( '<br/>' );
 
 			// Remove "holes" in array
 			// Replace this by .flat() when supported by all Grade A browsers.
@@ -460,7 +461,7 @@
 		/**
 		 * Insert a newly added category into the DOM.
 		 *
-		 * @param catTitle {mw.Title} Category title for which a link should be created.
+		 * @param {mw.Title} catTitle Category title for which a link should be created.
 		 * @return {jQuery}
 		 */
 		createCatLink: function ( catTitle ) {
@@ -483,9 +484,10 @@
 		/**
 		 * Create a suggestion box for use in edit/add dialogs
 		 *
-		 * @param prefill {String} Prefill input
-		 * @param callback {Function} Called on submit
-		 * @param buttonVal {String} Button text
+		 * @param {string} prefill Prefill input
+		 * @param {Function} callback Called on submit
+		 * @param {string} buttonVal Button text
+		 * @return {jQuery}
 		 */
 		makeSuggestionBox: function ( prefill, callback, buttonVal ) {
 			// Create add category prompt
@@ -533,10 +535,10 @@
 		/**
 		 * Execute or queue a category addition.
 		 *
-		 * @param $link {jQuery} Anchor tag of category link inside #catlinks.
-		 * @param catTitle {mw.Title} Instance of mw.Title of the category to be added.
-		 * @param catSortkey {String} sort key (optional)
-		 * @param noAppend
+		 * @param {jQuery} $link Anchor tag of category link inside #catlinks.
+		 * @param {mw.Title} catTitle Instance of mw.Title of the category to be added.
+		 * @param {string} [catSortkey] sort key
+		 * @param {boolean} [noAppend]
 		 * @return {mw.inlineCategorizer}
 		 */
 		handleCategoryAdd: function ( $link, catTitle, catSortkey, noAppend ) {
@@ -593,11 +595,11 @@
 		/**
 		 * Execute or queue a category edit.
 		 *
-		 * @param $link {jQuery} Anchor tag of category link in #catlinks.
-		 * @param oldCatName {String} Name of category before edit
-		 * @param catTitle {mw.Title} Instance of mw.Title for new category
-		 * @param catSortkey {String} Sort key of new category link (optional)
-		 * @param isAdded {Boolean} True if this is a new link, false if it changed an existing one
+		 * @param {jQuery} $link Anchor tag of category link in #catlinks.
+		 * @param {string} oldCatName Name of category before edit
+		 * @param {mw.Title} catTitle Instance of mw.Title for new category
+		 * @param {string} catSortkey Sort key of new category link (optional)
+		 * @param {boolean} isAdded True if this is a new link, false if it changed an existing one
 		 */
 		handleCategoryEdit: function ( $link, oldCatName, catTitle, catSortkey, isAdded ) {
 			var ajaxcat = this,
@@ -668,8 +670,8 @@
 		 * Checks the API whether the category in question is a redirect.
 		 * Also returns existance info (to color link red/blue)
 		 *
-		 * @param category {String} Name of category to resolve
-		 * @param callback {Function} Called with 1 argument (mw.Title object)
+		 * @param {string} category Name of category to resolve
+		 * @param {Function} callback Called with 1 argument (mw.Title object)
 		 */
 		resolveRedirects: function ( category, callback ) {
 			if ( !this.options.resolveRedirects ) {
@@ -708,8 +710,7 @@
 		/**
 		 * Append edit and remove buttons to a given category link
 		 *
-		 * @param DOMElement element Anchor element, to which the buttons should be appended.
-		 * @param $element
+		 * @param {jQuery} $element Anchor element, to which the buttons should be appended.
 		 * @return {mw.inlineCategorizer}
 		 */
 		createCatButtons: function ( $element ) {
@@ -738,7 +739,7 @@
 		/**
 		 * Append spinner wheel to element.
 		 *
-		 * @param $el {jQuery}
+		 * @param {jQuery} $el
 		 * @return {mw.inlineCategorizer}
 		 */
 		addProgressIndicator: function ( $el ) {
@@ -749,7 +750,7 @@
 		/**
 		 * Find and remove spinner wheel from inside element.
 		 *
-		 * @param $el {jQuery}
+		 * @param {jQuery} $el
 		 * @return {mw.inlineCategorizer}
 		 */
 		removeProgressIndicator: function ( $el ) {
@@ -761,7 +762,7 @@
 		 * Parse the DOM $container and build a list of
 		 * present categories.
 		 *
-		 * @return {Array} All categories.
+		 * @return {Array} All categories
 		 */
 		getCats: function () {
 			var cats = this.options.$container
@@ -775,7 +776,7 @@
 		/**
 		 * Check whether a passed category is present in the DOM.
 		 *
-		 * @param newCat {String} Category name to be checked for.
+		 * @param {string} newCat Category name to be checked for.
 		 * @return {boolean}
 		 */
 		containsCat: function ( newCat ) {
@@ -788,9 +789,8 @@
 		/**
 		 * Execute or queue a category delete.
 		 *
-		 * @param $link {jQuery}
-		 * @param category
-		 * @return ?
+		 * @param {jQuery} $link
+		 * @param {string} category
 		 */
 		handleCategoryDelete: function ( $link, category ) {
 			var categoryRegex = buildRegex( category, true ),
@@ -826,10 +826,9 @@
 		 * Takes a category link element
 		 * and strips all data from it.
 		 *
-		 * @param $link {jQuery}
-		 * @param del {Boolean}
-		 * @param dontRestoreText {Boolean}
-		 * @return ?
+		 * @param {jQuery} $link
+		 * @param {boolean} del
+		 * @param {boolean} dontRestoreText
 		 */
 		resetCatLink: function ( $link, del, dontRestoreText ) {
 			$link.removeClass( 'mw-removed-category mw-added-category mw-changed-category' );
@@ -862,10 +861,10 @@
 		 * Do the actual edit.
 		 * Gets token & text from api, runs it through fn and saves it with summary.
 		 *
-		 * @param page {String} Pagename
-		 * @param fn {Function} edit function
-		 * @param summary {String}
-		 * @param doneFn {String} Callback after all is done
+		 * @param {string} page Pagename
+		 * @param {Function} fn edit function
+		 * @param {string} summary
+		 * @param {Function} doneFn Callback after all is done
 		 */
 		doEdit: function ( page, fn, summary, doneFn ) {
 			// Get an edit token for the page.
@@ -883,21 +882,25 @@
 				getTokenVars,
 				function ( json ) {
 					if ( 'error' in json ) {
-						ajaxcat.showError( mw.msg( 'inlinecategorizer-api-error', json.error.code, json.error.info ) );
+						ajaxcat.showError(
+							mw.msg( 'inlinecategorizer-api-error', json.error.code, json.error.info )
+						);
 						return;
-					} else if ( json.query && json.query.pages ) {
-						var infos = json.query.pages;
-					} else {
+					}
+					if ( !json.query || !json.query.pages ) {
 						ajaxcat.showError( mw.msg( 'inlinecategorizer-api-unknown-error' ) );
 						return;
 					}
+					var infos = json.query.pages;
 
 					$.each( infos, function ( pageid, data ) {
 						var token = data.edittoken,
 							timestamp = data.revisions[ 0 ].timestamp,
 							oldText = data.revisions[ 0 ][ '*' ],
-							nowikiKey = generateRandomId(), // Unique ID for nowiki replacement
-							nowikiFragments = []; // Nowiki fragments will be stored here during the changes
+							// Unique ID for nowiki replacement
+							nowikiKey = generateRandomId(),
+							// Nowiki fragments will be stored here during the changes
+							nowikiFragments = [];
 
 						// Replace all nowiki parts with unique keys..
 						oldText = replaceNowikis( oldText, nowikiKey, nowikiFragments );
@@ -942,17 +945,18 @@
 		 * Displays a dialog to confirm the action
 		 * Afterwards do the actual edit.
 		 *
-		 * @param props {Object}:
-		 * - modFn {Function} text-modifying function
-		 * - dialogDescription {String} Changes done (HTML for in the dialog, escape before hand if needed)
-		 * - editSummary {String} Changes done (text for the edit summary)
-		 * - doneFn {Function} callback after everything is done
-		 * - $link {jQuery}
-		 * - action
+		 * @param {Object} props
+		 * - {Function} modFn text-modifying function
+		 * - {string} dialogDescription Changes done
+		 *            (HTML for in the dialog, escape before hand if needed)
+		 * - {string} editSummary Changes done (text for the edit summary)
+		 * - {Function} doneFn callback after everything is done
+		 * - {jQuery} $link
+		 * - {string} action
 		 * @return {mw.inlineCategorizer}
 		 */
 		doConfirmEdit: function ( props ) {
-			var summaryHolder, reasonBox, dialog, submitFunction,
+			var $summaryHolder, $reasonBox, $dialog, submitFunction,
 				buttons = {},
 				dialogOptions = {
 					AutoOpen: true,
@@ -984,48 +988,48 @@
 			}
 
 			// Summary of the action to be taken
-			summaryHolder = $( '<p>' ).append(
+			$summaryHolder = $( '<p>' ).append(
 				$( '<strong>' ).text( mw.msg( 'inlinecategorizer-category-question' ) ),
 				$( '<br>' ),
 				props.dialogDescription
 			);
 
 			// Reason textbox.
-			reasonBox = $( '<input>' )
+			$reasonBox = $( '<input>' )
 				.attr( { type: 'text', size: 45 } )
 				.addClass( 'mw-ajax-confirm-reason' );
 
 			// Produce a confirmation dialog
-			dialog = $( '<div>' )
+			$dialog = $( '<div>' )
 				.addClass( 'mw-ajax-confirm-dialog' )
 				.attr( 'title', mw.msg( 'inlinecategorizer-confirm-title' ) )
 				.append(
-					summaryHolder,
-					reasonBox
+					$summaryHolder,
+					$reasonBox
 				);
 
 			// Submit button
 			submitFunction = function () {
-				ajaxcat.addProgressIndicator( dialog );
+				ajaxcat.addProgressIndicator( $dialog );
 				ajaxcat.doEdit(
 					mw.config.get( 'wgPageName' ),
 					props.modFn,
-					props.editSummary + ': ' + reasonBox.val(),
+					props.editSummary + ': ' + $reasonBox.val(),
 					function () {
 						props.doneFn();
 
 						// Clear input field after successful edit
 						ajaxcat.addContainer.find( '.mw-addcategory-input' ).val( '' );
 
-						dialog.dialog( 'close' );
-						ajaxcat.removeProgressIndicator( dialog );
+						$dialog.dialog( 'close' );
+						ajaxcat.removeProgressIndicator( $dialog );
 					}
 				);
 			};
 
 			buttons[ mw.msg( 'inlinecategorizer-confirm-save' ) ] = submitFunction;
 
-			dialog.dialog( dialogOptions ).keyup( function ( e ) {
+			$dialog.dialog( dialogOptions ).keyup( function ( e ) {
 				// Close on enter
 				if ( e.keyCode === 13 ) {
 					submitFunction();
@@ -1036,8 +1040,7 @@
 		},
 
 		/**
-		 * @param index {Number|jQuery} Stash index or jQuery object of stash item.
-		 * @param i
+		 * @param {number|jQuery} i Stash index or jQuery object of stash item.
 		 * @return {mw.inlineCategorizer}
 		 */
 		removeStashItem: function ( i ) {
@@ -1063,7 +1066,7 @@
 		/**
 		 * Reset all data from the category links and the stash.
 		 *
-		 * @param del {Boolean} Delete any category links with .mw-removed-category
+		 * @param {boolean} del Delete any category links with .mw-removed-category
 		 * @return {mw.inlineCategorizer}
 		 */
 		resetAll: function ( del ) {
@@ -1092,13 +1095,11 @@
 		 * afterAdd, afterChange, afterDelete
 		 * If the hook function returns false, all changes are aborted.
 		 *
-		 * @param string type Type of hook to add
-		 * @param function fn Hook function. The following vars are passed to it:
+		 * @param {string} type Type of hook to add
+		 * @param {Function} fn Hook function. The following vars are passed to it:
 		 * 1. oldtext: The wikitext before the hook
 		 * 2. category: The deleted, added, or changed category
 		 * 3. (only for beforeChange/afterChange): newcategory
-		 * @param type
-		 * @param fn
 		 */
 		addHook: function ( type, fn ) {
 			if ( !this.hooks[ type ] || typeof fn !== 'function' ) {
@@ -1111,11 +1112,10 @@
 		/**
 		 * Open a dismissable error dialog
 		 *
-		 * @param string str The error description
-		 * @param str
+		 * @param {string} str The error description
 		 */
 		showError: function ( str ) {
-			var oldDialog = $( '.mw-ajax-confirm-dialog' ),
+			var $oldDialog = $( '.mw-ajax-confirm-dialog' ),
 				buttons = {},
 				dialogOptions = {
 					buttons: buttons,
@@ -1123,30 +1123,30 @@
 					title: mw.msg( 'inlinecategorizer-error-title' )
 				};
 
-			this.removeProgressIndicator( oldDialog );
-			oldDialog.dialog( 'close' );
+			this.removeProgressIndicator( $oldDialog );
+			$oldDialog.dialog( 'close' );
 
-			var dialog = $( '<div>' ).text( str );
+			var $dialog = $( '<div>' ).text( str );
 
-			mw.util.$content.append( dialog );
+			mw.util.$content.append( $dialog );
 
 			buttons[ mw.msg( 'inlinecategorizer-confirm-ok' ) ] = function () {
-				dialog.dialog( 'close' );
+				$dialog.dialog( 'close' );
 			};
 
-			dialog.dialog( dialogOptions ).keyup( function ( e ) {
+			$dialog.dialog( dialogOptions ).keyup( function ( e ) {
 				if ( e.keyCode === 13 ) {
-					dialog.dialog( 'close' );
+					$dialog.dialog( 'close' );
 				}
 			} );
 		},
 
 		/**
-		 * @param oldtext
-		 * @param type
-		 * @param category
-		 * @param categoryNew
-		 * @return oldtext
+		 * @param {string} oldtext
+		 * @param {string} type
+		 * @param {string} category
+		 * @param {string} [categoryNew]
+		 * @return {string}
 		 */
 		runHooks: function ( oldtext, type, category, categoryNew ) {
 			// No hooks registered
