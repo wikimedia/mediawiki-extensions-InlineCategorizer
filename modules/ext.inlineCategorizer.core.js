@@ -1043,7 +1043,7 @@
 				delete this.stash.dialogDescriptions[ i ];
 			} catch ( e ) {}
 
-			if ( $.isEmpty( this.stash.fns ) ) {
+			if ( $.isEmptyObject( this.stash.fns ) ) {
 				this.stash.fns = [];
 				this.stash.dialogDescriptions = [];
 				this.stash.editSummaries = [];
