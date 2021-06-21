@@ -176,16 +176,14 @@
 	 * @return {jQuery} The button.
 	 */
 	function createButton( icon, title, className, text ) {
-		// We're adding a zero width space for IE7, it's got problems with empty nodes apparently
 		// eslint-disable-next-line mediawiki/class-doc
 		var $button = $( '<a>' )
 			.addClass( className || '' )
-			.attr( 'title', title )
-			.html( '&#8203;' );
+			.attr( 'title', title );
 
 		if ( text ) {
 			// eslint-disable-next-line mediawiki/class-doc
-			var $icon = $( '<span>' ).addClass( 'icon ' + icon ).html( '&#8203;' );
+			var $icon = $( '<span>' ).addClass( 'icon ' + icon );
 			$button.addClass( 'icon-parent' ).append( $icon ).append( mw.html.escape( text ) );
 		} else {
 			// eslint-disable-next-line mediawiki/class-doc
