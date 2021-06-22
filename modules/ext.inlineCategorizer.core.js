@@ -144,8 +144,8 @@
 	 */
 	function buildRegex( category, matchLineBreak ) {
 		var categoryRegex, categoryNSFragment,
-			titleFragment = mw.util.escapeRegExp( category ).replace( /( |_)/g, '[ _]' ),
-			firstChar = titleFragment.charAt( 0 );
+			titleFragment = mw.util.escapeRegExp( category.substr( 1 ) ).replace( /( |_)/g, '[ _]' ),
+			firstChar = category.charAt( 0 );
 
 		// Filter out all names for category namespace
 		categoryNSFragment = $.map( mw.config.get( 'wgNamespaceIds' ), function ( id, name ) {
@@ -157,8 +157,8 @@
 			return null;
 		} ).join( '|' );
 
-		firstChar = '[' + firstChar.toUpperCase() + firstChar.toLowerCase() + ']';
-		titleFragment = firstChar + titleFragment.substr( 1 );
+		firstChar = '[' + mw.util.escapeRegExp( firstChar.toUpperCase() + firstChar.toLowerCase() ) + ']';
+		titleFragment = firstChar + titleFragment;
 		categoryRegex = '\\[\\[(' + categoryNSFragment + ')' + '[ _]*' + ':' + '[ _]*' + titleFragment + '[ _]*' + '(\\|[^\\]]*)?\\]\\]';
 		if ( matchLineBreak ) {
 			categoryRegex += '[ \\t\\r]*\\n?';
