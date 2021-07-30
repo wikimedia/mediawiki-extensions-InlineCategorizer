@@ -10,7 +10,6 @@
 		"jQuery": false
 	},
 	"rules": {
-		"vars-on-top": "warn",
 		"no-useless-escape": "warn",
 		"no-control-regex": "warn",
 		"valid-typeof": "warn",
