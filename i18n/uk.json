@@ -4,6 +4,7 @@
 			"AS",
 			"Ahonc",
 			"Andriykopanytsia",
+			"DDPAT",
 			"Dim Grits",
 			"Ата",
 			"Тест"
@@ -19,7 +20,7 @@
 	"inlinecategorizer-cancel-all": "Скасувати всі зміни",
 	"inlinecategorizer-category-already-present": "Ця сторінка вже належить до категорії \"$1\"",
 	"inlinecategorizer-category-hook-error": "Локальної функція перешкодила застосуванню змін.",
-	"inlinecategorizer-category-question": "Чому ви хочете зробити наступні зміни:",
+	"inlinecategorizer-category-question": "Чому ви хочете зробити такі зміни:",
 	"inlinecategorizer-confirm-ok": "Готово",
 	"inlinecategorizer-confirm-save": "Зберегти",
 	"inlinecategorizer-confirm-save-all": "Зберегти всі зміни",
