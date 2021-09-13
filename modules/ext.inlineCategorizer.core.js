@@ -1188,7 +1188,8 @@
 	// Expose private functions for QUnit tests.
 	if ( window.QUnit ) {
 		module.exports = {
-			makeCaseInsensitive: makeCaseInsensitive
+			makeCaseInsensitive: makeCaseInsensitive,
+			buildRegex: buildRegex
 		};
 	}
 
