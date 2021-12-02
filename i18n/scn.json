@@ -14,5 +14,7 @@
 	"inlinecategorizer-confirm-save-all": "Sarva tutti li canciamenti",
 	"inlinecategorizer-confirm-title": "Cunferma l'azzioni",
 	"inlinecategorizer-edit-category": "Cancia catigurìa",
-	"inlinecategorizer-error-title": "Erruri"
+	"inlinecategorizer-error-title": "Erruri",
+	"inlinecategorizer-remove-category": "Leva sta catigurìa",
+	"inlinecategorizer-remove-category-summary": "Leva la catigurìa \"$1\""
 }
