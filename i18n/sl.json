@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"inlinecategorizer-desc": "Modul JavaScript, ki omogoča spreminjanje, dodajanje in odstranjevanje povezav kategorij neposredno s strani",
@@ -20,7 +21,7 @@
 	"inlinecategorizer-confirm-save-all": "Shrani vse spremembe",
 	"inlinecategorizer-confirm-title": "Potrdi dejanje",
 	"inlinecategorizer-edit-category": "Uredi kategorijo",
-	"inlinecategorizer-edit-category-error": "Kategorije »$1« ni bilo mogoče urediti.\nTo se po navadi zgodi, ko je kategorija dodana strani preko predloge.",
+	"inlinecategorizer-edit-category-error": "Kategorije »$1« ni bilo mogoče urediti.\nTo se po navadi zgodi, ko je kategorija na stran dodana s predlogo.",
 	"inlinecategorizer-edit-category-summary": "Spremeniti kategorijo »$1« v »$2«",
 	"inlinecategorizer-error-title": "Napaka",
 	"inlinecategorizer-remove-category": "Odstrani kategorijo",

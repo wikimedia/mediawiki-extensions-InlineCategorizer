@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"inlinecategorizer-add-category": "Agghiunci catigurìa",
+	"inlinecategorizer-add-category-submit": "Agghiunci",
+	"inlinecategorizer-cancel": "Annulla canciamentu",
+	"inlinecategorizer-cancel-all": "Annulla tutti li canciamenti",
+	"inlinecategorizer-category-already-present": "Sta pàggina apparteni già â catigurìa \"$1\"",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Sarva",
+	"inlinecategorizer-confirm-save-all": "Sarva tutti li canciamenti",
+	"inlinecategorizer-confirm-title": "Cunferma l'azzioni",
+	"inlinecategorizer-edit-category": "Cancia catigurìa",
+	"inlinecategorizer-error-title": "Erruri",
+	"inlinecategorizer-remove-category": "Leva sta catigurìa",
+	"inlinecategorizer-remove-category-summary": "Leva la catigurìa \"$1\""
+}

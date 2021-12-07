@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dani"
+			"Dani",
+			"Tacsipacsi"
 		]
 	},
 	"inlinecategorizer-add-category": "Kategória hozzáadása",
@@ -14,10 +15,10 @@
 	"inlinecategorizer-confirm-save-all": "Összes változtatás mentése",
 	"inlinecategorizer-confirm-title": "Művelet megerősítése",
 	"inlinecategorizer-edit-category": "Kategória szerkesztése",
-	"inlinecategorizer-edit-category-error": "Nem lehet szerkeszteni a kategóriát.\nEz általában akkor fordul elő, ha a lapot egy sablon sorolja be az adott kategóriába.",
+	"inlinecategorizer-edit-category-error": "Nem lehet szerkeszteni a(z) „$1” kategóriát.\nEz általában akkor fordul elő, ha a lapot egy sablon sorolja be az adott kategóriába.",
 	"inlinecategorizer-edit-category-summary": "„$1” kategória cseréje a következőre: „$2”",
 	"inlinecategorizer-error-title": "Hiba",
 	"inlinecategorizer-remove-category": "Kategória eltávolítása",
-	"inlinecategorizer-remove-category-error": "Nem sikerült eltávolítani a kategóriát.\nEz általában akkor fordul elő, ha a kategóriát egy sablon adja hozzá a laphoz.",
+	"inlinecategorizer-remove-category-error": "Nem sikerült eltávolítani a(z) „$1” kategóriát.\nEz általában akkor fordul elő, ha a kategóriát egy sablon adja hozzá a laphoz.",
 	"inlinecategorizer-remove-category-summary": "„$1” kategória eltávolítása"
 }
