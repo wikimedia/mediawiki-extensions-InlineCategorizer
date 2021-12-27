@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Daud I.F. Argana",
 			"Farras",
 			"Irwangatot"
 		]
 	},
+	"inlinecategorizer-desc": "Modul JavaScript yang memungkinkan pengubahan, penambahan, dan penghapusan pranala kategori secara langsung dari halaman",
 	"inlinecategorizer-add-category": "Tambah kategori",
 	"inlinecategorizer-add-category-submit": "Tambah",
 	"inlinecategorizer-add-category-summary": "Tambah kategori \"$1\"",
