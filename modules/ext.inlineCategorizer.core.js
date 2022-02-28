@@ -1,4 +1,4 @@
-/**
+/*!
  * The core of InlineCategorizer
  *
  * @author Michael Dale, 2009
@@ -19,7 +19,7 @@
 			$container: $( '.catlinks' ),
 			$containerNormal: $( '#mw-normal-catlinks' ),
 			categoryLinkSelector: 'li a:not(.icon)',
-			multiEdit: mw.config.get( 'wgUserGroups' ).indexOf( 'user' ) !== -1,
+			multiEdit: mw.config.get( 'wgUserGroups', [] ).indexOf( 'user' ) !== -1,
 			resolveRedirects: true
 		};
 	}
@@ -1128,25 +1128,22 @@
 		 * @param {string} str The error description
 		 */
 		showError: function ( str ) {
-			var $oldDialog = $( '.mw-ajax-confirm-dialog' ),
-				buttons = {},
-				dialogOptions = {
-					buttons: buttons,
-					AutoOpen: true,
-					title: mw.msg( 'inlinecategorizer-error-title' )
-				};
-
+			var $oldDialog = $( '.mw-ajax-confirm-dialog' );
 			this.removeProgressIndicator( $oldDialog );
 			$oldDialog.dialog( 'close' );
 
 			var $dialog = $( '<div>' ).text( str );
 
-			mw.util.$content.append( $dialog );
-
+			var buttons = {};
 			buttons[ mw.msg( 'inlinecategorizer-confirm-ok' ) ] = function () {
 				$dialog.dialog( 'close' );
 			};
 
+			var dialogOptions = {
+				buttons: buttons,
+				AutoOpen: true,
+				title: mw.msg( 'inlinecategorizer-error-title' )
+			};
 			$dialog.dialog( dialogOptions ).keyup( function ( e ) {
 				if ( e.keyCode === 13 ) {
 					$dialog.dialog( 'close' );
