@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yupik"
+			"Yupik",
+			"Seipinne"
 		]
 	},
 	"inlinecategorizer-add-category-submit": "Lasseet",
-	"inlinecategorizer-confirm-save": "Vuorkkii"
+	"inlinecategorizer-confirm-save": "Vuorkkii",
+	"inlinecategorizer-error-title": "Feilâ"
 }
