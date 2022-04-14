@@ -1,4 +1,5 @@
 {
+	"name": "InlineCategorizer",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
