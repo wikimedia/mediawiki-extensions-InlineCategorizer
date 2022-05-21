@@ -22,6 +22,7 @@
 		"no-jquery/no-map-util": "warn",
 		"no-jquery/no-parse-html-literal": "warn",
 		"no-jquery/variable-pattern": "warn",
-		"block-scoped-var": "warn"
+		"block-scoped-var": "warn",
+		"unicorn/prefer-string-slice": "warn"
 	}
 }

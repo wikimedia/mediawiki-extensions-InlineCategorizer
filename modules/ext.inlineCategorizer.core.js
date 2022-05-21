@@ -168,7 +168,7 @@
 
 		// Ignore case of the first character of the category name.
 		titleFragment = makeCaseInsensitive( category.charAt( 0 ) ) +
-			mw.util.escapeRegExp( category.substr( 1 ) );
+			mw.util.escapeRegExp( category.slice( 1 ) );
 
 		// Support ' ' and '_' as space.
 		titleFragment = titleFragment.replace( /( |_)/g, '[ _]' );
