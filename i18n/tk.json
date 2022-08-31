@@ -2,16 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Cekli829",
-			"Hanberke"
+			"Hanberke",
+			"TayfunEt."
 		]
 	},
 	"inlinecategorizer-add-category": "Kategoriýa goş",
 	"inlinecategorizer-add-category-submit": "Goş",
 	"inlinecategorizer-add-category-summary": "\"$1\" kategoriýasyny goş",
+	"inlinecategorizer-cancel": "Redaktirlemegi ýatyryň",
+	"inlinecategorizer-cancel-all": "Ähli üýtgeşmeleri ýatyryň",
+	"inlinecategorizer-category-already-present": "Bu sahypa eýýäm \"$1\" kategoriýasyna degişlidir",
+	"inlinecategorizer-category-question": "Näme üçin aşakdaky üýtgeşmeleri girizmek isleýärsiňiz:",
 	"inlinecategorizer-confirm-ok": "OK",
 	"inlinecategorizer-confirm-save": "Ýazdyr",
 	"inlinecategorizer-confirm-title": "Işi tassykla",
+	"inlinecategorizer-edit-category": "Kategoriýany redaktirläň",
 	"inlinecategorizer-error-title": "Säwlik",
+	"inlinecategorizer-remove-category": "Kategoriýany aýyryň",
 	"inlinecategorizer-remove-category-error": "Bu kategoriýany aýyryp bolmady.\nBu adatça kategoriýa sahypanyň içindäki bir şablona goşulgy bolsa ýüze çykýar.",
 	"inlinecategorizer-remove-category-summary": "\"$1\" kategoriýasyny aýyr"
 }
