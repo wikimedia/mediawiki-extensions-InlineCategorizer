@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Khalid Mahmood"
+			"Khalid Mahmood",
+			"Bgo eiu"
 		]
 	},
 	"inlinecategorizer-add-category": "گٹھ رلاؤ",
@@ -11,7 +12,7 @@
 	"inlinecategorizer-api-unknown-error": "اے پی آئی نے اک انجان غلطی ٹوری اے۔",
 	"inlinecategorizer-cancel": "تبدیلیاں مکاؤ",
 	"inlinecategorizer-cancel-all": "ساریاں تبدیلیاں مٹاؤ",
-	"inlinecategorizer-category-already-present": "ایس صفے تے پہلے ای \"$1\" گٹھ دتی گئی اے۔",
+	"inlinecategorizer-category-already-present": "ایس صفحے تے پہلے ای \"$1\" گٹھ دتی گئی اے۔",
 	"inlinecategorizer-category-hook-error": "اک لوکل کم نے تبدیلیاں نوں بچان توں روک دتا اے۔",
 	"inlinecategorizer-category-question": "تسیں تھلے دتیاں تبدیلیاں کیوں کرنا چاندے او:",
 	"inlinecategorizer-confirm-ok": "اوکے",
@@ -19,10 +20,10 @@
 	"inlinecategorizer-confirm-save-all": "ساریاں تبدیلیاں بچاؤ",
 	"inlinecategorizer-confirm-title": "کم کنفرم کرو",
 	"inlinecategorizer-edit-category": "گٹھ بدلو",
-	"inlinecategorizer-edit-category-error": "ایہ ممکن نئیں جے گٹھ \"$1\". نوں بدلۓ۔\nاے اودوں ہوندا اے جدوں گٹھ جوڑی دی صفے چ ٹمپلیٹ چ۔",
+	"inlinecategorizer-edit-category-error": "ایہ ممکن نئیں جے گٹھ \"$1\". نوں بدلۓ۔\nاے اودوں ہوندا اے جدوں گٹھ جوڑی دی صفحے وچ ٹمپلیٹ وچ۔",
 	"inlinecategorizer-edit-category-summary": "گٹھ \"$1\" نوں \"$2\" چ پرتو",
 	"inlinecategorizer-error-title": "غلطی",
 	"inlinecategorizer-remove-category": "گٹھ ہٹاؤ",
-	"inlinecategorizer-remove-category-error": "اے نئیں ہوسکدا جے گٹھ \"$1\". نوں ہٹایا جاۓ۔\nاے اودوں ہوندا اے جدوں گٹھ ٹمپلیٹ والے صفے تے جوڑی جاۓ۔",
+	"inlinecategorizer-remove-category-error": "اے نئیں ہوسکدا جے گٹھ \"$1\". نوں ہٹایا جاۓ۔\nاے اودوں ہوندا اے جدوں گٹھ ٹمپلیٹ والے صفحے تے جوڑی جاۓ۔",
 	"inlinecategorizer-remove-category-summary": "گٹھ \"$1\" ہٹاؤ"
 }
