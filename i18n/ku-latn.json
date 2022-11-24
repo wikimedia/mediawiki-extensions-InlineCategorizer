@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"George Animal",
-			"Gomada"
+			"Gomada",
+			"Balyozxane"
 		]
 	},
 	"inlinecategorizer-add-category": "Kategoriyê lê zêde bike",
 	"inlinecategorizer-cancel": "Guhertinê betal bike",
-	"inlinecategorizer-cancel-all": "Hemû guhertinan betal bike",
+	"inlinecategorizer-cancel-all": "Hemû guhartinan betal bike",
 	"inlinecategorizer-confirm-ok": "Baş e",
 	"inlinecategorizer-confirm-save": "Tomar bike",
-	"inlinecategorizer-confirm-save-all": "Hemû guhertinan tomar bike",
-	"inlinecategorizer-edit-category": "Kategoriyê biguherîne",
+	"inlinecategorizer-confirm-save-all": "Hemû guhartinan tomar bike",
+	"inlinecategorizer-edit-category": "Kategoriyê biguhêre",
 	"inlinecategorizer-error-title": "Çewtî",
 	"inlinecategorizer-remove-category": "Kategoriyê jê bibe",
 	"inlinecategorizer-remove-category-summary": "Kategoriya \"$1\" jê bibe"
