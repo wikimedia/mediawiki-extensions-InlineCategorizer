@@ -32,5 +32,5 @@
 	"inlinecategorizer-error-title": "Erreur",
 	"inlinecategorizer-remove-category": "Supprimer la catégorie",
 	"inlinecategorizer-remove-category-error": "Il n’a pas été possible de retirer la catégorie « $1 ».\nCela se produit généralement lorsque la catégorie a été ajoutée à la page via un modèle.",
-	"inlinecategorizer-remove-category-summary": "Enlever la catégorie « $1 »"
+	"inlinecategorizer-remove-category-summary": "Retirer la catégorie « $1 »"
 }
