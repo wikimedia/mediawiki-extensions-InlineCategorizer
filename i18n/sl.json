@@ -14,7 +14,7 @@
 	"inlinecategorizer-cancel": "Prekliči urejanja",
 	"inlinecategorizer-cancel-all": "Prekliči vse spremembe",
 	"inlinecategorizer-category-already-present": "Stran že pripada kategoriji $1",
-	"inlinecategorizer-category-hook-error": "Lokalna funkcija je preprečila shranitev sprememb",
+	"inlinecategorizer-category-hook-error": "Shranitev sprememb je preprečila lokalna funkcija.",
 	"inlinecategorizer-category-question": "Zakaj želite narediti naslednje spremembe:",
 	"inlinecategorizer-confirm-ok": "V redu",
 	"inlinecategorizer-confirm-save": "Shrani",
