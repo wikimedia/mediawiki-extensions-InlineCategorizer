@@ -4,6 +4,13 @@
 			"Yupik"
 		]
 	},
+	"inlinecategorizer-add-category": "Lasit kategoriija",
+	"inlinecategorizer-add-category-submit": "Lasit",
+	"inlinecategorizer-add-category-summary": "Lasit kategoriija \"$1\"",
+	"inlinecategorizer-confirm-ok": "OK",
 	"inlinecategorizer-confirm-save": "Vurke",
-	"inlinecategorizer-error-title": "Meattáhus"
+	"inlinecategorizer-confirm-save-all": "Vurke buot rievdadusaid",
+	"inlinecategorizer-error-title": "Meattáhus",
+	"inlinecategorizer-remove-category": "Sihko kategoriija",
+	"inlinecategorizer-remove-category-summary": "Sihko kategoriija \"$1\""
 }
