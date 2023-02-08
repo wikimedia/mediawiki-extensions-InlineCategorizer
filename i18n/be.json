@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Artsiom91",
+			"Plaga med",
 			"Yury Tarasievich",
 			"ZlyiLev"
 		]
@@ -11,7 +12,7 @@
 	"inlinecategorizer-add-category-summary": "Дадаць катэгорыю \"$1\"",
 	"inlinecategorizer-cancel": "Адмяніць змены",
 	"inlinecategorizer-confirm-save": "Запісаць",
-	"inlinecategorizer-confirm-title": "Пацверджанне",
+	"inlinecategorizer-confirm-title": "Пацвердзіце дзеянне",
 	"inlinecategorizer-error-title": "Памылка",
 	"inlinecategorizer-remove-category": "Выдаліць катэгорыю",
 	"inlinecategorizer-remove-category-error": "Немагчыма выдаліць катэгорыю \"$1\".\nТак звычайна бывае, калі катэгорыя дададзеная ў старонку праз шаблон.",
