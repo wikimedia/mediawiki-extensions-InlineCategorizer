@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"פוילישער"
+			"פוילישער",
+			"Pacha Tchernof"
 		]
 	},
 	"inlinecategorizer-add-category": "צולייגן קאַטעגאריע",
 	"inlinecategorizer-add-category-submit": "צולייגן",
 	"inlinecategorizer-add-category-summary": "צולייגן קאַטעגאריע \"$1\"",
+	"inlinecategorizer-confirm-ok": "יאָ",
 	"inlinecategorizer-confirm-save": "אויפֿהיטן",
-	"inlinecategorizer-error-title": "גרײַז",
+	"inlinecategorizer-error-title": "פֿעלער",
 	"inlinecategorizer-remove-category-summary": "אַוועקנעמען קאַטעגאריע \"$1\""
 }
