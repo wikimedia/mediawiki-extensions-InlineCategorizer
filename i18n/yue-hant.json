@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Winston Sung"
+		]
 	},
 	"inlinecategorizer-add-category": "加分類",
 	"inlinecategorizer-add-category-submit": "加",
