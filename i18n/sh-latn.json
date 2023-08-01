@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript modul što omogućava promjenu, dodavanje i uklanjanje veza iz kategorija izravno sa stranice",
+	"inlinecategorizer-add-category": "Dodaj kategoriju",
+	"inlinecategorizer-add-category-submit": "Dodaj",
+	"inlinecategorizer-add-category-summary": "Dodaj kategoriju \"$1\"",
+	"inlinecategorizer-api-error": "Izvršnik je vratio pogrešku: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API je vratio nepoznatu pogrešku.",
+	"inlinecategorizer-cancel": "Otkaži uređivanje",
+	"inlinecategorizer-cancel-all": "Otkaži sve izmjene",
+	"inlinecategorizer-category-already-present": "Ova stranica već pripada kategoriji „$1“",
+	"inlinecategorizer-category-hook-error": "Lokalna funkcija je spriječila čuvanje promjena.",
+	"inlinecategorizer-category-question": "Zašto želite sljedeće promjene:",
+	"inlinecategorizer-confirm-ok": "U redu",
+	"inlinecategorizer-confirm-save": "Sačuvaj",
+	"inlinecategorizer-confirm-save-all": "Sačuvaj sve promjene",
+	"inlinecategorizer-confirm-title": "Potvrdi radnju",
+	"inlinecategorizer-edit-category": "Uredi kategoriju",
+	"inlinecategorizer-edit-category-error": "Nije bilo moguće urediti kategoriju \"$1\".\nOvo se obično događa kada je kategorija na stranicu dodana u predlošku.",
+	"inlinecategorizer-edit-category-summary": "Promijeni kategoriju \"$1\" u \"$2\"",
+	"inlinecategorizer-error-title": "Greška",
+	"inlinecategorizer-remove-category": "Ukloni kategoriju",
+	"inlinecategorizer-remove-category-error": "Nije bilo moguće ukloniti kategoriju \"$1\".\nOvo se obično događa kada je kategorija na stranicu dodana u predlošku.",
+	"inlinecategorizer-remove-category-summary": "Ukloni kategoriju \"$1\""
+}
