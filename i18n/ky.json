@@ -4,6 +4,9 @@
 			"Bosogo"
 		]
 	},
+	"inlinecategorizer-add-category": "Категория кошуу",
 	"inlinecategorizer-add-category-submit": "Кошуу",
-	"inlinecategorizer-confirm-save": "Сактоо"
+	"inlinecategorizer-confirm-ok": "Макул",
+	"inlinecategorizer-confirm-save": "Сактоо",
+	"inlinecategorizer-edit-category": "Категорияны түзөтүү"
 }
