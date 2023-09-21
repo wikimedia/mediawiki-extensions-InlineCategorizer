@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Рустам Нурыев"
+			"Рустам Нурыев",
+			"З. ӘЙЛЕ"
 		]
 	},
 	"inlinecategorizer-add-category-submit": "Өҫтәргә",
-	"inlinecategorizer-add-category-summary": "Өҫтәлгән категориялар \"$1\"",
+	"inlinecategorizer-add-category-summary": "\"$1\" категорияһын өҫтәргә",
 	"inlinecategorizer-confirm-save": "Һаҡларға",
 	"inlinecategorizer-error-title": "Хата",
-	"inlinecategorizer-remove-category-summary": "Категория «$1» юйылған"
+	"inlinecategorizer-remove-category-summary": "«$1» категорияһын юйырға"
 }
