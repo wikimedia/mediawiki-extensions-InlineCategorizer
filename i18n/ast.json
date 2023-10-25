@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"inlinecategorizer-desc": "Módulu JavaScript que permite camudar, amestar y desaniciar enllaces de categoríes direutamente dende una páxina",
@@ -10,8 +11,8 @@
 	"inlinecategorizer-add-category-summary": "Amestar la categoría \"$1\"",
 	"inlinecategorizer-api-error": "La API devolvió un fallu: $1: $2.",
 	"inlinecategorizer-api-unknown-error": "La API devolvió un fallu desconocíu.",
-	"inlinecategorizer-cancel": "Encaboxar la edición",
-	"inlinecategorizer-cancel-all": "Encaboxar tolos cambios",
+	"inlinecategorizer-cancel": "Zarrar la edición",
+	"inlinecategorizer-cancel-all": "Zarrar tolos cambios",
 	"inlinecategorizer-category-already-present": "Esta páxina yá pertenez a la categoría \"$1\"",
 	"inlinecategorizer-category-hook-error": "Una función llocal torgó que se guardaren los cambios",
 	"inlinecategorizer-category-question": "Por qué quies facer los cambios darréu:",
