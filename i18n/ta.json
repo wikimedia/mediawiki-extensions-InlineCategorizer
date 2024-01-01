@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Karthi.dr"
+			"Karthi.dr",
+			"Fahimrazick"
 		]
 	},
 	"inlinecategorizer-add-category": " பகுப்பைச் சேர்க்கவும்",
 	"inlinecategorizer-add-category-submit": "சேர்",
 	"inlinecategorizer-add-category-summary": "பகுப்பு \"$1\" ஐச் சேர்",
-	"inlinecategorizer-cancel": "தொகுப்பை இரத்து செய்",
-	"inlinecategorizer-cancel-all": "அனைத்து மாற்றங்களையும் இரத்து செய்",
+	"inlinecategorizer-cancel": "தொகுப்பைக் கைவிடு",
+	"inlinecategorizer-cancel-all": "எல்லா மாற்றங்களையும் கைவிடு",
 	"inlinecategorizer-category-question": "பின் வரும் மாற்றங்களை உருவாக்க ஏன் விரும்புகிறீர்கள்:",
 	"inlinecategorizer-confirm-ok": "சரி",
 	"inlinecategorizer-confirm-save": "சேமி",
