@@ -20,7 +20,7 @@
 	"inlinecategorizer-confirm-ok": "OK",
 	"inlinecategorizer-confirm-save": "Salva",
 	"inlinecategorizer-confirm-save-all": "Salva tutte le modifiche",
-	"inlinecategorizer-confirm-title": "Conferma l'azione",
+	"inlinecategorizer-confirm-title": "Conferma azione",
 	"inlinecategorizer-edit-category": "Modifica categoria",
 	"inlinecategorizer-edit-category-error": "Non è stato possibile modificare la categoria \"$1\".\nDi solito avviene quando la categoria è stata aggiunta alla pagina da un template.",
 	"inlinecategorizer-edit-category-summary": "modificare la categoria \"$1\" in \"$2\"",
