@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sp5uhe"
+			"Sp5uhe",
+			"WTM"
 		]
 	},
 	"inlinecategorizer-desc": "Moduł JavaScript, który umożliwia zmianę, dodawanie i usuwanie linków do kategorii bezpośrednio na stronie",
@@ -10,7 +11,7 @@
 	"inlinecategorizer-add-category-summary": "Dodaj kategorię „$1”",
 	"inlinecategorizer-api-error": "Interfejs API zwrócił błąd – $1: $2",
 	"inlinecategorizer-api-unknown-error": "Interfejs API zwrócił nieznany błąd.",
-	"inlinecategorizer-cancel": "Wycofaj zmiany",
+	"inlinecategorizer-cancel": "Anuluj zmianę",
 	"inlinecategorizer-cancel-all": "Anuluj wszystkie zmiany",
 	"inlinecategorizer-category-already-present": "Strona już jest w kategorii $1",
 	"inlinecategorizer-category-hook-error": "Lokalna funkcja uniemożliwia zapisanie zmian",
