@@ -4,7 +4,8 @@
 			"Armandaneshjoo",
 			"Huji",
 			"Reza1615",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Ebraminio"
 		]
 	},
 	"inlinecategorizer-desc": "پودمان جاوااسکریپت که تغییر، افزودن و حذف‌کردن رده‌ها را مستقیماً از صفحه ممکن می‌کند",
@@ -17,7 +18,7 @@
 	"inlinecategorizer-cancel-all": "لغو همه تغییرات",
 	"inlinecategorizer-category-already-present": "این صحفه از قبل در رده $1 قرار دارد",
 	"inlinecategorizer-category-hook-error": "یک تابع محلی از ذخیره تغییرات جلوگیری کرد.",
-	"inlinecategorizer-category-question": "چرا می خواهید تغییرات زیر را ایجاد کنید:",
+	"inlinecategorizer-category-question": "چرا می‌خواهید تغییرات زیر را ایجاد کنید:",
 	"inlinecategorizer-confirm-ok": "تأیید",
 	"inlinecategorizer-confirm-save": "ذخیره",
 	"inlinecategorizer-confirm-save-all": "ذخیره کردن تمام تغییرات",
