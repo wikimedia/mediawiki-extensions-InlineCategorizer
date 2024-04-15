@@ -12,6 +12,6 @@
 	"inlinecategorizer-confirm-save": "Сакълат",
 	"inlinecategorizer-confirm-title": "Ишлеуню мюкюл эт",
 	"inlinecategorizer-error-title": "Халат",
-	"inlinecategorizer-remove-category-error": "Категория кетерилмейди.\nБу проблема кёбюсюне, категория шаблонну юсю бла бетге къошулса, болады.",
+	"inlinecategorizer-remove-category-error": "\"$1\" кетерирча тюлдю.\nБу кёбюсюне категория, шаблонну юсю бла къошулса болады.",
 	"inlinecategorizer-remove-category-summary": "«$1» категория кетерилди"
 }
