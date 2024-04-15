@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"An13sa",
+			"Atzerritik",
 			"Subi",
 			"Unai Fdz. de Betoño",
 			"Xabier Armendaritz",
@@ -14,7 +15,7 @@
 	"inlinecategorizer-cancel-all": "Bertan behera utzi aldaketa guztiak",
 	"inlinecategorizer-confirm-ok": "Ados",
 	"inlinecategorizer-confirm-save": "Gorde",
-	"inlinecategorizer-confirm-save-all": "Gorde orrialde guztiak",
+	"inlinecategorizer-confirm-save-all": "Aldaketa guztiak gorde",
 	"inlinecategorizer-confirm-title": "Ekintza egiaztatu",
 	"inlinecategorizer-error-title": "Errorea",
 	"inlinecategorizer-remove-category-error": "Ezin izan da «$1» kategoria ezabatu.\nArrazoia izan ohi da kategoria hori txantiloi batean erantsi diotela orriari.",
