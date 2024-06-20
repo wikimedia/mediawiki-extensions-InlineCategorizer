@@ -214,7 +214,7 @@
 	 */
 	mw.InlineCategorizer = function ( options ) {
 
-		this.options = options = $.extend( getDefaultOptions(), options );
+		this.options = options = Object.assign( getDefaultOptions(), options );
 
 		// Save scope in shortcut
 		var ajaxcat = this;
