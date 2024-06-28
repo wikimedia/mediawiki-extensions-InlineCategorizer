@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Merrahtar",
 			"Александр Сигачёв"
 		]
 	},
@@ -12,7 +13,7 @@
 	"inlinecategorizer-api-unknown-error": "API возвратил неизвестную ошибку.",
 	"inlinecategorizer-cancel": "Отменить изменения",
 	"inlinecategorizer-cancel-all": "Отменить все изменения",
-	"inlinecategorizer-category-already-present": "Эта страница уже относится к данной категории $1",
+	"inlinecategorizer-category-already-present": "Эта страница уже относится к категории $1",
 	"inlinecategorizer-category-hook-error": "Локальная функция помешала сохранению изменений",
 	"inlinecategorizer-category-question": "Почему вы хотите сделать следующие изменения:",
 	"inlinecategorizer-confirm-ok": "ОК",
