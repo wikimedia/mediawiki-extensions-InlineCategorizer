@@ -30,7 +30,10 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "InlineCategorizerHooks"
+			"class": "InlineCategorizerHooks",
+			"services": [
+				"MainConfig"
+			]
 		}
 	},
 	"Hooks": {
