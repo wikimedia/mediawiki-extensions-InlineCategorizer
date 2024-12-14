@@ -8,12 +8,12 @@
 
 namespace MediaWiki\Extension\InlineCategorizer;
 
-use Config;
-use OutputPage;
+use MediaWiki\Config\Config;
+use MediaWiki\Output\OutputPage;
 use Skin;
 
 class Hooks implements
-	\MediaWiki\Hook\BeforePageDisplayHook
+	\MediaWiki\Output\Hook\BeforePageDisplayHook
 {
 
 	private Config $config;
