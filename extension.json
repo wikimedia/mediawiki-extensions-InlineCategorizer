@@ -20,8 +20,8 @@
 			"public": false
 		}
 	},
-	"AutoloadClasses": {
-		"InlineCategorizerHooks": "InlineCategorizerHooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\InlineCategorizer\\": "includes/"
 	},
 	"MessagesDirs": {
 		"InlineCategorizer": [
@@ -30,7 +30,7 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "InlineCategorizerHooks",
+			"class": "MediaWiki\\Extension\\InlineCategorizer\\Hooks",
 			"services": [
 				"MainConfig"
 			]

@@ -6,7 +6,13 @@
  * @ingroup Extensions
  */
 
-class InlineCategorizerHooks implements
+namespace MediaWiki\Extension\InlineCategorizer;
+
+use Config;
+use OutputPage;
+use Skin;
+
+class Hooks implements
 	\MediaWiki\Hook\BeforePageDisplayHook
 {
 
