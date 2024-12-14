@@ -6,12 +6,15 @@
  * @ingroup Extensions
  */
 
-class InlineCategorizerHooks {
+class InlineCategorizerHooks implements
+	\MediaWiki\Hook\BeforePageDisplayHook
+{
 
 	/**
 	 * @param OutputPage $out
+	 * @param Skin $skin
 	 */
-	public static function beforePageDisplay( $out ) {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		global $wgInlineCategorizerNamespaces;
 
 		// Only load if there are no restrictions, or if the current namespace
