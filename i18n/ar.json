@@ -22,7 +22,7 @@
 	"inlinecategorizer-confirm-ok": "موافق",
 	"inlinecategorizer-confirm-save": "حفظ",
 	"inlinecategorizer-confirm-save-all": "حفظ كافة التغييرات",
-	"inlinecategorizer-confirm-title": "أكد الإجراء",
+	"inlinecategorizer-confirm-title": "تأكيد الإجراء",
 	"inlinecategorizer-edit-category": "عدل التصنيف",
 	"inlinecategorizer-edit-category-error": "تعذر تعديل تصنيف \"$1\".\nيحدث هذا عادة عندما يضاف التصنيف إلى الصفحة عبر قالب.",
 	"inlinecategorizer-edit-category-summary": "تغيير التصنيف \"$1\" إلى \"$2\"",
