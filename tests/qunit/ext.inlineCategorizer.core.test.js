@@ -1,7 +1,7 @@
 ( function () {
 	'use strict';
 
-	var inlineCategorizer = require( 'ext.inlineCategorizer.core' );
+	const inlineCategorizer = require( 'ext.inlineCategorizer.core' );
 
 	QUnit.module( 'ext.inlineCategorizer.core', QUnit.newMwEnvironment( {
 		config: {
@@ -14,7 +14,7 @@
 		}
 	} ) );
 
-	QUnit.test( 'makeCaseInsensitive', function ( assert ) {
+	QUnit.test( 'makeCaseInsensitive', ( assert ) => {
 		[
 			[ 'A', '[Aa]' ],
 			[ 'a', '[Aa]' ],
@@ -29,12 +29,12 @@
 			[ '\uD803\uDCC0', '\uD803\uDCC0' ],
 			// U+1D11E (MUSICAL SYMBOL G CLEF)
 			[ '\uD834\uDD1E', '\uD834\uDD1E' ]
-		].forEach( function ( test ) {
+		].forEach( ( test ) => {
 			assert.strictEqual( inlineCategorizer.makeCaseInsensitive( test[ 0 ] ), test[ 1 ] );
 		} );
 	} );
 
-	QUnit.test( 'buildRegex', function ( assert ) {
+	QUnit.test( 'buildRegex', ( assert ) => {
 		[
 			[
 				'Foo Bar',
@@ -55,7 +55,7 @@
 					'[Cc][Aa][Tt][Ee][Gg][Oo][Rr][Yy])[ _]*:[ _]*' +
 					'\uD803\uDC80\uD803\uDC80\uD803\uDCC0[ _]*(\\|[^\\]]*)?\\]\\]/g'
 			]
-		].forEach( function ( test ) {
+		].forEach( ( test ) => {
 			assert.strictEqual(
 				inlineCategorizer.buildRegex( test[ 0 ], false ).toString(),
 				test[ 1 ]

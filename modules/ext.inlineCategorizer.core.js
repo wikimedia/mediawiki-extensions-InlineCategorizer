@@ -10,8 +10,8 @@
 
 	/* Local scope */
 
-	var catNsId = mw.config.get( 'wgNamespaceIds' ).category,
-		isCatNsSensitive = mw.config.get( 'wgCaseSensitiveNamespaces' ).indexOf( catNsId ) !== -1;
+	const catNsId = mw.config.get( 'wgNamespaceIds' ).category,
+		isCatNsSensitive = mw.config.get( 'wgCaseSensitiveNamespaces' ).includes( catNsId );
 
 	function getDefaultOptions() {
 		return {
@@ -19,7 +19,7 @@
 			$container: $( '.catlinks' ),
 			$containerNormal: $( '#mw-normal-catlinks' ),
 			categoryLinkSelector: 'li a:not(.icon)',
-			multiEdit: mw.config.get( 'wgUserGroups', [] ).indexOf( 'user' ) !== -1,
+			multiEdit: mw.config.get( 'wgUserGroups', [] ).includes( 'user' ),
 			resolveRedirects: true
 		};
 	}
@@ -43,7 +43,7 @@
 	 */
 	function generateRandomId( idLength ) {
 		idLength = typeof idLength === 'number' ? idLength : 32;
-		var seed = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
+		let seed = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
 			id = '';
 		for ( var r, i = 0; i < idLength; i++ ) {
 			r = Math.floor( Math.random() * seed.length );
@@ -59,7 +59,7 @@
 	 * @param {string} value Textbox value.
 	 */
 	function fetchSuggestions( value ) {
-		var request,
+		let request,
 			$el = this,
 			catName = clean( value );
 
@@ -75,10 +75,8 @@
 			dataType: 'json',
 			success: function ( data ) {
 				// Process data.query.allpages into an array of titles
-				var pages = data.query.allpages,
-					titleArr = pages.map( function ( page ) {
-						return new mw.Title( page.title ).getMainText();
-					} );
+				const pages = data.query.allpages,
+					titleArr = pages.map( ( page ) => new mw.Title( page.title ).getMainText() );
 
 				$el.suggestions( 'suggestions', titleArr );
 			}
@@ -95,9 +93,9 @@
 	 * @return {string}
 	 */
 	function replaceNowikis( text, id, keys ) {
-		var matches = text.match( /(<nowiki>[\s\S]*?<\/nowiki>|<!--[\s\S]*?-->)/g );
+		const matches = text.match( /(<nowiki>[\s\S]*?<\/nowiki>|<!--[\s\S]*?-->)/g );
 		if ( matches ) {
-			for ( var i = 0; i < matches.length; i++ ) {
+			for ( let i = 0; i < matches.length; i++ ) {
 				keys[ i ] = matches[ i ];
 				text = text.replace( matches[ i ], String( id ) + '-' + i );
 			}
@@ -114,7 +112,7 @@
 	 * @return {string}
 	 */
 	function restoreNowikis( text, id, keys ) {
-		for ( var i = 0; i < keys.length; i++ ) {
+		for ( let i = 0; i < keys.length; i++ ) {
 			text = text.replace( String( id ) + '-' + i, keys[ i ] );
 		}
 		return text;
@@ -130,11 +128,11 @@
 	 * @return {string} Processed RegExp string
 	 */
 	function makeCaseInsensitive( string ) {
-		var newString = '';
-		for ( var i = 0; i < string.length; i++ ) {
-			var char = string.charAt( i );
-			var upper = char.toUpperCase();
-			var lower = char.toLowerCase();
+		let newString = '';
+		for ( let i = 0; i < string.length; i++ ) {
+			const char = string.charAt( i );
+			const upper = char.toUpperCase();
+			const lower = char.toLowerCase();
 			newString += upper === lower ?
 				// Escape special RegExp characters
 				mw.util.escapeRegExp( char ) :
@@ -153,10 +151,10 @@
 	 * @return {RegExp}
 	 */
 	function buildRegex( category, matchLineBreak ) {
-		var categoryRegex, categoryNSFragment, titleFragment;
+		let categoryRegex, categoryNSFragment, titleFragment;
 
 		// Filter out all names for category namespace
-		categoryNSFragment = $.map( mw.config.get( 'wgNamespaceIds' ), function ( id, name ) {
+		categoryNSFragment = $.map( mw.config.get( 'wgNamespaceIds' ), ( id, name ) => {
 			if ( id === catNsId ) {
 				return !isCatNsSensitive ?
 					makeCaseInsensitive( name ) :
@@ -191,13 +189,13 @@
 	 */
 	function createButton( icon, title, className, text ) {
 		// eslint-disable-next-line mediawiki/class-doc
-		var $button = $( '<a>' )
+		const $button = $( '<a>' )
 			.addClass( className || '' )
 			.attr( 'title', title );
 
 		if ( text ) {
 			// eslint-disable-next-line mediawiki/class-doc
-			var $icon = $( '<span>' ).addClass( 'icon ' + icon );
+			const $icon = $( '<span>' ).addClass( 'icon ' + icon );
 			$button.addClass( 'icon-parent' ).text( text ).prepend( $icon );
 		} else {
 			// eslint-disable-next-line mediawiki/class-doc
@@ -217,7 +215,7 @@
 		this.options = options = Object.assign( getDefaultOptions(), options );
 
 		// Save scope in shortcut
-		var ajaxcat = this;
+		const ajaxcat = this;
 
 		// Elements tied to this instance
 		this.saveAllButton = null;
@@ -249,12 +247,12 @@
 		 * @this Element
 		 */
 		this.handleAddLink = function () {
-			var $el = $( this ),
+			const $el = $( this ),
 				$link = $( [] ),
 				categoryText = $el.parent().find( '.mw-addcategory-input' ).val() || '';
 
 			// Resolve redirects
-			ajaxcat.resolveRedirects( categoryText, function ( resolvedCatTitle ) {
+			ajaxcat.resolveRedirects( categoryText, ( resolvedCatTitle ) => {
 				ajaxcat.handleCategoryAdd( $link, resolvedCatTitle, '', false );
 			} );
 		};
@@ -263,7 +261,7 @@
 		 * @this Element
 		 */
 		this.createEditInterface = function () {
-			var $el = $( this ),
+			const $el = $( this ),
 				$link = $el.data( 'link' ),
 				category = $link.text(),
 				$input = ajaxcat.makeSuggestionBox( category,
@@ -304,7 +302,7 @@
 		 * @this Element
 		 */
 		this.handleEditLink = function () {
-			var input, category, sortkey, categoryOld,
+			let input, category, sortkey, categoryOld,
 				$el = $( this ),
 				$link = $el.parent().parent().find( 'a:not(.icon)' );
 
@@ -312,12 +310,12 @@
 			input = $el.parent().find( '.mw-addcategory-input' ).val();
 
 			// Split categoryname and sortkey
-			var arr = input.split( '|', 2 );
+			const arr = input.split( '|', 2 );
 			category = arr[ 0 ];
 			sortkey = arr[ 1 ]; // Is usually undefined, ie. if there was no '|' in the input.
 
 			// Grab text
-			var isAdded = $link.hasClass( 'mw-added-category' );
+			const isAdded = $link.hasClass( 'mw-added-category' );
 			ajaxcat.resetCatLink( $link );
 			categoryOld = $link.text();
 
@@ -328,7 +326,7 @@
 			}
 
 			// Resolve redirects
-			ajaxcat.resolveRedirects( category, function ( resolvedCatTitle ) {
+			ajaxcat.resolveRedirects( category, ( resolvedCatTitle ) => {
 				ajaxcat.handleCategoryEdit(
 					$link,
 					categoryOld,
@@ -345,7 +343,7 @@
 		 * @this Element
 		 */
 		this.handleDeleteLink = function () {
-			var $el = $( this ),
+			const $el = $( this ),
 				$link = $el.parent().find( 'a:not(.icon)' ),
 				category = $link.text();
 
@@ -371,9 +369,7 @@
 		this.handleStashedCategories = function () {
 			// Remove "holes" in array
 			// Replace this by .flat() when supported by all Grade A browsers.
-			var dialogDescriptions = $.grep( ajaxcat.stash.dialogDescriptions, function ( n ) {
-				return n;
-			} );
+			let dialogDescriptions = $.grep( ajaxcat.stash.dialogDescriptions, ( n ) => n );
 
 			if ( dialogDescriptions.length < 1 ) {
 				// Nothing to do here.
@@ -385,18 +381,16 @@
 
 			// Remove "holes" in array
 			// Replace this by .flat() when supported by all Grade A browsers.
-			var summaryShort = $.grep( ajaxcat.stash.editSummaries, function ( n ) {
-				return n;
-			} );
+			let summaryShort = $.grep( ajaxcat.stash.editSummaries, ( n ) => n );
 			summaryShort = summaryShort.join( ', ' );
 
-			var fns = ajaxcat.stash.fns;
+			const fns = ajaxcat.stash.fns;
 
 			ajaxcat.doConfirmEdit( {
 				modFn: function ( oldtext ) {
 					// Run the text through all action functions
-					var newtext = oldtext;
-					for ( var i = 0; i < fns.length; i++ ) {
+					let newtext = oldtext;
+					for ( let i = 0; i < fns.length; i++ ) {
 						if ( typeof fns[ i ] === 'function' ) {
 							newtext = fns[ i ]( newtext );
 							if ( newtext === false ) {
@@ -429,7 +423,7 @@
 				return;
 			}
 
-			var options = this.options,
+			const options = this.options,
 				ajaxcat = this,
 				// Create [Add Category] link
 				$addLink = createButton( 'icon-add',
@@ -464,7 +458,7 @@
 				mw.msg( 'inlinecategorizer-cancel-all' )
 			);
 			this.saveAllButton.click( this.handleStashedCategories ).hide();
-			this.cancelAllButton.click( function () {
+			this.cancelAllButton.click( () => {
 				ajaxcat.resetAll( false );
 			} ).hide();
 			options.$containerNormal.append( this.saveAllButton ).append( this.cancelAllButton );
@@ -478,7 +472,7 @@
 		 * @return {jQuery}
 		 */
 		createCatLink: function ( catTitle ) {
-			var catName = catTitle.getMainText(),
+			const catName = catTitle.getMainText(),
 				$catLinkWrapper = $( this.options.catLinkWrapper ),
 				$anchor = $( '<a>' )
 					.text( catName )
@@ -504,12 +498,12 @@
 		 */
 		makeSuggestionBox: function ( prefill, callback, buttonVal ) {
 			// Create add category prompt
-			var $promptContainer = $( '<div>' )
+			const $promptContainer = $( '<div>' )
 				.addClass( 'mw-addcategory-prompt' );
-			var $promptTextbox = $( '<input>' )
+			const $promptTextbox = $( '<input>' )
 				.attr( { type: 'text', size: 30 } )
 				.addClass( 'mw-addcategory-input' );
-			var $addButton = $( '<input>' )
+			const $addButton = $( '<input>' )
 				.attr( 'type', 'button' )
 				.addClass( 'mw-addcategory-button' );
 
@@ -522,7 +516,7 @@
 				.on( 'click', callback );
 
 			$promptTextbox
-				.on( 'keyup', function ( e ) {
+				.on( 'keyup', ( e ) => {
 					if ( e.keyCode === 13 ) {
 						$addButton.trigger( 'click' );
 					}
@@ -530,7 +524,7 @@
 				.suggestions( {
 					fetch: fetchSuggestions,
 					cancel: function () {
-						var req = this.data( 'suggestions-request' );
+						const req = this.data( 'suggestions-request' );
 						if ( req && req.abort ) {
 							req.abort();
 						}
@@ -555,7 +549,7 @@
 		 * @return {mw.inlineCategorizer}
 		 */
 		handleCategoryAdd: function ( $link, catTitle, catSortkey, noAppend ) {
-			var ajaxcat = this,
+			const ajaxcat = this,
 				// Suffix is wikitext between '[[Category:Foo' and ']]'.
 				suffix = catSortkey ? '|' + catSortkey : '',
 				catName = catTitle.getMainText(),
@@ -575,7 +569,7 @@
 
 			this.doConfirmEdit( {
 				modFn: function ( oldText ) {
-					var newText = ajaxcat.runHooks( oldText, 'beforeAdd', catName );
+					let newText = ajaxcat.runHooks( oldText, 'beforeAdd', catName );
 					newText = newText + '\n[[' + catFull + suffix + ']]\n';
 					return ajaxcat.runHooks( newText, 'afterAdd', catName );
 				},
@@ -615,7 +609,7 @@
 		 * @param {boolean} isAdded True if this is a new link, false if it changed an existing one
 		 */
 		handleCategoryEdit: function ( $link, oldCatName, catTitle, catSortkey, isAdded ) {
-			var ajaxcat = this,
+			const ajaxcat = this,
 				catName = catTitle.getMainText();
 
 			// Category add needs to be handled differently
@@ -635,12 +629,12 @@
 			// Mark red if missing
 			$link.toggleClass( 'new', !catTitle.exists() );
 
-			var categoryRegex = buildRegex( oldCatName ),
+			const categoryRegex = buildRegex( oldCatName ),
 				editSummary = '[[' + new mw.Title( oldCatName, catNsId ).toText() + ']] -> [[' + catTitle.toText() + ']]';
 
 			ajaxcat.doConfirmEdit( {
 				modFn: function ( oldText ) {
-					var newText = ajaxcat.runHooks( oldText, 'beforeChange', oldCatName, catName ),
+					let newText = ajaxcat.runHooks( oldText, 'beforeChange', oldCatName, catName ),
 						matches = newText.match( categoryRegex );
 
 					// Old cat wasn't found, likely to be transcluded
@@ -649,12 +643,12 @@
 						return false;
 					}
 
-					var suffix = catSortkey ? '|' + catSortkey : matches[ 0 ].replace( categoryRegex, '$2' ),
+					const suffix = catSortkey ? '|' + catSortkey : matches[ 0 ].replace( categoryRegex, '$2' ),
 						newCategoryWikitext = '[[' + catTitle + suffix + ']]';
 
 					if ( matches.length > 1 ) {
 						// The category is duplicated. Remove all but one match
-						for ( var i = 1; i < matches.length; i++ ) {
+						for ( let i = 1; i < matches.length; i++ ) {
 							oldText = oldText.replace( matches[ i ], '' );
 						}
 					}
@@ -691,7 +685,7 @@
 				callback( category, true );
 				return;
 			}
-			var catTitle = new mw.Title( category, catNsId ),
+			let catTitle = new mw.Title( category, catNsId ),
 				queryVars = {
 					action: 'query',
 					titles: catTitle.toString(),
@@ -699,8 +693,8 @@
 					format: 'json'
 				};
 
-			$.getJSON( mw.util.wikiScript( 'api' ), queryVars, function ( json ) {
-				var redirect = json.query.redirects,
+			$.getJSON( mw.util.wikiScript( 'api' ), queryVars, ( json ) => {
+				const redirect = json.query.redirects,
 					exists = !json.query.pages[ -1 ];
 
 				// If it's a redirect 'exists' is for the target, not the origin
@@ -727,7 +721,7 @@
 		 * @return {mw.inlineCategorizer}
 		 */
 		createCatButtons: function ( $element ) {
-			var deleteButton = createButton( 'icon-close', mw.msg( 'inlinecategorizer-remove-category' ) ),
+			const deleteButton = createButton( 'icon-close', mw.msg( 'inlinecategorizer-remove-category' ) ),
 				editButton = createButton( 'icon-edit', mw.msg( 'inlinecategorizer-edit-category' ) ),
 				saveButton = createButton( 'icon-tick', mw.msg( 'inlinecategorizer-confirm-save' ) ).hide(),
 				ajaxcat = this;
@@ -778,7 +772,7 @@
 		 * @return {Array} All categories
 		 */
 		getCats: function () {
-			var cats = this.options.$container
+			const cats = this.options.$container
 				.find( this.options.categoryLinkSelector )
 				.map( function () {
 					return mw.Title.makeTitle( catNsId, $( this ).text() ).getNameText();
@@ -794,9 +788,7 @@
 		 */
 		containsCat: function ( newCat ) {
 			newCat = mw.Title.makeTitle( catNsId, newCat ).getNameText();
-			return this.getCats().some( function ( cat ) {
-				return cat === newCat;
-			} );
+			return this.getCats().includes( newCat );
 		},
 
 		/**
@@ -806,12 +798,12 @@
 		 * @param {string} category
 		 */
 		handleCategoryDelete: function ( $link, category ) {
-			var categoryRegex = buildRegex( category, true ),
+			const categoryRegex = buildRegex( category, true ),
 				ajaxcat = this;
 
 			this.doConfirmEdit( {
 				modFn: function ( oldText ) {
-					var newText = ajaxcat.runHooks( oldText, 'beforeDelete', category );
+					let newText = ajaxcat.runHooks( oldText, 'beforeDelete', category );
 					newText = newText.replace( categoryRegex, '' );
 
 					if ( newText === oldText ) {
@@ -845,7 +837,7 @@
 		 */
 		resetCatLink: function ( $link, del, dontRestoreText ) {
 			$link.removeClass( 'mw-removed-category mw-added-category mw-changed-category' );
-			var data = $link.data();
+			const data = $link.data();
 
 			if ( typeof data.stashIndex === 'number' ) {
 				this.removeStashItem( data.stashIndex );
@@ -855,7 +847,7 @@
 				return;
 			}
 			if ( data.origCat && !dontRestoreText ) {
-				var catTitle = new mw.Title( data.origCat, catNsId );
+				const catTitle = new mw.Title( data.origCat, catNsId );
 				$link.text( catTitle.getMainText() );
 				$link.attr( 'href', catTitle.getUrl() );
 			}
@@ -881,7 +873,7 @@
 		 */
 		doEdit: function ( page, fn, summary, doneFn ) {
 			// Get an edit token for the page.
-			var getTokenVars = {
+			const getTokenVars = {
 					action: 'query',
 					prop: 'info|revisions',
 					intoken: 'edit',
@@ -893,7 +885,7 @@
 			$.post(
 				mw.util.wikiScript( 'api' ),
 				getTokenVars,
-				function ( json ) {
+				( json ) => {
 					if ( 'error' in json ) {
 						ajaxcat.showError(
 							mw.msg( 'inlinecategorizer-api-error', json.error.code, json.error.info )
@@ -904,10 +896,10 @@
 						ajaxcat.showError( mw.msg( 'inlinecategorizer-api-unknown-error' ) );
 						return;
 					}
-					var infos = json.query.pages;
+					const infos = json.query.pages;
 
-					$.each( infos, function ( pageid, data ) {
-						var token = data.edittoken,
+					$.each( infos, ( pageid, data ) => {
+						let token = data.edittoken,
 							timestamp = data.revisions[ 0 ].timestamp,
 							oldText = data.revisions[ 0 ][ '*' ],
 							// Unique ID for nowiki replacement
@@ -919,7 +911,7 @@
 						oldText = replaceNowikis( oldText, nowikiKey, nowikiFragments );
 
 						// ..then apply the changes to the page text..
-						var newText = fn( oldText );
+						let newText = fn( oldText );
 						if ( newText === false ) {
 							return;
 						}
@@ -927,7 +919,7 @@
 						// ..and restore the nowiki parts back.
 						newText = restoreNowikis( newText, nowikiKey, nowikiFragments );
 
-						var postEditVars = {
+						const postEditVars = {
 							action: 'edit',
 							title: page,
 							text: newText,
@@ -942,13 +934,13 @@
 							postEditVars,
 							doneFn,
 							'json'
-						).fail( function ( xhr, text, error ) {
+						).fail( ( xhr, text, error ) => {
 							ajaxcat.showError( mw.msg( 'inlinecategorizer-api-error', text, error ) );
 						} );
 					} );
 				},
 				'json'
-			).fail( function ( xhr, text, error ) {
+			).fail( ( xhr, text, error ) => {
 				ajaxcat.showError( mw.msg( 'inlinecategorizer-api-error', text, error ) );
 			} );
 		},
@@ -969,7 +961,7 @@
 		 * @return {mw.inlineCategorizer}
 		 */
 		doConfirmEdit: function ( props ) {
-			var $summaryHolder, $reasonBox, $dialog, submitFunction,
+			let $summaryHolder, $reasonBox, $dialog, submitFunction,
 				buttons = {},
 				dialogOptions = {
 					AutoOpen: true,
@@ -1028,7 +1020,7 @@
 					mw.config.get( 'wgPageName' ),
 					props.modFn,
 					props.editSummary + ': ' + $reasonBox.val(),
-					function () {
+					() => {
 						props.doneFn();
 
 						// Clear input field after successful edit
@@ -1042,7 +1034,7 @@
 
 			buttons[ mw.msg( 'inlinecategorizer-confirm-save' ) ] = submitFunction;
 
-			$dialog.dialog( dialogOptions ).keyup( function ( e ) {
+			$dialog.dialog( dialogOptions ).keyup( ( e ) => {
 				// Close on enter
 				if ( e.keyCode === 13 ) {
 					submitFunction();
@@ -1083,7 +1075,7 @@
 		 * @return {mw.inlineCategorizer}
 		 */
 		resetAll: function ( del ) {
-			var $links = this.options.$container.find( this.options.categoryLinkSelector ),
+			let $links = this.options.$container.find( this.options.categoryLinkSelector ),
 				$del = $( [] ),
 				ajaxcat = this;
 
@@ -1128,23 +1120,23 @@
 		 * @param {string} str The error description
 		 */
 		showError: function ( str ) {
-			var $oldDialog = $( '.mw-ajax-confirm-dialog' );
+			const $oldDialog = $( '.mw-ajax-confirm-dialog' );
 			this.removeProgressIndicator( $oldDialog );
 			$oldDialog.dialog( 'close' );
 
-			var $dialog = $( '<div>' ).text( str );
+			const $dialog = $( '<div>' ).text( str );
 
-			var buttons = {};
+			const buttons = {};
 			buttons[ mw.msg( 'inlinecategorizer-confirm-ok' ) ] = function () {
 				$dialog.dialog( 'close' );
 			};
 
-			var dialogOptions = {
+			const dialogOptions = {
 				buttons: buttons,
 				AutoOpen: true,
 				title: mw.msg( 'inlinecategorizer-error-title' )
 			};
-			$dialog.dialog( dialogOptions ).keyup( function ( e ) {
+			$dialog.dialog( dialogOptions ).keyup( ( e ) => {
 				if ( e.keyCode === 13 ) {
 					$dialog.dialog( 'close' );
 				}
@@ -1163,7 +1155,7 @@
 			if ( !this.hooks[ type ] ) {
 				return oldtext;
 			} else {
-				for ( var i = 0; i < this.hooks[ type ].length; i++ ) {
+				for ( let i = 0; i < this.hooks[ type ].length; i++ ) {
 					oldtext = this.hooks[ type ][ i ]( oldtext, category, categoryNew );
 					if ( oldtext === false ) {
 						this.showError( mw.msg( 'inlinecategorizer-category-hook-error', category ) );
@@ -1175,8 +1167,8 @@
 		}
 	};
 
-	$( function () {
-		var categorizer = new mw.InlineCategorizer();
+	$( () => {
+		const categorizer = new mw.InlineCategorizer();
 		// Separate function for call to prevent jQuery
 		// from executing it in the document context.
 		categorizer.setup();
