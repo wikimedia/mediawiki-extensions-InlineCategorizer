@@ -15,9 +15,6 @@
 		"no-jquery/no-map-util": "warn",
 		"no-jquery/variable-pattern": "warn",
 		"unicorn/prefer-string-slice": "warn",
-		"es-x/no-object-assign": "warn",
-		"no-jquery/no-done-fail": "warn",
-		"no-var": "warn",
-		"prefer-const": "warn"
+		"es-x/no-object-assign": "warn"
 	}
 }
