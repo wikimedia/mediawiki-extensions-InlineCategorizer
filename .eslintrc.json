@@ -1,29 +1,6 @@
 {
 	"root": true,
 	"extends": [
-		"wikimedia/client",
-		"wikimedia/jquery",
-		"wikimedia/mediawiki"
-	],
-	"rules": {
-		"no-useless-escape": "warn",
-		"no-control-regex": "warn",
-		"valid-typeof": "warn",
-		"no-useless-concat": "warn",
-		"no-unmodified-loop-condition": "warn",
-		"no-jquery/no-grep": "warn",
-		"no-jquery/no-class-state": "warn",
-		"no-jquery/no-global-selector": "warn",
-		"no-jquery/no-each-util": "warn",
-		"no-jquery/no-map-util": "warn",
-		"no-jquery/no-parse-html-literal": "warn",
-		"no-jquery/variable-pattern": "warn",
-		"block-scoped-var": "warn",
-		"unicorn/prefer-string-slice": "warn",
-		"no-jquery/no-extend": "warn",
-		"es-x/no-object-assign": "warn",
-		"no-jquery/no-done-fail": "warn",
-		"no-var": "warn",
-		"prefer-const": "warn"
-	}
+		"wikimedia/server"
+	]
 }
