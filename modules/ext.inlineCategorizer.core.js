@@ -150,15 +150,18 @@
 	 */
 	function buildRegex( category, matchLineBreak ) {
 		// Filter out all names for category namespace
-		const categoryNSFragment = $.map( mw.config.get( 'wgNamespaceIds' ), ( id, name ) => {
+		const namespaceIds = mw.config.get( 'wgNamespaceIds' );
+		const categoryNames = [];
+		for ( const name in namespaceIds ) {
+			const id = namespaceIds[ name ];
 			if ( id === catNsId ) {
-				return !isCatNsSensitive ?
+				categoryNames.push( !isCatNsSensitive ?
 					makeCaseInsensitive( name ) :
-					mw.util.escapeRegExp( name );
+					mw.util.escapeRegExp( name )
+				);
 			}
-			// Otherwise don't include in categoryNSFragment
-			return null;
-		} ).join( '|' );
+		}
+		const categoryNSFragment = '(' + categoryNames.join( '|' ) + ')';
 
 		// Ignore case of the first character of the category name.
 		const titleFragment = (
@@ -168,7 +171,7 @@
 			// Support ' ' and '_' as space.
 			.replace( /( |_)/g, '[ _]' );
 
-		let categoryRegex = '\\[\\[(' + categoryNSFragment + ')' + '[ _]*' + ':' + '[ _]*' + titleFragment + '[ _]*' + '(\\|[^\\]]*)?\\]\\]';
+		let categoryRegex = '\\[\\[' + categoryNSFragment + '[ _]*' + ':' + '[ _]*' + titleFragment + '[ _]*' + '(\\|[^\\]]*)?\\]\\]';
 		if ( matchLineBreak ) {
 			categoryRegex += '[ \\t\\r]*\\n?';
 		}
