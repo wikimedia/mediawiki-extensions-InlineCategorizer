@@ -768,12 +768,12 @@
 		 * @return {Array} All categories
 		 */
 		getCats: function () {
-			const cats = this.options.$container
+			return this.options.$container
 				.find( this.options.categoryLinkSelector )
 				.map( function () {
-					return mw.Title.makeTitle( catNsId, $( this ).text() ).getNameText();
-				} );
-			return cats;
+					const title = mw.Title.makeTitle( catNsId, $( this ).text() );
+					return title ? title.getNameText() : null;
+				} ).get();
 		},
 
 		/**
