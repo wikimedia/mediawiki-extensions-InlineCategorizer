@@ -16,7 +16,7 @@
 	"inlinecategorizer-cancel-all": "Alle Änderungen zurücknehmen",
 	"inlinecategorizer-category-already-present": "Diese Seite gehört bereits zur Kategorie $1",
 	"inlinecategorizer-category-hook-error": "Eine lokale Funktion verhindert, dass die Änderungen gespeichert werden",
-	"inlinecategorizer-category-question": "Warum möchtest du die folgenden Änderungen durchführen:",
+	"inlinecategorizer-category-question": "Warum {{#FORMAL:möchtest du|möchten Sie}} die folgenden Änderungen durchführen:",
 	"inlinecategorizer-confirm-ok": "OK",
 	"inlinecategorizer-confirm-save": "Speichern",
 	"inlinecategorizer-confirm-save-all": "Alle Änderungen speichern",
