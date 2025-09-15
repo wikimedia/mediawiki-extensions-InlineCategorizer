@@ -1,6 +1,8 @@
 [
 	{
+		"@note": "Pulls in deprecated jquery.ui and jquery.suggestions.",
+		"ignoreDependencies": true,
 		"resourceModule": "ext.inlineCategorizer.core",
-		"maxSize": null
+		"maxSize": "7 kB"
 	}
 ]
