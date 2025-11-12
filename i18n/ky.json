@@ -6,8 +6,18 @@
 	},
 	"inlinecategorizer-add-category": "Категория кошуу",
 	"inlinecategorizer-add-category-submit": "Кошуу",
+	"inlinecategorizer-add-category-summary": "\"$1\" категориясын кошуу",
+	"inlinecategorizer-cancel": "Түзөтүүнү жокко чыгаруу",
+	"inlinecategorizer-cancel-all": "Бардык өзгөртүүлөрдү жокко чыгаруу",
+	"inlinecategorizer-category-already-present": "Бул барак мурунтан эле \"$1\" категориясына таандык",
+	"inlinecategorizer-category-question": "Эмне үчүн бул өзгөртүүлөрдү кылгыңыз келет:",
 	"inlinecategorizer-confirm-ok": "Макул",
 	"inlinecategorizer-confirm-save": "Сактоо",
+	"inlinecategorizer-confirm-save-all": "Бардык өзгөртүүлөрдү сактоо",
+	"inlinecategorizer-confirm-title": "Аракетти ырастоо",
 	"inlinecategorizer-edit-category": "Категорияны түзөтүү",
-	"inlinecategorizer-error-title": "Ката"
+	"inlinecategorizer-edit-category-summary": "\"$1\" категориясын \"$2\" категориясына өзгөртүү",
+	"inlinecategorizer-error-title": "Ката",
+	"inlinecategorizer-remove-category": "Категорияны алып салуу",
+	"inlinecategorizer-remove-category-summary": "\"$1\" категориясын алып салуу"
 }
