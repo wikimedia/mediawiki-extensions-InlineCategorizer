@@ -4,6 +4,7 @@
 			"Daud I.F. Argana",
 			"Farras",
 			"Irwangatot",
+			"Penyuwangi",
 			"Veracious"
 		]
 	},
@@ -16,7 +17,7 @@
 	"inlinecategorizer-cancel": "Batalkan suntingan",
 	"inlinecategorizer-cancel-all": "Batalkan semua perubahan",
 	"inlinecategorizer-category-already-present": "Halaman ini sudah masuk dalam kategori \"$1\"",
-	"inlinecategorizer-category-hook-error": "Fungsi setempat mencegah perubahan disimpan.",
+	"inlinecategorizer-category-hook-error": "Fungsi lokal mencegah perubahan disimpan.",
 	"inlinecategorizer-category-question": "Sebab Anda melakukan perubahan berikut:",
 	"inlinecategorizer-confirm-ok": "OK",
 	"inlinecategorizer-confirm-save": "Simpan",
