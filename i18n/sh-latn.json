@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -8,8 +9,8 @@
 	"inlinecategorizer-add-category": "Dodaj kategoriju",
 	"inlinecategorizer-add-category-submit": "Dodaj",
 	"inlinecategorizer-add-category-summary": "Dodaj kategoriju \"$1\"",
-	"inlinecategorizer-api-error": "Izvršnik je vratio pogrešku: $1: $2.",
-	"inlinecategorizer-api-unknown-error": "API je vratio nepoznatu pogrešku.",
+	"inlinecategorizer-api-error": "Izvršnik je vratio grešku: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API je vratio nepoznatu grešku.",
 	"inlinecategorizer-cancel": "Otkaži uređivanje",
 	"inlinecategorizer-cancel-all": "Otkaži sve izmjene",
 	"inlinecategorizer-category-already-present": "Ova stranica već pripada kategoriji „$1“",
