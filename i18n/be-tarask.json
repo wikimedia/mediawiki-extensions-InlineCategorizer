@@ -3,10 +3,11 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
+			"Ucukor",
 			"Wizardist"
 		]
 	},
-	"inlinecategorizer-desc": "Модуль JavaScript, які дазваляе рабіць зьмены, даданьні і выдаленьні спасылак на катэгорыі непасрэдна са старонкі",
+	"inlinecategorizer-desc": "Модуль JavaScript, які дазваляе рабіць зьмены, даданьні і выдаленьні спасылак на катэґорыі наўпрост з старонкі",
 	"inlinecategorizer-add-category": "Дадаць катэгорыю",
 	"inlinecategorizer-add-category-submit": "Дадаць",
 	"inlinecategorizer-add-category-summary": "Дададзеная катэгорыя «$1»",
