@@ -8,7 +8,7 @@
 	"inlinecategorizer-desc": "JavaScript-модул што овозможува менување, додавање и отстранување на категориски врски непосредно од страницата",
 	"inlinecategorizer-add-category": "Додај категорија",
 	"inlinecategorizer-add-category-submit": "Додај",
-	"inlinecategorizer-add-category-summary": "Додај категорија \"$1\"",
+	"inlinecategorizer-add-category-summary": "Додај категорија „$1“",
 	"inlinecategorizer-api-error": "Извршникот врати грешка: $1: $2",
 	"inlinecategorizer-api-unknown-error": "API врати непозната грешка.",
 	"inlinecategorizer-cancel": "Откажи уредувања",

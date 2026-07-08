@@ -3,6 +3,7 @@
 		"authors": [
 			"Klutzy",
 			"Kwj2772",
+			"Tensama0415",
 			"ToePeu",
 			"아라"
 		]
@@ -27,6 +28,6 @@
 	"inlinecategorizer-edit-category-summary": "\"$1\" 분류를 \"$2\" 분류로 바꿈",
 	"inlinecategorizer-error-title": "오류",
 	"inlinecategorizer-remove-category": "분류 제거",
-	"inlinecategorizer-remove-category-error": "\"$1\" 분류를 지울 수 없습니다.\n일반적으로 문서에 분류가 틀로 추가되었을 수 있습니다.",
-	"inlinecategorizer-remove-category-summary": "\"$1\" 분류 지우기"
+	"inlinecategorizer-remove-category-error": "\"$1\" 분류를 제거할 수 없습니다.\n일반적으로 문서에 분류가 틀로 추가되었을 수 있습니다.",
+	"inlinecategorizer-remove-category-summary": "\"$1\" 분류 제거"
 }
