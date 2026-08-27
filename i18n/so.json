@@ -4,5 +4,26 @@
 			"AhmedG612"
 		]
 	},
-	"inlinecategorizer-add-category-submit": "Ku dar"
+	"inlinecategorizer-desc": "Module JavaScript ah oo awood u siinaya in si toos ah bogga looga beddelo, loogu daro, lagana saaro xiriiriyeyaasha qaybaha",
+	"inlinecategorizer-add-category": "Ku dar qayb",
+	"inlinecategorizer-add-category-submit": "Ku dar",
+	"inlinecategorizer-add-category-summary": "Ku dar qayb $1",
+	"inlinecategorizer-api-error": "API-gu wuxuu soo celiyay khalad: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API-gu wuxuu soo celiyay khalad aan la garanayn.",
+	"inlinecategorizer-cancel": "Jooji wax ka beddelka",
+	"inlinecategorizer-cancel-all": "Jooji dhammaan isbeddellada",
+	"inlinecategorizer-category-already-present": "Boggan wuxuu hore uga tirsan yahay qaybta \"$1\"",
+	"inlinecategorizer-category-hook-error": "Hawl maxalli ah ayaa ka hortagay in isbeddellada la kaydiyo.",
+	"inlinecategorizer-category-question": "Maxaad u doonaysaa inaad samayso isbeddellada soo socda:",
+	"inlinecategorizer-confirm-ok": "Waayahay",
+	"inlinecategorizer-confirm-save": "Kaydi",
+	"inlinecategorizer-confirm-save-all": "Keydi dhammaan isbeddellada",
+	"inlinecategorizer-confirm-title": "Xaqiiji ficilka",
+	"inlinecategorizer-edit-category": "Wax ka beddel qaybta",
+	"inlinecategorizer-edit-category-error": "Suurtagal ma ahayn in la tafatiro qaybta \"$1\".\nTani badanaa waxay dhacdaa marka qaybta lagu daro bogga iyadoo lagu adeegsanayo tusmada.",
+	"inlinecategorizer-edit-category-summary": "U beddel qaybta \"$1\" qaybta \"$2\"",
+	"inlinecategorizer-error-title": "Khalad",
+	"inlinecategorizer-remove-category": "Ka saar qaybta",
+	"inlinecategorizer-remove-category-error": "Suurtagal ma ahayn in laga saaro qaybta \"$1\".\nTani badanaa waxay dhacdaa marka qaybta lagu daro bogga iyadoo lagu adeegsanayo tusmada.",
+	"inlinecategorizer-remove-category-summary": "Ka saar qaybta \"$1\""
 }
