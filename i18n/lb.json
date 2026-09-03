@@ -3,13 +3,14 @@
 		"authors": [
 			"Les Meloures",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"inlinecategorizer-desc": "JavaScript deen et erlaabt fir Kategorien direkt op enger Säit z'änneren, derbäizesetzen oder erofzehuelen",
 	"inlinecategorizer-add-category": "Kategorie derbäisetzen",
 	"inlinecategorizer-add-category-submit": "Derbäisetzen",
-	"inlinecategorizer-add-category-summary": "Kategorie \"$1\" derbäisetzen",
+	"inlinecategorizer-add-category-summary": "Kategorie „$1“ derbäisetzen",
 	"inlinecategorizer-api-error": "Den API huet e Feeler signaliséiert: $1: $2",
 	"inlinecategorizer-api-unknown-error": "D'API huet een onbekannte Feeler zréckgeschéckt.",
 	"inlinecategorizer-cancel": "Ännerungen annuléieren",
