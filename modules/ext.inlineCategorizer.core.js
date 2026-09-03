@@ -188,7 +188,6 @@
 	 * @return {jQuery} The button
 	 */
 	function createButton( icon, title, className, text ) {
-		// eslint-disable-next-line mediawiki/class-doc
 		const $button = $( '<a>' )
 			.addClass( className || '' )
 			.attr( 'title', title );
