@@ -2,16 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
+	"inlinecategorizer-desc": "Modul JavaScriptu, ktorý umožňuje meniť, pridávať a odstraňovať odkazy na kategórie priamo zo stránky",
 	"inlinecategorizer-add-category": "Pridať kategóriu",
 	"inlinecategorizer-add-category-submit": "Pridať",
 	"inlinecategorizer-add-category-summary": "Pridať kategóriu „$1“",
+	"inlinecategorizer-api-error": "API vrátilo chybu: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API vrátilo neznámu chybu.",
+	"inlinecategorizer-cancel": "Zrušiť úpravu",
+	"inlinecategorizer-cancel-all": "Zrušiť všetky zmeny",
+	"inlinecategorizer-category-already-present": "Táto stránka už patrí do kategórie „$1“",
+	"inlinecategorizer-category-hook-error": "Miestna funkcia zabránila uloženiu zmien.",
+	"inlinecategorizer-category-question": "Prečo chcete vykonať nasledujúce zmeny:",
 	"inlinecategorizer-confirm-ok": "OK",
 	"inlinecategorizer-confirm-save": "Uložiť",
+	"inlinecategorizer-confirm-save-all": "Uložiť všetky zmeny",
 	"inlinecategorizer-confirm-title": "Potvrdiť operáciu",
 	"inlinecategorizer-edit-category": "Upraviť kategóriu",
+	"inlinecategorizer-edit-category-error": "Kategóriu „$1“ nebolo možné upraviť.\\nZvyčajne sa to stáva, keď bola kategória na stránku pridaná v šablóne.",
+	"inlinecategorizer-edit-category-summary": "Zmeniť kategóriu „$1“ na „$2“",
 	"inlinecategorizer-error-title": "Chyba",
 	"inlinecategorizer-remove-category": "Odstrániť kategóriu",
 	"inlinecategorizer-remove-category-error": "Nebolo možné odstrániť kategóriu „$1“.\nTo sa zvyčajne stane, keď bola kategória pridaná na stránku v pomocou šablóny.",
