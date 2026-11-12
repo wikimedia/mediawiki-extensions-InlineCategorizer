@@ -6,7 +6,8 @@
 			"Ebraminio",
 			"Huji",
 			"Reza1615",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"LProfo"
 		]
 	},
 	"inlinecategorizer-desc": "پودمان جاوااسکریپت که تغییر، افزودن و حذف‌کردن رده‌ها را مستقیماً از صفحه ممکن می‌کند",
@@ -16,7 +17,7 @@
 	"inlinecategorizer-api-error": "رابط برنامه‌نویسی خطایی بازگرداند: $1: $2.",
 	"inlinecategorizer-api-unknown-error": "رابط برنامه‌نویسی یک خطای ناشناخته بازگرداند.",
 	"inlinecategorizer-cancel": "لغو ویرایش‌ها",
-	"inlinecategorizer-cancel-all": "لغو همه تغییرات",
+	"inlinecategorizer-cancel-all": "لغو همهٔ تغییرات",
 	"inlinecategorizer-category-already-present": "این صحفه از قبل در رده $1 قرار دارد",
 	"inlinecategorizer-category-hook-error": "یک تابع محلی از ذخیره تغییرات جلوگیری کرد.",
 	"inlinecategorizer-category-question": "چرا می‌خواهید تغییرات زیر را ایجاد کنید:",
